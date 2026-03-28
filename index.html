@@ -33,7 +33,9 @@
   </head>
   <body>
     <h1>Zwift Upcoming Banded Events</h1>
-    <label><input type="checkbox" id="onlyToday"> Only today</label>
+    <label><input type="radio" name="date" value="all" /> All</label>
+    <label><input type="radio" name="date" value="today" /> Today</label>
+    <label><input type="radio" name="date" value="tomorrow" /> Tomorrow</label>
     <table id="events">
       <thead>
         <tr>
@@ -121,24 +123,38 @@
         }
       }
 
-      const todayCET = new Date().toLocaleDateString('sv', { timeZone: 'Europe/Paris' })
+      const todayCET = new Date().toLocaleDateString("sv", { timeZone: "Europe/Paris" })
+      const tomorrowCET = new Date(Date.now() + 86400000).toLocaleDateString("sv", { timeZone: "Europe/Paris" })
 
-      const checkbox = document.getElementById('onlyToday')
-      checkbox.checked = new URLSearchParams(location.search).get('onlyToday') === '1'
-      checkbox.addEventListener('change', () => {
-        const params = new URLSearchParams(location.search)
-        params.set('onlyToday', checkbox.checked ? '1' : '0')
-        history.replaceState(null, '', '?' + params)
-        document.querySelector('#events tbody').innerHTML = ''
-        streamCSV('data.csv', renderRows)
+      const dateParam = new URLSearchParams(location.search).get("date") ?? "all"
+      // dateParam may be 'today', 'tomorrow', 'all', or an ISO date like '2026-03-30'
+      const radioValue = ["today", "tomorrow", "all"].includes(dateParam) ? dateParam : "today"
+      document.querySelector(`input[name="date"][value="${radioValue}"]`).checked = true
+
+      function getFilterDate() {
+        const param = new URLSearchParams(location.search).get("date") ?? "all"
+        if (param === "today") return todayCET
+        if (param === "tomorrow") return tomorrowCET
+        if (param === "all") return null
+        return param // raw ISO date from URL
+      }
+
+      document.querySelectorAll('input[name="date"]').forEach((radio) => {
+        radio.addEventListener("change", () => {
+          const params = new URLSearchParams(location.search)
+          params.set("date", radio.value)
+          history.replaceState(null, "", "?" + params)
+          document.querySelector("#events tbody").innerHTML = ""
+          streamCSV("data.csv", renderRows)
+        })
       })
 
       // Appends an array of row arrays into <tbody>.
       function renderRows(rows) {
-        const onlyToday = checkbox.checked
         const tbody = document.querySelector("#events tbody")
+        const filterDate = getFilterDate()
         rows.forEach((fields) => {
-          if (onlyToday && !fields[3].startsWith(todayCET)) return
+          if (filterDate && !fields[3].startsWith(filterDate)) return
           const tr = document.createElement("tr")
           fields.forEach((f) => {
             const td = document.createElement("td")
