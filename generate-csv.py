@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 import csv
 import json
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+CET = ZoneInfo('Europe/Paris')
+
+def fmt_time(iso):
+    dt = datetime.fromisoformat(iso.replace('Z', '+00:00'))
+    return dt.astimezone(CET).strftime('%Y-%m-%d %H:%M')
 
 with open('events.json') as f:
     events = json.load(f)
@@ -22,7 +30,7 @@ with open('data.csv', 'w', newline='') as f:
             event.get('name', ''),
             route.get('name', ''),
             route.get('map', ''),
-            event.get('eventStart', ''),
+            fmt_time(event.get('eventStart', '')),
             event.get('durationInSeconds', ''),
             event.get('distanceInMeters', ''),
             event.get('laps', ''),
