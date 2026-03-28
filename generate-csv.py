@@ -26,6 +26,8 @@ with open('data.csv', 'w', newline='') as f:
     for event in events:
         if event.get('sport') != 'CYCLING':
             continue
+        if 'TEST_BIT_10' not in event.get('rulesSet', []):
+            continue
         route = route_map.get(str(event.get('routeId', '')), {})
         rules = '|'.join(event.get('rulesSet', []))
         writer.writerow([
