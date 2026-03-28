@@ -20,6 +20,14 @@
       }
       th {
         background: #f0f0f0;
+        cursor: pointer;
+        user-select: none;
+      }
+      th.sort-asc::after {
+        content: " ▲";
+      }
+      th.sort-desc::after {
+        content: " ▼";
       }
       td:nth-child(4) {
         white-space: nowrap;
@@ -41,26 +49,20 @@
         <label><input type="radio" name="date" value="today" /> Today</label>
         <label><input type="radio" name="date" value="tomorrow" /> Tomorrow</label>
       </div>
-      <div style="display: flex; align-items: center; gap: 0.5rem">
-        <span>Sort:</span>
-        <label><input type="radio" name="sort" value="start" /> Start</label>
-        <label><input type="radio" name="sort" value="route-length" /> routeLength</label>
-        <label><input type="radio" name="sort" value="elevation" /> routeElevation</label>
-      </div>
     </div>
     <table id="events">
       <thead>
         <tr>
-          <th>eventName</th>
-          <th>routeName</th>
-          <th>routeMap</th>
-          <th>eventStart</th>
-          <th>duration</th>
-          <th>length</th>
-          <th>routeLength</th>
-          <th>routeElevation</th>
-          <th>laps</th>
-          <th>ruleSet</th>
+          <th data-sort="name">eventName</th>
+          <th data-sort="route-name">routeName</th>
+          <th data-sort="route-map">routeMap</th>
+          <th data-sort="start">eventStart</th>
+          <th data-sort="duration">duration</th>
+          <th data-sort="length">length</th>
+          <th data-sort="route-length">routeLength</th>
+          <th data-sort="elevation">routeElevation</th>
+          <th data-sort="laps">laps</th>
+          <th data-sort="rule-set">ruleSet</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -144,10 +146,6 @@
       const dateRadioValue = ["today", "tomorrow", "all"].includes(dateParam) ? dateParam : "today"
       document.querySelector(`input[name="date"][value="${dateRadioValue}"]`).checked = true
 
-      const sortParam = new URLSearchParams(location.search).get("sort") ?? "start"
-      const sortRadioValue = ["start", "route-length", "elevation"].includes(sortParam) ? sortParam : "start"
-      document.querySelector(`input[name="sort"][value="${sortRadioValue}"]`).checked = true
-
       function getFilterDate() {
         const param = new URLSearchParams(location.search).get("date") ?? "all"
         if (param === "today") return todayCET
@@ -156,23 +154,49 @@
         return param // raw ISO date from URL
       }
 
+      // sort key → [column index, numeric?]
+      const SORT_COLS = {
+        name: [0, false],
+        "route-name": [1, false],
+        "route-map": [2, false],
+        start: [3, false],
+        duration: [4, true],
+        length: [5, true],
+        "route-length": [6, true],
+        elevation: [7, true],
+        laps: [8, true],
+        "rule-set": [9, false],
+      }
+
       function getSort() {
-        return new URLSearchParams(location.search).get("sort") ?? "start"
+        const raw = new URLSearchParams(location.search).get("sort") ?? "start:asc"
+        const [key, dir] = raw.split(":")
+        return { key: SORT_COLS[key] ? key : "start", dir: dir === "desc" ? "desc" : "asc" }
+      }
+
+      function updateSortHeaders() {
+        const { key, dir } = getSort()
+        document.querySelectorAll("#events th[data-sort]").forEach((th) => {
+          th.classList.remove("sort-asc", "sort-desc")
+          if (th.dataset.sort === key) th.classList.add(dir === "desc" ? "sort-desc" : "sort-asc")
+        })
       }
 
       let allRows = []
 
       function rerender() {
         const filterDate = getFilterDate()
-        const sort = getSort()
+        const { key, dir } = getSort()
+        const [colIdx, numeric] = SORT_COLS[key]
 
         let rows = allRows.filter((fields) => !filterDate || fields[3].startsWith(filterDate))
 
-        if (sort === "route-length") {
-          rows = rows.slice().sort((a, b) => parseFloat(a[6]) - parseFloat(b[6]))
-        } else if (sort === "elevation") {
-          rows = rows.slice().sort((a, b) => parseFloat(a[7]) - parseFloat(b[7]))
-        }
+        rows = rows.slice().sort((a, b) => {
+          const av = numeric ? parseFloat(a[colIdx]) : a[colIdx]
+          const bv = numeric ? parseFloat(b[colIdx]) : b[colIdx]
+          const cmp = av < bv ? -1 : av > bv ? 1 : 0
+          return dir === "desc" ? -cmp : cmp
+        })
 
         const fragment = document.createDocumentFragment()
         rows.forEach((fields) => {
@@ -187,6 +211,7 @@
         const tbody = document.querySelector("#events tbody")
         tbody.innerHTML = ""
         tbody.appendChild(fragment)
+        updateSortHeaders()
       }
 
       document.querySelectorAll('input[name="date"]').forEach((radio) => {
@@ -199,10 +224,13 @@
         })
       })
 
-      document.querySelectorAll('input[name="sort"]').forEach((radio) => {
-        radio.addEventListener("change", () => {
+      document.querySelectorAll("#events th[data-sort]").forEach((th) => {
+        th.addEventListener("click", () => {
+          const { key, dir } = getSort()
+          const newKey = th.dataset.sort
+          const newDir = newKey === key && dir === "asc" ? "desc" : "asc"
           const params = new URLSearchParams(location.search)
-          params.set("sort", radio.value)
+          params.set("sort", `${newKey}:${newDir}`)
           history.replaceState(null, "", "?" + params)
           rerender()
         })
@@ -213,6 +241,7 @@
         rerender()
       }
 
+      updateSortHeaders()
       streamCSV("data.csv", collectAndRender)
     </script>
   </body>
