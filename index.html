@@ -26,7 +26,8 @@
       }
       td:nth-child(5),
       td:nth-child(6),
-      td:nth-child(7) {
+      td:nth-child(7),
+      td:nth-child(8) {
         text-align: right;
       }
     </style>
@@ -44,6 +45,7 @@
         <span>Sort:</span>
         <label><input type="radio" name="sort" value="start" /> Start</label>
         <label><input type="radio" name="sort" value="route-length" /> routeLength</label>
+        <label><input type="radio" name="sort" value="elevation" /> routeElevation</label>
       </div>
     </div>
     <table id="events">
@@ -56,6 +58,7 @@
           <th>duration</th>
           <th>length</th>
           <th>routeLength</th>
+          <th>routeElevation</th>
           <th>laps</th>
           <th>ruleSet</th>
         </tr>
@@ -142,7 +145,7 @@
       document.querySelector(`input[name="date"][value="${dateRadioValue}"]`).checked = true
 
       const sortParam = new URLSearchParams(location.search).get("sort") ?? "start"
-      const sortRadioValue = ["start", "route-length"].includes(sortParam) ? sortParam : "start"
+      const sortRadioValue = ["start", "route-length", "elevation"].includes(sortParam) ? sortParam : "start"
       document.querySelector(`input[name="sort"][value="${sortRadioValue}"]`).checked = true
 
       function getFilterDate() {
@@ -167,6 +170,8 @@
 
         if (sort === "route-length") {
           rows = rows.slice().sort((a, b) => parseFloat(a[6]) - parseFloat(b[6]))
+        } else if (sort === "elevation") {
+          rows = rows.slice().sort((a, b) => parseFloat(a[7]) - parseFloat(b[7]))
         }
 
         const fragment = document.createDocumentFragment()
