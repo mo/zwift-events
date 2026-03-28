@@ -19,7 +19,7 @@ with open('game.json') as f:
 route_map = {r['signature']: r for r in game['ROUTES']['ROUTE']}
 
 FIELDS = ['eventName', 'routeName', 'routeMap', 'eventStart', 'duration',
-          'distanceInMeters', 'laps', 'ruleSet', 'sport']
+          'length', 'laps', 'ruleSet', 'sport']
 
 with open('data.csv', 'w', newline='') as f:
     writer = csv.writer(f)
@@ -32,7 +32,7 @@ with open('data.csv', 'w', newline='') as f:
             route.get('map', ''),
             fmt_time(event.get('eventStart', '')),
             event.get('durationInSeconds', 0) // 60,
-            event.get('distanceInMeters', ''),
+            round(event.get('distanceInMeters', 0) / 1000, 1),
             event.get('laps', ''),
             rules,
             event.get('sport', ''),
