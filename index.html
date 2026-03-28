@@ -33,6 +33,7 @@
   </head>
   <body>
     <h1>Zwift Upcoming Banded Events</h1>
+    <label><input type="checkbox" id="onlyToday"> Only today</label>
     <table id="events">
       <thead>
         <tr>
@@ -120,10 +121,24 @@
         }
       }
 
+      const todayCET = new Date().toLocaleDateString('sv', { timeZone: 'Europe/Paris' })
+
+      const checkbox = document.getElementById('onlyToday')
+      checkbox.checked = new URLSearchParams(location.search).get('onlyToday') === '1'
+      checkbox.addEventListener('change', () => {
+        const params = new URLSearchParams(location.search)
+        params.set('onlyToday', checkbox.checked ? '1' : '0')
+        history.replaceState(null, '', '?' + params)
+        document.querySelector('#events tbody').innerHTML = ''
+        streamCSV('data.csv', renderRows)
+      })
+
       // Appends an array of row arrays into <tbody>.
       function renderRows(rows) {
+        const onlyToday = checkbox.checked
         const tbody = document.querySelector("#events tbody")
         rows.forEach((fields) => {
+          if (onlyToday && !fields[3].startsWith(todayCET)) return
           const tr = document.createElement("tr")
           fields.forEach((f) => {
             const td = document.createElement("td")
