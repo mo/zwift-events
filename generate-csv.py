@@ -8,18 +8,20 @@ with open('events.json') as f:
 with open('game.json') as f:
     game = json.load(f)
 
-route_map = {r['signature']: r['name'] for r in game['ROUTES']['ROUTE']}
+route_map = {r['signature']: r for r in game['ROUTES']['ROUTE']}
 
-FIELDS = ['worldId', 'name', 'eventStart', 'durationInSeconds',
+FIELDS = ['map', 'name', 'eventStart', 'durationInSeconds',
           'distanceInMeters', 'laps', 'ruleSet', 'sport', 'routeName']
 
 with open('data.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     for event in events:
-        route_name = route_map.get(str(event.get('routeId', '')), '')
+        route = route_map.get(str(event.get('routeId', '')), {})
+        route_name = route.get('name', '')
+        map_name = route.get('map', '')
         rules = '|'.join(event.get('rulesSet', []))
         writer.writerow([
-            event.get('worldId', ''),
+            map_name,
             event.get('name', ''),
             event.get('eventStart', ''),
             event.get('durationInSeconds', ''),
