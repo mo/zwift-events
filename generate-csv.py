@@ -28,6 +28,8 @@ with open('data.csv', 'w', newline='') as f:
             continue
         if 'TEST_BIT_10' not in event.get('rulesSet', []):
             continue
+        if 'LADIES_ONLY' in event.get('rulesSet', []):
+            continue
         route = route_map.get(str(event.get('routeId', '')), {})
         rules = '|'.join(event.get('rulesSet', []))
         writer.writerow([
