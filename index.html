@@ -33,9 +33,14 @@
   </head>
   <body>
     <h1>Zwift Upcoming Banded Events</h1>
-    <label><input type="radio" name="date" value="all" /> All</label>
-    <label><input type="radio" name="date" value="today" /> Today</label>
-    <label><input type="radio" name="date" value="tomorrow" /> Tomorrow</label>
+    <div></div>
+      date: <label><input type="radio" name="date" value="all" /> All</label>
+      <label><input type="radio" name="date" value="today" /> Today</label>
+      <label><input type="radio" name="date" value="tomorrow" /> Tomorrow</label></div>
+    </div>
+    <div></div>
+      sort: <label><input type="radio" name="sort" value="start" /> Start</label> <label><input type="radio" name="sort" value="route-length" /> routeLength</label>
+    </div>
     <table id="events">
       <thead>
         <tr>
@@ -128,8 +133,12 @@
 
       const dateParam = new URLSearchParams(location.search).get("date") ?? "all"
       // dateParam may be 'today', 'tomorrow', 'all', or an ISO date like '2026-03-30'
-      const radioValue = ["today", "tomorrow", "all"].includes(dateParam) ? dateParam : "today"
-      document.querySelector(`input[name="date"][value="${radioValue}"]`).checked = true
+      const dateRadioValue = ["today", "tomorrow", "all"].includes(dateParam) ? dateParam : "today"
+      document.querySelector(`input[name="date"][value="${dateRadioValue}"]`).checked = true
+
+      const sortParam = new URLSearchParams(location.search).get("sort") ?? "start"
+      const sortRadioValue = ["start", "route-length"].includes(sortParam) ? sortParam : "start"
+      document.querySelector(`input[name="sort"][value="${sortRadioValue}"]`).checked = true
 
       function getFilterDate() {
         const param = new URLSearchParams(location.search).get("date") ?? "all"
@@ -139,33 +148,62 @@
         return param // raw ISO date from URL
       }
 
-      document.querySelectorAll('input[name="date"]').forEach((radio) => {
-        radio.addEventListener("change", () => {
-          const params = new URLSearchParams(location.search)
-          params.set("date", radio.value)
-          history.replaceState(null, "", "?" + params)
-          document.querySelector("#events tbody").innerHTML = ""
-          streamCSV("data.csv", renderRows)
-        })
-      })
+      function getSort() {
+        return new URLSearchParams(location.search).get("sort") ?? "start"
+      }
 
-      // Appends an array of row arrays into <tbody>.
-      function renderRows(rows) {
-        const tbody = document.querySelector("#events tbody")
+      let allRows = []
+
+      function rerender() {
         const filterDate = getFilterDate()
+        const sort = getSort()
+
+        let rows = allRows.filter((fields) => !filterDate || fields[3].startsWith(filterDate))
+
+        if (sort === "route-length") {
+          rows = rows.slice().sort((a, b) => parseFloat(a[6]) - parseFloat(b[6]))
+        }
+
+        const fragment = document.createDocumentFragment()
         rows.forEach((fields) => {
-          if (filterDate && !fields[3].startsWith(filterDate)) return
           const tr = document.createElement("tr")
           fields.forEach((f) => {
             const td = document.createElement("td")
             td.textContent = f
             tr.appendChild(td)
           })
-          tbody.appendChild(tr)
+          fragment.appendChild(tr)
         })
+        const tbody = document.querySelector("#events tbody")
+        tbody.innerHTML = ""
+        tbody.appendChild(fragment)
       }
 
-      streamCSV("data.csv", renderRows)
+      document.querySelectorAll('input[name="date"]').forEach((radio) => {
+        radio.addEventListener("change", () => {
+          const params = new URLSearchParams(location.search)
+          params.set("date", radio.value)
+          history.replaceState(null, "", "?" + params)
+          allRows = []
+          streamCSV("data.csv", collectAndRender)
+        })
+      })
+
+      document.querySelectorAll('input[name="sort"]').forEach((radio) => {
+        radio.addEventListener("change", () => {
+          const params = new URLSearchParams(location.search)
+          params.set("sort", radio.value)
+          history.replaceState(null, "", "?" + params)
+          rerender()
+        })
+      })
+
+      function collectAndRender(rows) {
+        allRows.push(...rows)
+        rerender()
+      }
+
+      streamCSV("data.csv", collectAndRender)
     </script>
   </body>
 </html>
