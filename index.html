@@ -33,13 +33,18 @@
   </head>
   <body>
     <h1>Zwift Upcoming Banded Events</h1>
-    <div></div>
-      date: <label><input type="radio" name="date" value="all" /> All</label>
-      <label><input type="radio" name="date" value="today" /> Today</label>
-      <label><input type="radio" name="date" value="tomorrow" /> Tomorrow</label></div>
-    </div>
-    <div></div>
-      sort: <label><input type="radio" name="sort" value="start" /> Start</label> <label><input type="radio" name="sort" value="route-length" /> routeLength</label>
+    <div style="display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem">
+      <div style="display: flex; align-items: center; gap: 0.5rem">
+        <span>Date filter:</span>
+        <label><input type="radio" name="date" value="all" /> All</label>
+        <label><input type="radio" name="date" value="today" /> Today</label>
+        <label><input type="radio" name="date" value="tomorrow" /> Tomorrow</label>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem">
+        <span>Sort:</span>
+        <label><input type="radio" name="sort" value="start" /> Start</label>
+        <label><input type="radio" name="sort" value="route-length" /> routeLength</label>
+      </div>
     </div>
     <table id="events">
       <thead>
