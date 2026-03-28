@@ -19,11 +19,13 @@ with open('game.json') as f:
 route_map = {r['signature']: r for r in game['ROUTES']['ROUTE']}
 
 FIELDS = ['eventName', 'routeName', 'routeMap', 'eventStart', 'duration',
-          'length', 'laps', 'ruleSet', 'sport']
+          'length', 'laps', 'ruleSet']
 
 with open('data.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     for event in events:
+        if event.get('sport') != 'CYCLING':
+            continue
         route = route_map.get(str(event.get('routeId', '')), {})
         rules = '|'.join(event.get('rulesSet', []))
         writer.writerow([
@@ -35,7 +37,6 @@ with open('data.csv', 'w', newline='') as f:
             round(event.get('distanceInMeters', 0) / 1000, 1),
             event.get('laps', ''),
             rules,
-            event.get('sport', ''),
         ])
 
 print(f'Wrote {len(events)} rows to data.csv')
