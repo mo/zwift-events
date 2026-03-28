@@ -1,0 +1,4 @@
+#!/bin/bash
+SCRIPT_DIR=$(dirname $0)
+$SCRIPT_DIR/fetch-zwift-data.py
+$SCRIPT_DIR/generate-csv.py
