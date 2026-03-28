@@ -1,5 +1,11 @@
 #!/bin/sh
-cd "$(dirname "$0")"
+
+set -e
+
+SCRIPT_DIR=$(dirname $0)
+cd $SCRIPT_DIR/site
+
+test -f data.csv || echo "error: missing site/data.csv file, please run 2-build-csv.py"
 
 python3 - <<'EOF'
 import http.server

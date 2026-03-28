@@ -21,7 +21,7 @@ route_map = {r['signature']: r for r in game['ROUTES']['ROUTE']}
 FIELDS = ['start', 'eventName', 'routeName', 'routeMap', 'duration',
           'length', 'routeLength', 'routeElevation', 'laps', 'ruleSet']
 
-with open('data.csv', 'w', newline='') as f:
+with open('site/data.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     for event in events:
         if event.get('sport') != 'CYCLING':
@@ -45,4 +45,4 @@ with open('data.csv', 'w', newline='') as f:
             rules,
         ])
 
-print(f'Wrote {len(events)} rows to data.csv')
+print(f'Wrote {len(events)} rows to site/data.csv')
