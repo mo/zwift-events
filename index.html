@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zwift Events</title>
+  <style>
+    body { font-family: sans-serif; padding: 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 0.4rem 0.8rem; text-align: left; }
+    th { background: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <h1>Zwift Routes</h1>
+  <table id="routes">
+    <thead>
+      <tr><th>rideId</th><th>routeName</th><th>distanceInKm</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    // Fetches a CSV stream and calls onHeader(fields) once, then onRows(rows)
+    // for each batch of complete records as they arrive.
+    async function streamCSV(url, onRows) {
+      const response = await fetch(url);
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let leftover = '';
+
+      const parseLines = (lines) => {
+        const rows = [];
+        for (const line of lines) {
+          const trimmed = line.trim();
+          if (!trimmed) continue;
+          rows.push(trimmed.split(','));
+        }
+        return rows;
+      };
+
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+
+        const chunk = leftover + decoder.decode(value, { stream: true });
+        const lines = chunk.split('\n');
+        leftover = lines.pop();
+
+        const rows = parseLines(lines);
+        if (rows.length) onRows(rows);
+      }
+
+      if (leftover.trim()) {
+        const rows = parseLines([leftover]);
+        if (rows.length) onRows(rows);
+      }
+    }
+
+    // Appends an array of row arrays into <tbody>.
+    function renderRows(rows) {
+      const tbody = document.querySelector('#routes tbody');
+      rows.forEach(fields => {
+        const tr = document.createElement('tr');
+        fields.forEach(f => {
+          const td = document.createElement('td');
+          td.textContent = f;
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+    }
+
+    streamCSV('data.csv', renderRows);
+  </script>
+</body>
+</html>

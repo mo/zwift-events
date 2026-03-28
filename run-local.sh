@@ -1,0 +1,33 @@
+#!/bin/sh
+cd "$(dirname "$0")"
+
+python3 - <<'EOF'
+import http.server
+import time
+import os
+
+THROTTLING_ENABLED = False
+BYTES_PER_SECOND = 35
+
+class Handler(http.server.SimpleHTTPRequestHandler):
+    def do_GET(self):
+        if self.path == '/data.csv':
+            if THROTTLING_ENABLED:
+                self.send_response(200)
+                self.send_header('Content-Type', 'text/csv')
+                self.end_headers()
+                with open('data.csv', 'rb') as f:
+                    while True:
+                        chunk = f.read(BYTES_PER_SECOND)
+                        if not chunk:
+                            break
+                        self.wfile.write(chunk)
+                        self.wfile.flush()
+                        time.sleep(1)
+            else:
+                super().do_GET()
+        else:
+            super().do_GET()
+
+http.server.HTTPServer(('', 8080), Handler).serve_forever()
+EOF
