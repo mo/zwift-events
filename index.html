@@ -24,14 +24,16 @@
       td:nth-child(4) {
         white-space: nowrap;
       }
-      td:nth-child(5), td:nth-child(6), td:nth-child(7) {
+      td:nth-child(5),
+      td:nth-child(6),
+      td:nth-child(7) {
         text-align: right;
       }
     </style>
   </head>
   <body>
-    <h1>Zwift Routes</h1>
-    <table id="routes">
+    <h1>Zwift Upcoming Banded Events</h1>
+    <table id="events">
       <thead>
         <tr>
           <th>eventName</th>
@@ -120,7 +122,7 @@
 
       // Appends an array of row arrays into <tbody>.
       function renderRows(rows) {
-        const tbody = document.querySelector("#routes tbody")
+        const tbody = document.querySelector("#events tbody")
         rows.forEach((fields) => {
           const tr = document.createElement("tr")
           fields.forEach((f) => {
