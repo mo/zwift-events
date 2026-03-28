@@ -29,7 +29,7 @@
       th.sort-desc::after {
         content: " ▼";
       }
-      td:nth-child(4) {
+      td:nth-child(1) {
         white-space: nowrap;
       }
       td:nth-child(5),
@@ -53,10 +53,10 @@
     <table id="events">
       <thead>
         <tr>
+          <th data-sort="start">start</th>
           <th data-sort="name">eventName</th>
           <th data-sort="route-name">routeName</th>
           <th data-sort="route-map">routeMap</th>
-          <th data-sort="start">eventStart</th>
           <th data-sort="duration">duration</th>
           <th data-sort="length">length</th>
           <th data-sort="route-length">routeLength</th>
@@ -156,10 +156,10 @@
 
       // sort key → [column index, numeric?]
       const SORT_COLS = {
-        name: [0, false],
-        "route-name": [1, false],
-        "route-map": [2, false],
-        start: [3, false],
+        start: [0, false],
+        name: [1, false],
+        "route-name": [2, false],
+        "route-map": [3, false],
         duration: [4, true],
         length: [5, true],
         "route-length": [6, true],
@@ -189,7 +189,7 @@
         const { key, dir } = getSort()
         const [colIdx, numeric] = SORT_COLS[key]
 
-        let rows = allRows.filter((fields) => !filterDate || fields[3].startsWith(filterDate))
+        let rows = allRows.filter((fields) => !filterDate || fields[0].startsWith(filterDate))
 
         rows = rows.slice().sort((a, b) => {
           const av = numeric ? parseFloat(a[colIdx]) : a[colIdx]
