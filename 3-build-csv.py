@@ -16,6 +16,14 @@ with open('events.json') as f:
 with open('game.json') as f:
     game = json.load(f)
 
+with open('completed-routes.json') as f:
+    completed_routes = json.load(f)
+
+all_completed = {route for routes in completed_routes.values() for route in routes}
+
+def is_completed(route_name):
+    return route_name in all_completed
+
 route_map = {r['signature']: r for r in game['ROUTES']['ROUTE']}
 
 EVENT_TYPE_LABELS = {
@@ -23,7 +31,7 @@ EVENT_TYPE_LABELS = {
     'GROUP_WORKOUT': 'WORKOUT',
 }
 
-FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeMap', 'duration',
+FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeBadge', 'routeMap', 'duration',
           'length', 'routeLength', 'routeElevation', 'laps', 'ruleSet']
 
 with open('site/data.csv', 'w', newline='') as f:
@@ -44,6 +52,7 @@ with open('site/data.csv', 'w', newline='') as f:
             event.get('name', ''),
             event_type,
             route.get('name', ''),
+            '' if is_completed(route.get('name', '')) else 'NEEDED',
             route.get('map', ''),
             event.get('durationInSeconds', 0) // 60,
             round(event.get('distanceInMeters', 0) / 1000, 1),
