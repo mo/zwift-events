@@ -2,16 +2,21 @@
 
 set -e
 
+PORT=8080
+
 SCRIPT_DIR=$(dirname $0)
 cd $SCRIPT_DIR/site
 
 test -f data.csv || echo "error: missing site/data.csv file, please run 2-build-csv.py"
 
-python3 - <<'EOF'
+echo "http://0.0.0.0:$PORT/"
+
+PORT=$PORT python3 - <<'EOF'
 import http.server
 import time
 import os
 
+PORT = int(os.environ.get('PORT', 8080))
 THROTTLING_ENABLED = False
 BYTES_PER_SECOND = 35
 
@@ -35,5 +40,5 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         else:
             super().do_GET()
 
-http.server.HTTPServer(('', 8080), Handler).serve_forever()
+http.server.HTTPServer(('', PORT), Handler).serve_forever()
 EOF
