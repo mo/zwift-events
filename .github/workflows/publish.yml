@@ -1,0 +1,48 @@
+name: Fetch and publish
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'  # 3AM CET (2AM UTC), 4AM during CEST
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch Zwift data
+        run: python3 1-fetch-zwift-data.py
+
+      - name: Commit fetched data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add events.json game.json
+          git diff --cached --quiet || git commit -m "chore: update events.json and game.json"
+          git push
+
+      - name: Build CSV
+        run: python3 3-build-csv.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+      - uses: actions/deploy-pages@v4
+        id: deployment
