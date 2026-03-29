@@ -49,6 +49,9 @@
         <label><input type="radio" name="date" value="today" /> Today</label>
         <label><input type="radio" name="date" value="tomorrow" /> Tomorrow</label>
       </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem">
+        <label><input type="checkbox" id="neededOnly" /> Needed route badges only</label>
+      </div>
     </div>
     <table id="events">
       <thead>
@@ -148,6 +151,15 @@
       const dateRadioValue = ["today", "tomorrow", "all"].includes(dateParam) ? dateParam : "today"
       document.querySelector(`input[name="date"][value="${dateRadioValue}"]`).checked = true
 
+      const neededOnlyCheckbox = document.getElementById('neededOnly')
+      neededOnlyCheckbox.checked = new URLSearchParams(location.search).get('needed') === '1'
+      neededOnlyCheckbox.addEventListener('change', () => {
+        const params = new URLSearchParams(location.search)
+        params.set('needed', neededOnlyCheckbox.checked ? '1' : '0')
+        history.replaceState(null, '', '?' + params)
+        rerender()
+      })
+
       function getFilterDate() {
         const param = new URLSearchParams(location.search).get("date") ?? "all"
         if (param === "today") return todayCET
@@ -193,7 +205,9 @@
         const { key, dir } = getSort()
         const [colIdx, numeric] = SORT_COLS[key]
 
+        const neededOnly = neededOnlyCheckbox.checked
         let rows = allRows.filter((fields) => !filterDate || fields[0].startsWith(filterDate))
+        if (neededOnly) rows = rows.filter((fields) => fields[4] === 'NEEDED')
 
         rows = rows.slice().sort((a, b) => {
           const av = numeric ? parseFloat(a[colIdx]) : a[colIdx]
