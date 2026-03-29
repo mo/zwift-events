@@ -9,7 +9,7 @@ cd $SCRIPT_DIR/site
 
 test -f data.csv || echo "error: missing site/data.csv file, please run 2-build-csv.py"
 
-echo "http://0.0.0.0:$PORT/"
+echo "http://127.0.0.1:$PORT/"
 
 PORT=$PORT python3 - <<'EOF'
 import http.server
@@ -40,5 +40,5 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         else:
             super().do_GET()
 
-http.server.HTTPServer(('', PORT), Handler).serve_forever()
+http.server.HTTPServer(('127.0.0.1', PORT), Handler).serve_forever()
 EOF
