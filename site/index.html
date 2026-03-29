@@ -200,9 +200,11 @@
           return dir === "desc" ? -cmp : cmp
         })
 
+        const nowSE = new Date().toLocaleString("sv", { timeZone: "Europe/Stockholm", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" }).replace(",", "")
         const fragment = document.createDocumentFragment()
         rows.forEach((fields) => {
           const tr = document.createElement("tr")
+          if (fields[0] < nowSE) tr.style.color = "#AAA"
           fields.forEach((f) => {
             const td = document.createElement("td")
             td.textContent = f
