@@ -32,10 +32,10 @@
       td:nth-child(1) {
         white-space: nowrap;
       }
-      td:nth-child(5),
       td:nth-child(6),
       td:nth-child(7),
-      td:nth-child(8) {
+      td:nth-child(8),
+      td:nth-child(9) {
         text-align: right;
       }
     </style>
@@ -55,6 +55,7 @@
         <tr>
           <th data-sort="start">start</th>
           <th data-sort="name">eventName</th>
+          <th data-sort="event-type">eventType</th>
           <th data-sort="route-name">routeName</th>
           <th data-sort="route-map">routeMap</th>
           <th data-sort="duration">duration</th>
@@ -158,14 +159,15 @@
       const SORT_COLS = {
         start: [0, false],
         name: [1, false],
-        "route-name": [2, false],
-        "route-map": [3, false],
-        duration: [4, true],
-        length: [5, true],
-        "route-length": [6, true],
-        elevation: [7, true],
-        laps: [8, true],
-        "rule-set": [9, false],
+        "event-type": [2, false],
+        "route-name": [3, false],
+        "route-map": [4, false],
+        duration: [5, true],
+        length: [6, true],
+        "route-length": [7, true],
+        elevation: [8, true],
+        laps: [9, true],
+        "rule-set": [10, false],
       }
 
       function getSort() {
