@@ -39,12 +39,18 @@ with open('site/data.csv', 'w', newline='') as f:
     for event in events:
         if event.get('sport') != 'CYCLING':
             continue
-        if 'TEST_BIT_10' not in event.get('rulesSet', []):
+        subgroups = event.get('eventSubgroups', [])
+        top_level_banded = 'TEST_BIT_10' in event.get('rulesSet', [])
+        all_subgroups_banded = bool(subgroups) and all('TEST_BIT_10' in sg.get('rulesSet', []) for sg in subgroups)
+        if not (top_level_banded or all_subgroups_banded):
             continue
         if 'LADIES_ONLY' in event.get('rulesSet', []):
             continue
         route = route_map.get(str(event.get('routeId', '')), {})
-        rules = '|'.join(event.get('rulesSet', []))
+        all_rules = set(event.get('rulesSet', []))
+        for sg in subgroups:
+            all_rules.update(sg.get('rulesSet', []))
+        rules = '|'.join(sorted(all_rules))
         raw_type = event.get('eventType', '')
         event_type = EVENT_TYPE_LABELS.get(raw_type, raw_type)
         writer.writerow([
