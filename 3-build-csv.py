@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 import csv
 import json
+import re
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
 CET = ZoneInfo('Europe/Paris')
+
+def route_url(name):
+    slug = name.lower()
+    slug = re.sub(r"[^a-z0-9 ]", '', slug)  # strip apostrophes, accents, etc.
+    slug = re.sub(r' +', '-', slug.strip())
+    return f'https://zwiftinsider.com/route/{slug}/'
 
 def fmt_time(iso):
     dt = datetime.fromisoformat(iso.replace('Z', '+00:00'))
@@ -32,7 +39,7 @@ EVENT_TYPE_LABELS = {
 }
 
 FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeBadge', 'routeMap', 'duration',
-          'length', 'routeLength', 'routeElevation', 'laps', 'ruleSet']
+          'length', 'routeLength', 'routeElevation', 'laps', 'ruleSet', 'routeUrl']
 
 with open('site/data.csv', 'w', newline='') as f:
     writer = csv.writer(f)
@@ -66,6 +73,7 @@ with open('site/data.csv', 'w', newline='') as f:
             round(float(route.get('ascentInMeters', 0))),
             event.get('laps', ''),
             rules,
+            route_url(route.get('name', '')),
         ])
 
 print(f'Wrote {len(events)} rows to site/data.csv')

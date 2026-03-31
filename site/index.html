@@ -23,6 +23,9 @@
         cursor: pointer;
         user-select: none;
       }
+      td a {
+        color: inherit;
+      }
       th.sort-asc::after {
         content: " ▲";
       }
@@ -221,9 +224,20 @@
         rows.forEach((fields) => {
           const tr = document.createElement("tr")
           if (fields[0] < nowSE) tr.style.color = "#AAA"
-          fields.forEach((f) => {
+          const routeUrl = fields[12]
+          fields.forEach((f, i) => {
+            if (i === 12) return  // routeUrl — hidden, used as link only
             const td = document.createElement("td")
-            td.textContent = f
+            if (i === 3 && routeUrl) {
+              const a = document.createElement("a")
+              a.href = routeUrl
+              a.textContent = f
+              a.target = "_blank"
+              a.rel = "noopener"
+              td.appendChild(a)
+            } else {
+              td.textContent = f
+            }
             tr.appendChild(td)
           })
           fragment.appendChild(tr)
