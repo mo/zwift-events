@@ -8,19 +8,20 @@ from zoneinfo import ZoneInfo
 CET = ZoneInfo('Europe/Paris')
 
 # ZwiftInsider drops the "Watopia " prefix from route slugs
-URL_NAME_OVERRIDES = {
-    'Watopia Figure 8':         'Figure 8',
-    'Watopia Figure 8 Reverse': 'Figure 8 Reverse',
-    'Watopia Flat Route':       'Flat Route',
-    'Watopia Hilly Route':      'Hilly Route',
-    'Watopia Mountain 8':       'Mountain 8',
-    'Watopia Mountain Route':   'Mountain Route',
-    'Watopia Pretzel':          'Pretzel',
+URL_SLUG_OVERRIDES = {
+    'Watopia Figure 8':       'figure-8',
+    'Watopia Flat Route':     'flat-route',
+    'Watopia Hilly Route':    'hilly-route',
+    'Watopia Mountain 8':     'mountain-8',
+    'Watopia Mountain Route': 'mountain-route',
+    'Watopia Pretzel':        'the-pretzel',
 }
 
 def route_url(name):
-    slug = URL_NAME_OVERRIDES.get(name, name).lower()
-    slug = re.sub(r"[^a-z0-9 ]", '', slug)  # strip apostrophes, accents, etc.
+    if name in URL_SLUG_OVERRIDES:
+        return f'https://zwiftinsider.com/route/{URL_SLUG_OVERRIDES[name]}/'
+    slug = name.lower()
+    slug = re.sub(r"[^a-z0-9 -]", '', slug)  # strip apostrophes, accents, etc.
     slug = re.sub(r' +', '-', slug.strip())
     return f'https://zwiftinsider.com/route/{slug}/'
 
