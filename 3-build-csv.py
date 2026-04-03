@@ -46,7 +46,7 @@ EVENT_TYPE_LABELS = {
 FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeBadge', 'routeMap', 'duration',
           'length', 'routeLength', 'routeElevation', 'laps', 'ruleSet', 'routeUrl']
 
-with open('site/data.csv', 'w', newline='') as f:
+with open('site/upcoming-banded.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     for event in events:
         if event.get('sport') != 'CYCLING':
@@ -82,4 +82,4 @@ with open('site/data.csv', 'w', newline='') as f:
             route_url(route_name),
         ])
 
-print(f'Wrote {len(events)} rows to site/data.csv')
+print(f'Wrote {len(events)} rows to site/upcoming-banded.csv')

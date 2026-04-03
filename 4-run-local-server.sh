@@ -7,7 +7,7 @@ PORT=8080
 SCRIPT_DIR=$(dirname $0)
 cd $SCRIPT_DIR/site
 
-test -f data.csv || echo "error: missing site/data.csv file, please run 2-build-csv.py"
+test -f upcoming-banded.csv || echo "error: missing site/upcoming-banded.csv file, please run 2-build-csv.py"
 
 echo "http://127.0.0.1:$PORT/"
 
@@ -22,12 +22,12 @@ BYTES_PER_SECOND = 35
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
-        if self.path == '/data.csv':
+        if self.path == '/upcoming-banded.csv':
             if THROTTLING_ENABLED:
                 self.send_response(200)
                 self.send_header('Content-Type', 'text/csv')
                 self.end_headers()
-                with open('data.csv', 'rb') as f:
+                with open('upcoming-banded.csv', 'rb') as f:
                     while True:
                         chunk = f.read(BYTES_PER_SECOND)
                         if not chunk:

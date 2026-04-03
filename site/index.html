@@ -272,7 +272,7 @@
           params.set("date", radio.value)
           history.replaceState(null, "", "?" + params)
           allRows = []
-          streamCSV("data.csv", collectAndRender)
+          streamCSV("upcoming-banded.csv", collectAndRender)
         })
       })
 
@@ -294,7 +294,7 @@
       }
 
       updateSortHeaders()
-      streamCSV("data.csv", collectAndRender)
+      streamCSV("upcoming-banded.csv", collectAndRender)
     </script>
   </body>
 </html>
