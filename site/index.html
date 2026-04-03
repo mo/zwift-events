@@ -78,7 +78,6 @@
           <th data-sort="route-length">routeLength</th>
           <th data-sort="elevation">routeElevation</th>
           <th data-sort="laps">laps</th>
-          <th data-sort="rule-set">ruleSet</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -202,7 +201,6 @@
         "route-length": [8, true],
         elevation: [9, true],
         laps: [10, true],
-        "rule-set": [11, false],
       }
 
       function getSort() {
@@ -250,6 +248,7 @@
           if (fields[0] < nowSE) tr.style.color = "#AAA"
           const routeUrl = fields[12]
           fields.forEach((f, i) => {
+            if (i === 11) return // ruleSet — hidden
             if (i === 12) return // routeUrl — hidden, used as link only
             const td = document.createElement("td")
             if (i === 3 && routeUrl) {
