@@ -28,6 +28,11 @@ with open('completed-routes.json') as f:
 
 all_completed = {route for routes in completed_routes.values() for route in routes}
 
+def canonical_route_name(route_name):
+    if route_name == "Watopia Flat Route":
+        return "Flat Route"
+    return route_name
+
 def is_completed(route_name):
     return route_name in all_completed
 
@@ -54,6 +59,7 @@ with open('site/data.csv', 'w', newline='') as f:
         if 'LADIES_ONLY' in event.get('rulesSet', []):
             continue
         route = route_map.get(str(event.get('routeId', '')), {})
+        route_name = canonical_route_name(route.get('name', ''))
         all_rules = set(event.get('rulesSet', []))
         for sg in subgroups:
             all_rules.update(sg.get('rulesSet', []))
@@ -64,8 +70,8 @@ with open('site/data.csv', 'w', newline='') as f:
             fmt_time(event.get('eventStart', '')),
             event.get('name', ''),
             event_type,
-            route.get('name', ''),
-            '' if is_completed(route.get('name', '')) else 'NEEDED',
+            route_name,
+            '' if is_completed(route_name) else 'NEEDED',
             route.get('map', ''),
             event.get('durationInSeconds', 0) // 60,
             round(event.get('distanceInMeters', 0) / 1000, 1),
@@ -73,7 +79,7 @@ with open('site/data.csv', 'w', newline='') as f:
             round(float(route.get('ascentInMeters', 0))),
             event.get('laps', ''),
             rules,
-            route_url(route.get('name', '')),
+            route_url(route_name),
         ])
 
 print(f'Wrote {len(events)} rows to site/data.csv')
