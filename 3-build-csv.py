@@ -9,6 +9,8 @@ CET = ZoneInfo('Europe/Paris')
 
 # ZwiftInsider drops the "Watopia " prefix from route slugs
 URL_SLUG_OVERRIDES = {
+    'London PRL Full':        'the-prl-full',
+    'London PRL Half':        'the-prl-half',
     'Watopia Figure 8':       'figure-8',
     'Watopia Flat Route':     'flat-route',
     'Watopia Hilly Route':    'hilly-route',
