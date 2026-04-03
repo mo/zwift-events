@@ -83,6 +83,7 @@
       </thead>
       <tbody></tbody>
     </table>
+    <p id="row-count" style="color: #999; font-size: 0.85rem; margin-top: 0.5rem;"></p>
 
     <script>
       // Fetches a CSV stream and calls onRows(rows)
@@ -269,6 +270,8 @@
         tbody.innerHTML = ""
         tbody.appendChild(fragment)
         updateSortHeaders()
+        const n = tbody.rows.length
+        document.getElementById("row-count").textContent = `Showing ${n} event${n === 1 ? '' : 's'}`
       }
 
       document.querySelectorAll('input[name="date"]').forEach((radio) => {
