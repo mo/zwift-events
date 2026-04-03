@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zwift Route Badges</title>
+    <link rel="stylesheet" href="shared.css" />
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 1rem;
+      }
+      h1 {
+        margin-bottom: 1.5rem;
+      }
+      .worlds {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      .world {
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        padding: 1rem;
+      }
+      .world-header {
+        display: flex;
+        align-items: baseline;
+        gap: 0.75rem;
+        margin-bottom: 0.75rem;
+      }
+      .world-name {
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+      .world-count {
+        color: #666;
+        font-size: 0.9rem;
+      }
+      .progress {
+        height: 6px;
+        background: #e0e0e0;
+        border-radius: 3px;
+        margin-bottom: 0.75rem;
+      }
+      .progress-fill {
+        height: 100%;
+        background: #4caf50;
+        border-radius: 3px;
+      }
+      .routes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+      .route {
+        padding: 0.2rem 0.6rem;
+        border-radius: 12px;
+        font-size: 0.85rem;
+        text-decoration: none;
+      }
+      .route.completed {
+        background: #c8e6c9;
+        color: #1b5e20;
+      }
+      .route.needed {
+        background: #f5f5f5;
+        color: #555;
+        border: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Upcoming</a>
+      <a href="badges.html" class="active">Badges</a>
+    </nav>
+    <h1>Route Badges</h1>
+    <div class="worlds" id="worlds"></div>
+
+    <script>
+      fetch("badges.json")
+        .then((r) => r.json())
+        .then((worlds) => {
+          const container = document.getElementById("worlds")
+          worlds.forEach(({ world, completedCount, totalCount, routes }) => {
+            const pct = totalCount ? (completedCount / totalCount) * 100 : 0
+
+            const div = document.createElement("div")
+            div.className = "world"
+            div.innerHTML = `
+              <div class="world-header">
+                <span class="world-name">${world}</span>
+                <span class="world-count">${completedCount} / ${totalCount} completed</span>
+              </div>
+              <div class="progress"><div class="progress-fill" style="width:${pct.toFixed(1)}%"></div></div>
+              <div class="routes"></div>
+            `
+            const routesEl = div.querySelector(".routes")
+            routes.forEach(({ name, completed, url }) => {
+              const a = document.createElement("a")
+              a.className = "route " + (completed ? "completed" : "needed")
+              a.textContent = name
+              a.href = url
+              a.target = "_blank"
+              a.rel = "noopener"
+              routesEl.appendChild(a)
+            })
+            container.appendChild(div)
+          })
+        })
+    </script>
+  </body>
+</html>

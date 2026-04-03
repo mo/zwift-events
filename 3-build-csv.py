@@ -31,6 +31,8 @@ all_completed = {route for routes in completed_routes.values() for route in rout
 def canonical_route_name(route_name):
     if route_name == "Watopia Flat Route":
         return "Flat Route"
+    if route_name == "Watopia Hilly Route":
+        return "Hilly Route"
     return route_name
 
 def is_completed(route_name):
@@ -83,3 +85,56 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
         ])
 
 print(f'Wrote {len(events)} rows to site/upcoming-banded.csv')
+
+# --- badges.json ---
+
+MAP_TO_WORLD = {
+    'WATOPIA': 'Watopia',
+    'LONDON': 'London',
+    'RICHMOND': 'Richmond',
+    'NEWYORK': 'New York',
+    'INNSBRUCK': 'Innsbruck',
+    'FRANCE': 'France',
+    'PARIS': 'Paris',
+    'MAKURIISLANDS': 'Makuri Islands',
+    'SCOTLAND': 'Scotland',
+    'YORKSHIRE': 'Yorkshire',
+    'CRITCITY': 'Crit City',
+    'BOLOGNATT': 'Bologna TT',
+    'GRAVEL MOUNTAIN': 'Gravel Mountain',
+}
+
+worlds = {}
+for r in game['ROUTES']['ROUTE']:
+    if r.get('eventOnly') == '1' or r.get('eventOnly') == 1:
+        continue
+    if r.get('sports') == '2':
+        continue
+    map_key = r.get('map', '')
+    world = MAP_TO_WORLD.get(map_key, map_key)
+    if not world:
+        continue
+    route_name = canonical_route_name(r['name'])
+    worlds.setdefault(world, []).append({
+        'name': route_name,
+        'completed': route_name in all_completed,
+        'distanceKm': round(float(r.get('distanceInMeters', 0)) / 1000, 1),
+        'elevationM': round(float(r.get('ascentInMeters', 0))),
+        'url': route_url(route_name),
+    })
+
+badges = []
+for world, routes in sorted(worlds.items()):
+    routes_sorted = sorted(routes, key=lambda r: r['name'])
+    completed_count = sum(1 for r in routes_sorted if r['completed'])
+    badges.append({
+        'world': world,
+        'completedCount': completed_count,
+        'totalCount': len(routes_sorted),
+        'routes': routes_sorted,
+    })
+
+with open('site/badges.json', 'w') as f:
+    json.dump(badges, f, indent=2, ensure_ascii=False)
+
+print(f'Wrote site/badges.json ({len(badges)} worlds)')
