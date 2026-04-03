@@ -90,7 +90,7 @@
             div.innerHTML = `
               <div class="world-header">
                 <span class="world-name">${world}</span>
-                <span class="world-count">${completedCount} / ${totalCount} completed</span>
+                <span class="world-count">${completedCount} / ${totalCount} completed (${Math.round(pct)}% done)</span>
               </div>
               <div class="progress"><div class="progress-fill" style="width:${pct.toFixed(1)}%"></div></div>
               <div class="routes"></div>
