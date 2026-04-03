@@ -55,6 +55,9 @@
       <div style="display: flex; align-items: center; gap: 0.5rem">
         <label><input type="checkbox" id="neededOnly" /> Needed route badges only</label>
       </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem">
+        <label><input type="checkbox" id="convenientOnly" /> Include convenient start times only</label>
+      </div>
     </div>
     <table id="events">
       <thead>
@@ -154,12 +157,21 @@
       const dateRadioValue = ["today", "tomorrow", "all"].includes(dateParam) ? dateParam : "today"
       document.querySelector(`input[name="date"][value="${dateRadioValue}"]`).checked = true
 
-      const neededOnlyCheckbox = document.getElementById('neededOnly')
-      neededOnlyCheckbox.checked = new URLSearchParams(location.search).get('needed') === '1'
-      neededOnlyCheckbox.addEventListener('change', () => {
+      const neededOnlyCheckbox = document.getElementById("neededOnly")
+      neededOnlyCheckbox.checked = new URLSearchParams(location.search).get("needed") === "1"
+      neededOnlyCheckbox.addEventListener("change", () => {
         const params = new URLSearchParams(location.search)
-        params.set('needed', neededOnlyCheckbox.checked ? '1' : '0')
-        history.replaceState(null, '', '?' + params)
+        params.set("needed", neededOnlyCheckbox.checked ? "1" : "0")
+        history.replaceState(null, "", "?" + params)
+        rerender()
+      })
+
+      const convenientOnlyCheckbox = document.getElementById("convenientOnly")
+      convenientOnlyCheckbox.checked = new URLSearchParams(location.search).get("convenient") === "1"
+      convenientOnlyCheckbox.addEventListener("change", () => {
+        const params = new URLSearchParams(location.search)
+        params.set("convenient", convenientOnlyCheckbox.checked ? "1" : "0")
+        history.replaceState(null, "", "?" + params)
         rerender()
       })
 
@@ -209,8 +221,14 @@
         const [colIdx, numeric] = SORT_COLS[key]
 
         const neededOnly = neededOnlyCheckbox.checked
+        const convenientOnly = convenientOnlyCheckbox.checked
         let rows = allRows.filter((fields) => !filterDate || fields[0].startsWith(filterDate))
-        if (neededOnly) rows = rows.filter((fields) => fields[4] === 'NEEDED')
+        if (neededOnly) rows = rows.filter((fields) => fields[4] === "NEEDED")
+        if (convenientOnly)
+          rows = rows.filter((fields) => {
+            const hour = parseInt(new Date(fields[0].replace(" ", "T") + ":00").toLocaleString("sv", { timeZone: "Europe/Stockholm", hour: "2-digit", hour12: false }))
+            return hour >= 8 && hour < 22
+          })
 
         rows = rows.slice().sort((a, b) => {
           const av = numeric ? parseFloat(a[colIdx]) : a[colIdx]
@@ -226,7 +244,7 @@
           if (fields[0] < nowSE) tr.style.color = "#AAA"
           const routeUrl = fields[12]
           fields.forEach((f, i) => {
-            if (i === 12) return  // routeUrl — hidden, used as link only
+            if (i === 12) return // routeUrl — hidden, used as link only
             const td = document.createElement("td")
             if (i === 3 && routeUrl) {
               const a = document.createElement("a")
