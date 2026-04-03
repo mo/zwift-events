@@ -75,12 +75,19 @@
       <a href="badges.html" class="active">Badges</a>
     </nav>
     <h1>Route Badges</h1>
+    <p id="total-count" style="color: #999; font-size: 0.9rem; margin-top: -0.75rem; margin-bottom: 1.5rem;"></p>
     <div class="worlds" id="worlds"></div>
 
     <script>
       fetch("badges.json")
         .then((r) => r.json())
         .then((worlds) => {
+          const totalCompleted = worlds.reduce((s, w) => s + w.completedCount, 0)
+          const totalRoutes = worlds.reduce((s, w) => s + w.totalCount, 0)
+          const totalPct = Math.round(totalCompleted / totalRoutes * 100)
+          document.getElementById("total-count").textContent =
+            `${totalCompleted} / ${totalRoutes} routes completed (${totalPct}% done)`
+
           const container = document.getElementById("worlds")
           worlds.forEach(({ world, completedCount, totalCount, routes }) => {
             const pct = totalCount ? (completedCount / totalCount) * 100 : 0
