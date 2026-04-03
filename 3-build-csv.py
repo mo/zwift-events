@@ -60,7 +60,7 @@ EVENT_TYPE_LABELS = {
 }
 
 FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeBadge', 'routeMap', 'duration',
-          'length', 'routeLength', 'routeElevation', 'laps', 'ruleSet', 'routeUrl']
+          'length', 'routeLength', 'routeElevation', 'elevPerKm', 'laps', 'ruleSet', 'routeUrl']
 
 with open('site/upcoming-banded.csv', 'w', newline='') as f:
     writer = csv.writer(f)
@@ -82,6 +82,9 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
         rules = '|'.join(sorted(all_rules))
         raw_type = event.get('eventType', '')
         event_type = EVENT_TYPE_LABELS.get(raw_type, raw_type)
+        route_length_km = round(float(route.get('distanceInMeters', 0)) / 1000, 1)
+        route_elev_m = round(float(route.get('ascentInMeters', 0)))
+        elev_per_km = round(route_elev_m / route_length_km, 1) if route_length_km else ''
         writer.writerow([
             fmt_time(event.get('eventStart', '')),
             event.get('name', ''),
@@ -91,8 +94,9 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
             route.get('map', ''),
             event.get('durationInSeconds', 0) // 60,
             round(event.get('distanceInMeters', 0) / 1000, 1),
-            round(float(route.get('distanceInMeters', 0)) / 1000, 1),
-            round(float(route.get('ascentInMeters', 0))),
+            route_length_km,
+            route_elev_m,
+            elev_per_km,
             event.get('laps', ''),
             rules,
             route_url(route_name),

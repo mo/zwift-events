@@ -39,7 +39,8 @@
       td:nth-child(7),
       td:nth-child(8),
       td:nth-child(9),
-      td:nth-child(10) {
+      td:nth-child(10),
+      td:nth-child(11) {
         text-align: right;
       }
     </style>
@@ -77,6 +78,7 @@
           <th data-sort="length">length</th>
           <th data-sort="route-length">routeLength</th>
           <th data-sort="elevation">routeElevation</th>
+          <th data-sort="elev-per-km">elevPerKm</th>
           <th data-sort="laps">laps</th>
         </tr>
       </thead>
@@ -200,7 +202,8 @@
         length: [7, true],
         "route-length": [8, true],
         elevation: [9, true],
-        laps: [10, true],
+        "elev-per-km": [10, true],
+        laps: [11, true],
       }
 
       function getSort() {
@@ -246,10 +249,10 @@
         rows.forEach((fields) => {
           const tr = document.createElement("tr")
           if (fields[0] < nowSE) tr.style.color = "#AAA"
-          const routeUrl = fields[12]
+          const routeUrl = fields[13]
           fields.forEach((f, i) => {
-            if (i === 11) return // ruleSet — hidden
-            if (i === 12) return // routeUrl — hidden, used as link only
+            if (i === 12) return // ruleSet — hidden
+            if (i === 13) return // routeUrl — hidden, used as link only
             const td = document.createElement("td")
             if (i === 3 && routeUrl) {
               const a = document.createElement("a")
