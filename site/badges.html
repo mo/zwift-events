@@ -15,18 +15,13 @@
       .worlds {
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
-      }
-      .world {
-        border: 1px solid #ccc;
-        border-radius: 6px;
-        padding: 1rem;
+        gap: 2rem;
       }
       .world-header {
         display: flex;
         align-items: baseline;
         gap: 0.75rem;
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.5rem;
       }
       .world-name {
         font-size: 1.1rem;
@@ -40,29 +35,72 @@
         height: 6px;
         background: #e0e0e0;
         border-radius: 3px;
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.6rem;
       }
       .progress-fill {
         height: 100%;
         background: #4caf50;
         border-radius: 3px;
       }
-      .routes {
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 0.3rem 0.7rem;
+        text-align: left;
+      }
+      th {
+        background: #f0f0f0;
+        font-size: 0.85rem;
+        cursor: pointer;
+        user-select: none;
+      }
+      th.sort-asc::after {
+        content: " ▲";
+      }
+      th.sort-desc::after {
+        content: " ▼";
+      }
+      td {
+        font-size: 0.85rem;
+      }
+      td:nth-child(3),
+      td:nth-child(4) {
+        text-align: right;
+      }
+      td a {
+        color: inherit;
+        text-decoration: none;
+      }
+      td a:hover {
+        text-decoration: underline;
+      }
+      tr.completed td:first-child {
+        color: #2e7d32;
+        font-weight: bold;
+      }
+      tr.needed td:first-child {
+        color: #bbb;
+      }
+      .chips {
         display: flex;
         flex-wrap: wrap;
         gap: 0.4rem;
       }
-      .route {
+      .chip {
         padding: 0.2rem 0.6rem;
         border-radius: 12px;
         font-size: 0.85rem;
         text-decoration: none;
       }
-      .route.completed {
+      .chip.completed {
         background: #c8e6c9;
         color: #1b5e20;
       }
-      .route.needed {
+      .chip.needed {
         background: #f5f5f5;
         color: #555;
         border: 1px solid #ddd;
@@ -75,7 +113,20 @@
       <a href="badges.html" class="active">Badges</a>
     </nav>
     <h1>Route Badges</h1>
-    <p id="total-count" style="color: #999; font-size: 0.9rem; margin-top: -0.75rem; margin-bottom: 1.5rem;"></p>
+    <p id="total-count" style="color: #999; font-size: 0.9rem; margin-top: -0.75rem; margin-bottom: 1rem"></p>
+    <div style="display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1.5rem">
+      <div style="display: flex; align-items: center; gap: 0.5rem">
+        <span>view:</span>
+        <label><input type="radio" name="view" value="table" checked /> Table per world</label>
+        <label><input type="radio" name="view" value="chips" /> Chips</label>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem">
+        <span>filter:</span>
+        <label><input type="radio" name="filter" value="all" checked /> All</label>
+        <label><input type="radio" name="filter" value="completed" /> Completed</label>
+        <label><input type="radio" name="filter" value="uncompleted" /> Uncompleted</label>
+      </div>
+    </div>
     <div class="worlds" id="worlds"></div>
 
     <script>
@@ -84,35 +135,112 @@
         .then((worlds) => {
           const totalCompleted = worlds.reduce((s, w) => s + w.completedCount, 0)
           const totalRoutes = worlds.reduce((s, w) => s + w.totalCount, 0)
-          const totalPct = Math.round(totalCompleted / totalRoutes * 100)
-          document.getElementById("total-count").textContent =
-            `${totalCompleted} / ${totalRoutes} routes completed (${totalPct}% done)`
+          const totalPct = Math.round((totalCompleted / totalRoutes) * 100)
+          document.getElementById("total-count").textContent = `${totalCompleted} / ${totalRoutes} routes completed (${totalPct}% done)`
 
           const container = document.getElementById("worlds")
-          worlds.forEach(({ world, completedCount, totalCount, routes }) => {
-            const pct = totalCount ? (completedCount / totalCount) * 100 : 0
 
-            const div = document.createElement("div")
-            div.className = "world"
-            div.innerHTML = `
-              <div class="world-header">
-                <span class="world-name">${world}</span>
-                <span class="world-count">${completedCount} / ${totalCount} completed (${Math.round(pct)}% done)</span>
-              </div>
-              <div class="progress"><div class="progress-fill" style="width:${pct.toFixed(1)}%"></div></div>
-              <div class="routes"></div>
-            `
-            const routesEl = div.querySelector(".routes")
-            routes.forEach(({ name, completed, url }) => {
-              const a = document.createElement("a")
-              a.className = "route " + (completed ? "completed" : "needed")
-              a.textContent = name
-              a.href = url
-              a.target = "_blank"
-              a.rel = "noopener"
-              routesEl.appendChild(a)
+          function getView() {
+            return document.querySelector('input[name="view"]:checked').value
+          }
+          function getFilter() {
+            return document.querySelector('input[name="filter"]:checked').value
+          }
+
+          // sort key → [field, numeric]
+          const SORT_COLS = {
+            completed: ["completed", false],
+            routeName: ["name", false],
+            routeLength: ["distanceKm", true],
+            routeElevation: ["elevationM", true],
+          }
+          let sortKey = "completed",
+            sortDir = "desc"
+
+          function renderWorlds() {
+            const view = getView()
+            const filter = getFilter()
+            container.innerHTML = ""
+            worlds.forEach(({ world, completedCount, totalCount, routes }) => {
+              const filtered = filter === "completed" ? routes.filter((r) => r.completed) : filter === "uncompleted" ? routes.filter((r) => !r.completed) : routes
+              if (!filtered.length) return
+              const pct = totalCount ? (completedCount / totalCount) * 100 : 0
+              const div = document.createElement("div")
+
+              const header = `
+                <div class="world-header">
+                  <span class="world-name">${world}</span>
+                  <span class="world-count">${completedCount} / ${totalCount} completed (${Math.round(pct)}% done)</span>
+                </div>
+                <div class="progress"><div class="progress-fill" style="width:${pct.toFixed(1)}%"></div></div>
+              `
+
+              if (view === "table") {
+                div.innerHTML =
+                  header +
+                  `<table>
+                  <thead><tr>
+                    <th data-sort="completed">completed</th>
+                    <th data-sort="routeName">routeName</th>
+                    <th data-sort="routeLength">routeLength</th>
+                    <th data-sort="routeElevation">routeElevation</th>
+                  </tr></thead>
+                  <tbody></tbody>
+                </table>`
+
+                // apply sort
+                const [field, numeric] = SORT_COLS[sortKey]
+                const sorted = filtered.slice().sort((a, b) => {
+                  const av = numeric ? a[field] : a[field]
+                  const bv = numeric ? b[field] : b[field]
+                  const cmp = av < bv ? -1 : av > bv ? 1 : 0
+                  return sortDir === "desc" ? -cmp : cmp
+                })
+
+                // mark active header
+                div.querySelectorAll("th[data-sort]").forEach((th) => {
+                  th.classList.remove("sort-asc", "sort-desc")
+                  if (th.dataset.sort === sortKey) th.classList.add(sortDir === "desc" ? "sort-desc" : "sort-asc")
+                  th.addEventListener("click", () => {
+                    sortDir = th.dataset.sort === sortKey && sortDir === "asc" ? "desc" : "asc"
+                    sortKey = th.dataset.sort
+                    renderWorlds()
+                  })
+                })
+
+                const tbody = div.querySelector("tbody")
+                sorted.forEach(({ name, completed, distanceKm, elevationM, url }) => {
+                  const tr = document.createElement("tr")
+                  tr.className = completed ? "completed" : "needed"
+                  tr.innerHTML = `
+                    <td>${completed ? "✓" : ""}</td>
+                    <td><a href="${url}" target="_blank" rel="noopener">${name}</a></td>
+                    <td>${distanceKm} km</td>
+                    <td>${elevationM} m</td>
+                  `
+                  tbody.appendChild(tr)
+                })
+              } else {
+                div.innerHTML = header + `<div class="chips"></div>`
+                const chipsEl = div.querySelector(".chips")
+                filtered.forEach(({ name, completed, url }) => {
+                  const a = document.createElement("a")
+                  a.className = "chip " + (completed ? "completed" : "needed")
+                  a.textContent = name
+                  a.href = url
+                  a.target = "_blank"
+                  a.rel = "noopener"
+                  chipsEl.appendChild(a)
+                })
+              }
+
+              container.appendChild(div)
             })
-            container.appendChild(div)
+          }
+
+          renderWorlds()
+          document.querySelectorAll('input[name="view"], input[name="filter"]').forEach((radio) => {
+            radio.addEventListener("change", renderWorlds)
           })
         })
     </script>
