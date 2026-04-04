@@ -2,8 +2,9 @@
 import csv
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
+from shared import is_interesting
 
 CET = ZoneInfo('Europe/Paris')
 
@@ -40,6 +41,21 @@ with open('game.json') as f:
 with open('completed-routes.json') as f:
     completed_routes = json.load(f)
 
+try:
+    with open('route-events.json') as f:
+        route_events = json.load(f)
+except FileNotFoundError:
+    route_events = {}
+
+three_months_ago = datetime.now(timezone.utc) - timedelta(days=90)
+
+def recent_event_count(route_name):
+    entries = route_events.get(route_name, [])
+    return sum(
+        1 for e in entries
+        if datetime.fromisoformat(e['eventStart'].replace('Z', '+00:00')) >= three_months_ago
+    )
+
 all_completed = set(completed_routes)
 
 def canonical_route_name(route_name):
@@ -60,22 +76,16 @@ EVENT_TYPE_LABELS = {
 }
 
 FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeBadge', 'routeMap', 'duration',
-          'length', 'routeLength', 'routeElevation', 'elevPerKm', 'laps', 'ruleSet', 'routeUrl']
+          'length', 'routeLength', 'routeElevation', 'elevPerKm', 'recentEvents', 'laps', 'ruleSet', 'routeUrl']
 
 with open('site/upcoming-banded.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     for event in events:
-        if event.get('sport') != 'CYCLING':
-            continue
-        subgroups = event.get('eventSubgroups', [])
-        top_level_banded = 'TEST_BIT_10' in event.get('rulesSet', [])
-        all_subgroups_banded = bool(subgroups) and all('TEST_BIT_10' in sg.get('rulesSet', []) for sg in subgroups)
-        if not (top_level_banded or all_subgroups_banded):
-            continue
-        if 'LADIES_ONLY' in event.get('rulesSet', []):
+        if not is_interesting(event):
             continue
         route = route_map.get(str(event.get('routeId', '')), {})
         route_name = route.get('name', '')
+        subgroups = event.get('eventSubgroups', [])
         all_rules = set(event.get('rulesSet', []))
         for sg in subgroups:
             all_rules.update(sg.get('rulesSet', []))
@@ -97,6 +107,7 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
             route_length_km,
             route_elev_m,
             elev_per_km,
+            recent_event_count(route_name),
             event.get('laps', ''),
             rules,
             route_url(route_name),
