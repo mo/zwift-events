@@ -93,7 +93,17 @@ SPINNER_ROUTES = {
 
 FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeBadge', 'routeMap', 'duration',
           'length', 'routeLength', 'routeElevation', 'elevPerKm', 'recentEvents', 'spinner', 'laps', 'ruleSet', 'routeUrl',
-          'eventOnly', 'xp']
+          'eventOnly', 'xp', 'hasRouteBadge']
+
+def has_route_badge(route):
+    loc_key = route.get('locKey', '')
+    return (
+        'xp' in route
+        and int(route.get('sports', '0')) & 1
+        and route.get('zwiftEventOnly') != '1'
+        and loc_key.startswith('LOC_ROUTE_')
+        and 'PORTAL' not in loc_key
+    )
 
 with open('site/upcoming-banded.csv', 'w', newline='') as f:
     writer = csv.writer(f)
@@ -131,6 +141,7 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
             route_url(route_name),
             'yes' if route.get('eventOnly') == '1' else '',
             route.get('xp', ''),
+            'yes' if has_route_badge(route) else '',
         ])
 
 print(f'Wrote {len(events)} rows to site/upcoming-banded.csv')
@@ -155,9 +166,7 @@ MAP_TO_WORLD = {
 
 worlds = {}
 for r in game['ROUTES']['ROUTE']:
-    if r.get('eventOnly') == '1' or r.get('eventOnly') == 1:
-        continue
-    if r.get('sports') == '2':
+    if not has_route_badge(r):
         continue
     map_key = r.get('map', '')
     world = MAP_TO_WORLD.get(map_key, map_key)
