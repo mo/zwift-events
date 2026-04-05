@@ -92,7 +92,8 @@ SPINNER_ROUTES = {
 }
 
 FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeBadge', 'routeMap', 'duration',
-          'length', 'routeLength', 'routeElevation', 'elevPerKm', 'recentEvents', 'spinner', 'laps', 'ruleSet', 'routeUrl']
+          'length', 'routeLength', 'routeElevation', 'elevPerKm', 'recentEvents', 'spinner', 'laps', 'ruleSet', 'routeUrl',
+          'eventOnly', 'xp']
 
 with open('site/upcoming-banded.csv', 'w', newline='') as f:
     writer = csv.writer(f)
@@ -128,6 +129,8 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
             event.get('laps', ''),
             rules,
             route_url(route_name),
+            'yes' if route.get('eventOnly') == '1' else '',
+            route.get('xp', ''),
         ])
 
 print(f'Wrote {len(events)} rows to site/upcoming-banded.csv')

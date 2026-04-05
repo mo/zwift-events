@@ -42,7 +42,8 @@
       td:nth-child(10),
       td:nth-child(11),
       td:nth-child(12),
-      td:nth-child(13) {
+      td:nth-child(13),
+      td:nth-child(16) {
         text-align: right;
       }
     </style>
@@ -84,6 +85,8 @@
           <th data-sort="recent-events">eventsLast3M</th>
           <th data-sort="spinner">spinner</th>
           <th data-sort="laps">laps</th>
+          <th data-sort="event-only">eventOnly</th>
+          <th data-sort="xp">xp</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -129,6 +132,7 @@
               i = end + 1
             }
           }
+          if (line.endsWith(",")) fields.push("")
           return fields
         }
 
@@ -210,6 +214,8 @@
         "recent-events": [11, true],
         spinner: [12, false],
         laps: [13, true],
+        "event-only": [16, false],
+        xp: [17, true],
       }
 
       function getSort() {
