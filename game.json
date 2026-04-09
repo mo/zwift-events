@@ -3527,14 +3527,14 @@
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "216.2949981689",
-        "blockedForClubs": "1",
-        "blockedForMeetups": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "2",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "20324.0175781250",
         "duration": "2",
-        "eventOnly": "1",
+        "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0",
         "freeRideLeadinDistanceInMeters": "6.2345032692",
@@ -3547,11 +3547,12 @@
         "meetupLeadinAscentInMeters": "0",
         "meetupLeadinDistanceInMeters": "16.2658996582",
         "name": "Hudson Hustle",
+        "publishedOn": "2026-04-07",
         "sports": "1",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
         "xp": "405",
-        "zwiftEventOnly": "1",
+        "zwiftEventOnly": "0",
         "signature": "750613981",
         "routeSignature": "750613981",
         "routeRestrictions": {
@@ -3559,13 +3560,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": false
+            "enabled": true
           },
           "MEETUPS": {
-            "enabled": false
+            "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -4156,14 +4157,14 @@
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "368.7159423828",
-        "blockedForClubs": "1",
-        "blockedForMeetups": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "3.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "30622.1523437500",
         "duration": "3",
-        "eventOnly": "1",
+        "eventOnly": "0",
         "eventPaddocks": "9,10,11,12",
         "freeRideLeadinAscentInMeters": "0.4652147293",
         "freeRideLeadinDistanceInMeters": "15.6748046875",
@@ -4176,11 +4177,12 @@
         "meetupLeadinAscentInMeters": "0.9895512462",
         "meetupLeadinDistanceInMeters": "29.5662803650",
         "name": "Peaky Pav\u00e9",
+        "publishedOn": "2026-04-07",
         "sports": "1",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
         "xp": "610",
-        "zwiftEventOnly": "1",
+        "zwiftEventOnly": "0",
         "signature": "941280950",
         "routeSignature": "941280950",
         "routeRestrictions": {
@@ -4188,13 +4190,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": false
+            "enabled": true
           },
           "MEETUPS": {
-            "enabled": false
+            "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -5343,7 +5345,7 @@
         "meetupLeadinAscentInMeters": "0",
         "meetupLeadinDistanceInMeters": "15.23916473388",
         "name": "Red Rock Loop Arcade",
-        "sports": "3",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "105",
@@ -5885,6 +5887,56 @@
           },
           "CLUBS": {
             "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "20.88",
+        "bikeRec": "1",
+        "bikeType": "7",
+        "blockedForClubs": "1",
+        "blockedForMeetups": "1",
+        "blockedForTimeTrial": "1",
+        "difficulty": "2.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "2073.28730468752",
+        "duration": "1",
+        "eventOnly": "1",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "14.87",
+        "imageName": "GRAVEL MOUNTAIN_Red_Rock_Loop_Reverse",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "39.18",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_GRAVEL_MOUNTAIN_RED_ROCK_LOOP_REVERSE",
+        "map": "GRAVEL MOUNTAIN",
+        "meetupLeadinAscentInMeters": "0",
+        "meetupLeadinDistanceInMeters": "20.81",
+        "name": "Red Rock Loop Reverse",
+        "sports": "1",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "105",
+        "zwiftEventOnly": "1",
+        "signature": "1437969615",
+        "routeSignature": "1437969615",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": false
+          },
+          "FREE_RIDE": {
+            "enabled": false
+          },
+          "MEETUPS": {
+            "enabled": false
+          },
+          "CLUBS": {
+            "enabled": false
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -8613,14 +8665,14 @@
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "288.3674926758",
-        "blockedForClubs": "1",
-        "blockedForMeetups": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "3",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "24040.4394531250",
         "duration": "3",
-        "eventOnly": "1",
+        "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0",
         "freeRideLeadinDistanceInMeters": "13.0861473083",
@@ -8633,11 +8685,12 @@
         "meetupLeadinAscentInMeters": "0",
         "meetupLeadinDistanceInMeters": "21.0103588104",
         "name": "Cobbled Crown",
+        "publishedOn": "2026-04-07",
         "sports": "1",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
         "xp": "480",
-        "zwiftEventOnly": "1",
+        "zwiftEventOnly": "0",
         "signature": "2244765560",
         "routeSignature": "2244765560",
         "routeRestrictions": {
@@ -8645,13 +8698,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": false
+            "enabled": true
           },
           "MEETUPS": {
-            "enabled": false
+            "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -10366,14 +10419,14 @@
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "133.9621582031",
-        "blockedForClubs": "1",
-        "blockedForMeetups": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "2",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "16880.5703125000",
         "duration": "2",
-        "eventOnly": "1",
+        "eventOnly": "0",
         "eventPaddocks": "21,22,23,24",
         "freeRideLeadinAscentInMeters": "0.3103320599",
         "freeRideLeadinDistanceInMeters": "79.7879486084",
@@ -10386,11 +10439,12 @@
         "meetupLeadinAscentInMeters": "0.4494725764",
         "meetupLeadinDistanceInMeters": "89.4845886230",
         "name": "Kaze Kicker",
+        "publishedOn": "2026-04-07",
         "sports": "1",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
         "xp": "340",
-        "zwiftEventOnly": "1",
+        "zwiftEventOnly": "0",
         "signature": "2833089100",
         "routeSignature": "2833089100",
         "routeRestrictions": {
@@ -10398,13 +10452,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": false
+            "enabled": true
           },
           "MEETUPS": {
-            "enabled": false
+            "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -13266,14 +13320,14 @@
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "70.9840850830",
-        "blockedForClubs": "1",
-        "blockedForMeetups": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "1",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "8056.9667968750",
         "duration": "1",
-        "eventOnly": "1",
+        "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0.0023535159",
         "freeRideLeadinDistanceInMeters": "2.6551494598",
@@ -13286,11 +13340,12 @@
         "meetupLeadinAscentInMeters": "0.0332519524",
         "meetupLeadinDistanceInMeters": "14.1793909073",
         "name": "The Epiloch",
+        "publishedOn": "2026-04-07",
         "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "160",
-        "zwiftEventOnly": "1",
+        "zwiftEventOnly": "0",
         "signature": "3486338362",
         "routeSignature": "3486338362",
         "routeRestrictions": {
@@ -13298,13 +13353,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": false
+            "enabled": true
           },
           "MEETUPS": {
-            "enabled": false
+            "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -13411,14 +13466,14 @@
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "586.4755249023",
-        "blockedForClubs": "1",
-        "blockedForMeetups": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "37859.1796875000",
         "duration": "4",
-        "eventOnly": "1",
+        "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0",
         "freeRideLeadinDistanceInMeters": "10.2733287811",
@@ -13431,11 +13486,12 @@
         "meetupLeadinAscentInMeters": "0",
         "meetupLeadinDistanceInMeters": "16.0328483582",
         "name": "Three Step Sisters",
+        "publishedOn": "2026-04-07",
         "sports": "1",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
         "xp": "755",
-        "zwiftEventOnly": "1",
+        "zwiftEventOnly": "0",
         "signature": "3536020075",
         "routeSignature": "3536020075",
         "routeRestrictions": {
@@ -13443,13 +13499,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": false
+            "enabled": true
           },
           "MEETUPS": {
-            "enabled": false
+            "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -20380,6 +20436,11 @@
         "signature": "542634757"
       },
       {
+        "imageName": "Amani2026_thumb",
+        "name": "Team AMANI",
+        "signature": "543544751"
+      },
+      {
         "imageName": "vocsnor_thumb",
         "name": "Vocsnor",
         "signature": "550267244"
@@ -20980,6 +21041,11 @@
         "signature": "933293927"
       },
       {
+        "imageName": "AureaRacing2026_thumb",
+        "name": "AUREA Racing",
+        "signature": "938813787"
+      },
+      {
         "imageName": "IrelandElite2020_thumb",
         "name": "Ireland Elite",
         "signature": "947106687"
@@ -21073,6 +21139,11 @@
         "imageName": "SCF2024_thumb",
         "name": "SCF Champ 2024",
         "signature": "1016760902"
+      },
+      {
+        "imageName": "CafeDuCycliste2026_thumb",
+        "name": "Caf\u00e9 du Cycliste",
+        "signature": "1019355718"
       },
       {
         "imageName": "Hincapie2020_thumb",
@@ -21303,6 +21374,11 @@
         "imageName": "NorwayElite2020_thumb",
         "name": "Norway Elite",
         "signature": "1172586482"
+      },
+      {
+        "imageName": "Cyclowax2026_thumb",
+        "name": "Cyclowax",
+        "signature": "1174415648"
       },
       {
         "imageName": "OffTheMaap2022_thumb",
@@ -21570,6 +21646,11 @@
         "signature": "1346889258"
       },
       {
+        "imageName": "RCC2026_thumb",
+        "name": "RCC",
+        "signature": "1348676930"
+      },
+      {
         "imageName": "BanditZCommunity2023_thumb",
         "name": "BanditZ",
         "signature": "1356795025"
@@ -21658,6 +21739,11 @@
         "imageName": "TdFFaZ2025_thumb",
         "name": "2025 Watch the Femmes QB",
         "signature": "1429709422"
+      },
+      {
+        "imageName": "DecathlonCMACGM2026_thumb",
+        "name": "Decathlon CMA CGM Team",
+        "signature": "1431906776"
       },
       {
         "imageName": "HDR_thumb",
@@ -22480,6 +22566,11 @@
         "signature": "2033775520"
       },
       {
+        "imageName": "Attaquer2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_ATTAQUER2026",
+        "signature": "2038486991"
+      },
+      {
         "imageName": "UCIFederationNetherlands2023_thumb",
         "name": "UCI Federation 2023 Netherlands",
         "signature": "2049543282"
@@ -22711,7 +22802,7 @@
       },
       {
         "imageName": "MTBTrainingClub2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_MTBTRAININGCLUB2026",
+        "name": "MTB Training Club",
         "signature": "2246564832"
       },
       {
@@ -22898,6 +22989,11 @@
         "imageName": "ElGiroDeRigoCR2021_thumb",
         "name": "El Giro de Rigo 2021",
         "signature": "2386311153"
+      },
+      {
+        "imageName": "Q36",
+        "name": "Q36.5",
+        "signature": "2387552230"
       },
       {
         "imageName": "Varlo2022_thumb",
@@ -23361,7 +23457,7 @@
       },
       {
         "imageName": "DirtyKittenGravel2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_DIRTYKITTENGRAVEL2026",
+        "name": "Dirty Kitten Gravel",
         "signature": "2721144312"
       },
       {
@@ -23508,6 +23604,11 @@
         "imageName": "Bikeradar_thumb",
         "name": "Bikeradar",
         "signature": "2793486014"
+      },
+      {
+        "imageName": "GGCC2026_thumb",
+        "name": "GGCC",
+        "signature": "2795274277"
       },
       {
         "imageName": "TeamEFEd2022_thumb",
@@ -23876,7 +23977,7 @@
       },
       {
         "imageName": "ZwapCyclingClub2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_ZWAPCYCLINGCLUB2026",
+        "name": "ZWAP Cycling Club",
         "signature": "3061428868"
       },
       {
@@ -24013,6 +24114,11 @@
         "imageName": "Zwift_Color02_thumb",
         "name": "Prism 2",
         "signature": "3162864971"
+      },
+      {
+        "imageName": "VanRyselRoubaix2026_thumb",
+        "name": "Van Rysel Roubaix",
+        "signature": "3163129386"
       },
       {
         "imageName": "Next20201_thumb",
@@ -24633,6 +24739,11 @@
         "imageName": "HotTubes2019_thumb",
         "name": "Hot Tubes",
         "signature": "3559927551"
+      },
+      {
+        "imageName": "NatureholixSundayPainZwiftClub2026_thumb",
+        "name": "Sunday Pain Club",
+        "signature": "3560093285"
       },
       {
         "imageName": "5W4T2023_thumb",
@@ -25710,6 +25821,11 @@
         "signature": "4226891124"
       },
       {
+        "imageName": "TotalTriTraining2026_thumb",
+        "name": "Total Tri Training",
+        "signature": "4227486529"
+      },
+      {
         "imageName": "USMES2016_thumb",
         "name": "USMES",
         "signature": "4235392112"
@@ -25756,7 +25872,7 @@
       },
       {
         "imageName": "ZWBCycling2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_ZWBCYCLING2026",
+        "name": "ZWB Cycling",
         "signature": "4268225009"
       },
       {
@@ -27970,6 +28086,11 @@
         "signature": "3566388347"
       },
       {
+        "imageName": "Wheel_RovalTerraAeroCLX",
+        "name": "Roval Terra Aero CLX",
+        "signature": "3575343065"
+      },
+      {
         "imageName": "Wheel_ZwiftPrideOn2025",
         "name": "Zwift Pride On Disc",
         "signature": "3682262345"
@@ -28277,6 +28398,11 @@
         "imageName": "Wheel_ZwiftGravel",
         "name": "Zwift Gravel",
         "signature": "2771477956"
+      },
+      {
+        "imageName": "Wheel_RovalTerraAeroCLX",
+        "name": "Roval Terra Aero CLX",
+        "signature": "2777827762"
       },
       {
         "imageName": "Wheel_DTSwissARC1100AeroTT",
@@ -28642,6 +28768,20 @@
         "signature": "390579581"
       },
       {
+        "bikeClass": "HIGH_END",
+        "brand": "Pinarello",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2026",
+        "name": "Pinarello Dogma GR",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "425163914"
+      },
+      {
         "bikeClass": "ENTRY",
         "brand": "Zwift",
         "isTT": "0",
@@ -28892,6 +29032,20 @@
         "price3": "100000",
         "price4": "150000",
         "signature": "1000176255"
+      },
+      {
+        "bikeClass": "MID_RANGE",
+        "brand": "Cervelo",
+        "isTT": "0",
+        "lvId": "3276754954",
+        "modelYear": "2026",
+        "name": "Cervelo Aspero 5",
+        "price0": "50000",
+        "price1": "100000",
+        "price2": "150000",
+        "price3": "200000",
+        "price4": "250000",
+        "signature": "1025859452"
       },
       {
         "bikeClass": "ENTRY",
@@ -29228,6 +29382,20 @@
         "price3": "200000",
         "price4": "250000",
         "signature": "1767548815"
+      },
+      {
+        "bikeClass": "MID_RANGE",
+        "brand": "Specialized",
+        "isTT": "0",
+        "lvId": "3276754954",
+        "modelYear": "2025",
+        "name": "Specialized Diverge 4",
+        "price0": "50000",
+        "price1": "100000",
+        "price2": "150000",
+        "price3": "200000",
+        "price4": "250000",
+        "signature": "1789477251"
       },
       {
         "bikeClass": "MID_RANGE",
@@ -29767,7 +29935,7 @@
         "isTT": "0",
         "lvId": "4169711732",
         "modelYear": "2024",
-        "name": "Cannondale Cannondale SuperX LAB71",
+        "name": "Cannondale SuperX LAB71",
         "price0": "100000",
         "price1": "200000",
         "price2": "350000",
@@ -30187,7 +30355,7 @@
         "isTT": "0",
         "lvId": "4169711732",
         "modelYear": "2025",
-        "name": "Canyon Canyon Grail SLX",
+        "name": "Canyon Grail SLX",
         "price0": "100000",
         "price1": "200000",
         "price2": "350000",
@@ -30730,8 +30898,16 @@
         "signature": "1132004705"
       },
       {
+        "name": "Specialized SpecializedDiverge2025-Default",
+        "signature": "1133494836"
+      },
+      {
         "name": "Liv LivLangmaAdvancedSL2023-default",
         "signature": "1192921579"
+      },
+      {
+        "name": "Pinarello PinarelloDogmaGR2026-Default",
+        "signature": "1200281896"
       },
       {
         "name": "Scott Foil-Scott2022",
@@ -31044,6 +31220,10 @@
       {
         "name": "Moots MootsVamoots2021-Moots Vamoots",
         "signature": "2558246084"
+      },
+      {
+        "name": "Cervelo CerveloAspero2026-Default",
+        "signature": "2587226980"
       },
       {
         "name": "Specialized Venge S-Works-Default",
@@ -36146,6 +36326,13 @@
         "routeSignature": "2521625692",
         "sport": "0",
         "signature": "475"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "RED ROCK LOOP REVERSE",
+        "routeSignature": "1437969615",
+        "sport": "0",
+        "signature": "476"
       }
     ]
   },
