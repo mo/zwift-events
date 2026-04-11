@@ -127,7 +127,7 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
             event.get('name', ''),
             event_type,
             route_name,
-            '' if is_completed(route_name) else 'NEEDED',
+            '' if is_completed(route_name) else 'n/a' if not has_route_badge(route) else 'NEEDED',
             route.get('map', ''),
             event.get('durationInSeconds', 0) // 60,
             round(event.get('distanceInMeters', 0) / 1000, 1),
