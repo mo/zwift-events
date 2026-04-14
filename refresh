@@ -1,0 +1,7 @@
+#!/bin/bash
+
+git pull --rebase
+./1-fetch-zwift-data.py
+git add .
+git commit -m "update events"
+git push origin HEAD
