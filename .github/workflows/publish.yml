@@ -7,6 +7,7 @@ on:
   schedule:
     - cron: '0 2 * * *'   # 3AM CET (2AM UTC), 4AM during CEST
     - cron: '0 15 * * *'  # 4PM CET (3PM UTC), 5PM during CEST
+    - cron: '0 18 * * *'  # 7PM CET (6PM UTC), 8PM during CEST
 
 jobs:
   build-and-deploy:
