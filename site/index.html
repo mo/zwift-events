@@ -42,8 +42,7 @@
       td:nth-child(10),
       td:nth-child(11),
       td:nth-child(12),
-      td:nth-child(13),
-      td:nth-child(16) {
+      td:nth-child(15) {
         text-align: right;
       }
     </style>
@@ -83,7 +82,6 @@
           <th data-sort="elevation">routeElevation</th>
           <th data-sort="elev-per-km">elevPerKm</th>
           <th data-sort="recent-events">eventsLast3M</th>
-          <th data-sort="spinner">spinner</th>
           <th data-sort="laps">laps</th>
           <th data-sort="event-only">eventOnly</th>
           <th data-sort="xp">xp</th>
@@ -213,11 +211,10 @@
         elevation: [9, true],
         "elev-per-km": [10, true],
         "recent-events": [11, true],
-        spinner: [12, false],
-        laps: [13, true],
-        "event-only": [16, false],
-        xp: [17, true],
-        "has-route-badge": [18, false],
+        laps: [12, true],
+        "event-only": [15, false],
+        xp: [16, true],
+        "has-route-badge": [17, false],
       }
 
       function getSort() {
@@ -263,10 +260,10 @@
         rows.forEach((fields) => {
           const tr = document.createElement("tr")
           if (fields[0] < nowSE) tr.style.color = "#AAA"
-          const routeUrl = fields[15]
+          const routeUrl = fields[14]
           fields.forEach((f, i) => {
-            if (i === 14) return // ruleSet — hidden
-            if (i === 15) return // routeUrl — hidden, used as link only
+            if (i === 13) return // ruleSet — hidden
+            if (i === 14) return // routeUrl — hidden, used as link only
             const td = document.createElement("td")
             if (i === 3 && routeUrl) {
               const a = document.createElement("a")

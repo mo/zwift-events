@@ -75,24 +75,8 @@ EVENT_TYPE_LABELS = {
     'GROUP_WORKOUT': 'WORKOUT',
 }
 
-SPINNER_ROUTES = {
-    'Mountain 8',
-    'Mountain Route',
-    'Muir and the Mountain',
-    'Power to the Tower',
-    'Shorelines and Summits',
-    'The Pretzel',
-    'Three Sisters',
-    'Accelerate to Elevate',
-    'Four Horsemen',
-    'Quatch Quest',
-    'Road to Sky',
-    'The Über Pretzel',
-    'Tour of Fire and Ice',
-}
-
 FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeBadge', 'routeMap', 'duration',
-          'length', 'routeLength', 'routeElevation', 'elevPerKm', 'recentEvents', 'spinner', 'laps', 'ruleSet', 'routeUrl',
+          'length', 'routeLength', 'routeElevation', 'elevPerKm', 'recentEvents', 'laps', 'ruleSet', 'routeUrl',
           'eventOnly', 'xp', 'hasRouteBadge']
 
 def has_route_badge(route):
@@ -135,7 +119,6 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
             route_elev_m,
             elev_per_km,
             recent_event_count(route_name),
-            'yes' if route_name in SPINNER_ROUTES else '',
             event.get('laps', ''),
             rules,
             route_url(route_name),
