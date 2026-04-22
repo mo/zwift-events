@@ -14,9 +14,13 @@ for r in game['ROUTES']['ROUTE']:
 
 # Achievement names that don't match game.json names exactly
 ALIASES = {
-    'FLAT ROUTE':  'Watopia Flat Route',
-    'HILLY ROUTE': 'Watopia Hilly Route',
-    'PEAKY PAVE':  'Peaky Pavé',
+    'FLAT ROUTE':     'Watopia Flat Route',
+    'HILLY ROUTE':    'Watopia Hilly Route',
+    'FIGURE 8':       'Watopia Figure 8',
+    'MOUNTAIN 8':     'Watopia Mountain 8',
+    'MOUNTAIN ROUTE': 'Watopia Mountain Route',
+    'PRETZEL':        'Watopia Pretzel',
+    'PEAKY PAVE':     'Peaky Pavé',
 }
 route_lookup.update(ALIASES)
 
