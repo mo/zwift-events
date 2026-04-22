@@ -79,6 +79,8 @@ FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeBadge', 'routeMa
           'length', 'routeLength', 'routeElevation', 'elevPerKm', 'recentEvents', 'laps', 'ruleSet', 'routeUrl',
           'eventOnly', 'xp', 'hasRouteBadge']
 
+# note that "Repack Rush" is a very special route that you can get an achievement for even though it doesn't really
+# have a normal route badge. Also there is a special case for "Handful of Gravel" vs "Handful of Gravel (cycling)".
 def has_route_badge(route):
     loc_key = route.get('locKey', '')
     return (
