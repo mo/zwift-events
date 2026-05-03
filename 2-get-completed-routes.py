@@ -7,22 +7,12 @@ with open('../zwift-data/7971732.json') as f:
 with open('game.json') as f:
     game = json.load(f)
 
-# Build case-insensitive lookup: uppercase name -> canonical route name
-route_lookup = {}
-for r in game['ROUTES']['ROUTE']:
-    route_lookup[r['name'].upper()] = r['name']
-
-# Achievement names that don't match game.json names exactly
-ALIASES = {
-    'FLAT ROUTE':     'Watopia Flat Route',
-    'HILLY ROUTE':    'Watopia Hilly Route',
-    'FIGURE 8':       'Watopia Figure 8',
-    'MOUNTAIN 8':     'Watopia Mountain 8',
-    'MOUNTAIN ROUTE': 'Watopia Mountain Route',
-    'PRETZEL':        'Watopia Pretzel',
-    'PEAKY PAVE':     'Peaky Pavé',
+route_by_sig = {r['signature']: r for r in game['ROUTES']['ROUTE']}
+route_name_by_ach_id = {
+    a['signature']: route_by_sig[a['routeSignature']]['name']
+    for a in game['ACHIEVEMENTS']['ACHIEVEMENT']
+    if a.get('imageName') == 'RouteComplete' and a.get('routeSignature') in route_by_sig
 }
-route_lookup.update(ALIASES)
 
 completed = set()
 
@@ -35,12 +25,9 @@ for activity in activities:
             aux = json.loads(moment.get('aux1', '{}'))
         except (json.JSONDecodeError, TypeError):
             continue
-        if aux.get('description') != 'Great work! Keep exploring!':
-            continue
-        name_upper = aux.get('name', '').upper()
-        canonical = route_lookup.get(name_upper)
-        if canonical:
-            completed.add(canonical)
+        name = route_name_by_ach_id.get(str(aux.get('achievementId')))
+        if name:
+            completed.add(name)
 
 with open('completed-routes.json', 'w') as f:
     json.dump(sorted(completed), f, indent=4, ensure_ascii=False)
