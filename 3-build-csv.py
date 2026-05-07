@@ -2,6 +2,7 @@
 import csv
 import json
 import re
+import unicodedata
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 from shared import is_interesting
@@ -23,8 +24,8 @@ URL_SLUG_OVERRIDES = {
 def route_url(name):
     if name in URL_SLUG_OVERRIDES:
         return f'https://zwiftinsider.com/route/{URL_SLUG_OVERRIDES[name]}/'
-    slug = name.lower()
-    slug = re.sub(r"[^a-z0-9 -]", '', slug)  # strip apostrophes, accents, etc.
+    slug = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore').decode().lower()
+    slug = re.sub(r"[^a-z0-9 -]", '', slug)  # strip apostrophes, etc.
     slug = re.sub(r' +', '-', slug.strip())
     return f'https://zwiftinsider.com/route/{slug}/'
 
