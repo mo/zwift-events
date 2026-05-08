@@ -2,12 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Zwift Events</title>
     <link rel="stylesheet" href="shared.css" />
     <style>
       body {
         font-family: sans-serif;
         padding: 1rem;
+      }
+      .table-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
       }
       table {
         border-collapse: collapse;
@@ -23,6 +28,7 @@
         background: #f0f0f0;
         cursor: pointer;
         user-select: none;
+        white-space: nowrap;
       }
       tbody tr:hover {
         background: rgb(239, 245, 248);
@@ -39,14 +45,40 @@
       td:nth-child(1) {
         white-space: nowrap;
       }
-      td:nth-child(7),
-      td:nth-child(8),
+      td:nth-child(4),
+      td:nth-child(5),
       td:nth-child(9),
       td:nth-child(10),
       td:nth-child(11),
       td:nth-child(12),
       td:nth-child(15) {
         text-align: right;
+      }
+      .filters {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        margin-bottom: 1rem;
+      }
+      .filter-row {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+      @media (max-width: 700px) {
+        body {
+          padding: 0.5rem;
+          font-size: 0.85rem;
+        }
+        h1 {
+          font-size: 1.3rem;
+          margin: 0.5rem 0;
+        }
+        th,
+        td {
+          padding: 0.3rem 0.5rem;
+        }
       }
     </style>
   </head>
@@ -56,33 +88,34 @@
       <a href="badges.html">Badges</a>
     </nav>
     <h1>Upcoming Banded Events</h1>
-    <div style="display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem">
-      <div style="display: flex; align-items: center; gap: 0.5rem">
+    <div class="filters">
+      <div class="filter-row">
         <span>Date filter:</span>
         <label><input type="radio" name="date" value="all" /> All</label>
         <label><input type="radio" name="date" value="today" /> Today</label>
         <label><input type="radio" name="date" value="tomorrow" /> Tomorrow</label>
       </div>
-      <div style="display: flex; align-items: center; gap: 0.5rem">
+      <div class="filter-row">
         <label><input type="checkbox" id="neededOnly" /> Needed route badges only</label>
       </div>
-      <div style="display: flex; align-items: center; gap: 0.5rem">
+      <div class="filter-row">
         <label><input type="checkbox" id="convenientOnly" /> Include convenient start times only</label>
       </div>
     </div>
+    <div class="table-scroll">
     <table id="events">
       <thead>
         <tr>
           <th data-sort="start">start</th>
           <th data-sort="name">eventName</th>
-          <th data-sort="event-type">eventType</th>
           <th data-sort="route-name">routeName</th>
+          <th data-sort="route-length">routeLen</th>
+          <th data-sort="elevation">routeElev</th>
           <th data-sort="route-badge">routeBadge</th>
+          <th data-sort="event-type">type</th>
           <th data-sort="route-map">world</th>
           <th data-sort="duration">duration</th>
           <th data-sort="length">length</th>
-          <th data-sort="route-length">routeLength</th>
-          <th data-sort="elevation">routeElevation</th>
           <th data-sort="elev-per-km">elevPerKm</th>
           <th data-sort="recent-events">eventsLast3M</th>
           <th data-sort="laps">laps</th>
@@ -93,6 +126,7 @@
       </thead>
       <tbody></tbody>
     </table>
+    </div>
     <p id="row-count" style="color: #999; font-size: 0.85rem; margin-top: 0.5rem"></p>
 
     <script>
@@ -166,6 +200,12 @@
         }
       }
 
+      function formatStart(s) {
+        const [date, time] = s.split(" ")
+        const weekday = new Date(date + "T12:00:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" })
+        return `${weekday} ${time}`
+      }
+
       const todayCET = new Date().toLocaleDateString("sv", { timeZone: "Europe/Paris" })
       const tomorrowCET = new Date(Date.now() + 86400000).toLocaleDateString("sv", { timeZone: "Europe/Paris" })
 
@@ -204,14 +244,14 @@
       const SORT_COLS = {
         start: [0, false],
         name: [1, false],
-        "event-type": [2, false],
-        "route-name": [3, false],
-        "route-badge": [4, false],
-        "route-map": [5, false],
-        duration: [6, true],
-        length: [7, true],
-        "route-length": [8, true],
-        elevation: [9, true],
+        "route-name": [2, false],
+        "route-length": [3, true],
+        elevation: [4, true],
+        "route-badge": [5, false],
+        "event-type": [6, false],
+        "route-map": [7, false],
+        duration: [8, true],
+        length: [9, true],
         "elev-per-km": [10, true],
         "recent-events": [11, true],
         laps: [12, true],
@@ -244,7 +284,7 @@
         const neededOnly = neededOnlyCheckbox.checked
         const convenientOnly = convenientOnlyCheckbox.checked
         let rows = allRows.filter((fields) => !filterDate || fields[0].startsWith(filterDate))
-        if (neededOnly) rows = rows.filter((fields) => fields[4] === "NEEDED")
+        if (neededOnly) rows = rows.filter((fields) => fields[5] === "NEEDED")
         if (convenientOnly)
           rows = rows.filter((fields) => {
             const hour = parseInt(new Date(fields[0].replace(" ", "T") + ":00").toLocaleString("sv", { timeZone: "Europe/Stockholm", hour: "2-digit", hour12: false }))
@@ -268,7 +308,9 @@
             if (i === 13) return // ruleSet — hidden
             if (i === 14) return // routeUrl — hidden, used as link only
             const td = document.createElement("td")
-            if (i === 3 && routeUrl) {
+            if (i === 0) {
+              td.textContent = formatStart(f)
+            } else if (i === 2 && routeUrl) {
               const a = document.createElement("a")
               a.href = routeUrl
               a.textContent = f

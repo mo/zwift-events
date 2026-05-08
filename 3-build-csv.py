@@ -73,11 +73,11 @@ route_map = {r['signature']: r for r in game['ROUTES']['ROUTE']}
 
 EVENT_TYPE_LABELS = {
     'GROUP_RIDE': 'RIDE',
-    'GROUP_WORKOUT': 'WORKOUT',
+    'GROUP_WORKOUT': 'WRKO',
 }
 
-FIELDS = ['start', 'eventName', 'eventType', 'routeName', 'routeBadge', 'routeMap', 'duration',
-          'length', 'routeLength', 'routeElevation', 'elevPerKm', 'recentEvents', 'laps', 'ruleSet', 'routeUrl',
+FIELDS = ['start', 'eventName', 'routeName', 'routeLength', 'routeElevation', 'routeBadge', 'eventType',
+          'routeMap', 'duration', 'length', 'elevPerKm', 'recentEvents', 'laps', 'ruleSet', 'routeUrl',
           'eventOnly', 'xp', 'hasRouteBadge']
 
 # note that "Repack Rush" is a very special route that you can get an achievement for even though it doesn't really
@@ -112,14 +112,14 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
         writer.writerow([
             fmt_time(event.get('eventStart', '')),
             event.get('name', ''),
-            event_type,
             route_name,
+            route_length_km,
+            route_elev_m,
             '' if is_completed(route_name) else 'n/a' if not has_route_badge(route) else 'NEEDED',
+            event_type,
             route.get('map', ''),
             event.get('durationInSeconds', 0) // 60,
             round(event.get('distanceInMeters', 0) / 1000, 1),
-            route_length_km,
-            route_elev_m,
             elev_per_km,
             recent_event_count(route_name),
             event.get('laps', ''),
