@@ -101,6 +101,9 @@
       <div class="filter-row">
         <label><input type="checkbox" id="convenientOnly" /> Include convenient start times only</label>
       </div>
+      <div class="filter-row">
+        <label><input type="checkbox" id="excludeWorkouts" /> Exclude WORKOUTs</label>
+      </div>
     </div>
     <div class="table-scroll">
     <table id="events">
@@ -232,6 +235,15 @@
         rerender()
       })
 
+      const excludeWorkoutsCheckbox = document.getElementById("excludeWorkouts")
+      excludeWorkoutsCheckbox.checked = new URLSearchParams(location.search).get("noworkouts") === "1"
+      excludeWorkoutsCheckbox.addEventListener("change", () => {
+        const params = new URLSearchParams(location.search)
+        params.set("noworkouts", excludeWorkoutsCheckbox.checked ? "1" : "0")
+        history.replaceState(null, "", "?" + params)
+        rerender()
+      })
+
       function getFilterDate() {
         const param = new URLSearchParams(location.search).get("date") ?? "all"
         if (param === "today") return todayCET
@@ -283,6 +295,7 @@
 
         const neededOnly = neededOnlyCheckbox.checked
         const convenientOnly = convenientOnlyCheckbox.checked
+        const excludeWorkouts = excludeWorkoutsCheckbox.checked
         let rows = allRows.filter((fields) => !filterDate || fields[0].startsWith(filterDate))
         if (neededOnly) rows = rows.filter((fields) => fields[5] === "NEEDED")
         if (convenientOnly)
@@ -290,6 +303,7 @@
             const hour = parseInt(new Date(fields[0].replace(" ", "T") + ":00").toLocaleString("sv", { timeZone: "Europe/Stockholm", hour: "2-digit", hour12: false }))
             return hour >= 8 && hour < 22
           })
+        if (excludeWorkouts) rows = rows.filter((fields) => fields[6] !== "WRKO")
 
         rows = rows.slice().sort((a, b) => {
           const av = numeric ? parseFloat(a[colIdx]) : a[colIdx]
