@@ -963,6 +963,26 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "37678.5976562500",
+        "blockedForMeetups": "1",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "592827.0625000000",
+        "eventOnly": "0",
+        "eventPaddocks": "",
+        "imageName": "",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "0",
+        "levelLocked": "0",
+        "locKey": "Alto de Patios",
+        "map": "",
+        "name": "Alto de Patios",
+        "sports": "7",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "signature": "10052"
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "206.1",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
@@ -16864,6 +16884,22 @@
         "signature": "-9223372035806856321"
       },
       {
+        "archFriendlyFemaleNameR": "Tchou Tchou Sprint",
+        "archFriendlyNameR": "Tchou Tchou Sprint",
+        "archId": "4",
+        "archSegmentDistanceInKilometers": "0.1500000060",
+        "archSegmentTotalInclineInMeters": "0.0218164064",
+        "direction": "reverse",
+        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
+        "jerseyName": "Tchou Tchou Sprint",
+        "name": "Tchou Tchou Sprint",
+        "onRoutes": "3141079998,870135081,2805636083,565111133,1365497350,1247427185,2128895616",
+        "roadId": "66",
+        "roadTime": "0.3000000000",
+        "world": "11",
+        "signature": "-9223372035804541048"
+      },
+      {
         "archFriendlyFemaleNameR": "Sprinteur Sprint Reverse",
         "archFriendlyNameR": "Sprinteur Sprint Reverse",
         "archId": "11",
@@ -17209,7 +17245,7 @@
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "name": "none",
-        "onRoutes": "1236439870,86621553",
+        "onRoutes": "1236439870,86621553,4234984253,2316916973",
         "roadId": "0",
         "roadTime": "0.6394654183",
         "world": "11",
@@ -18123,6 +18159,22 @@
         "signature": "1053743496"
       },
       {
+        "archFriendlyFemaleName": "\u00c9glise Sprint",
+        "archFriendlyName": "\u00c9glise Sprint",
+        "archId": "2",
+        "archSegmentDistanceInKilometers": "0.2701629996",
+        "archSegmentTotalInclineInMeters": "0.2853710949",
+        "direction": "forward",
+        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
+        "jerseyName": "\u00c9glise Sprint",
+        "name": "\u00c9glise Sprint",
+        "onRoutes": "3141079998,2805636083,1365497350,1247427185,2316916973,2128895616",
+        "roadId": "65",
+        "roadTime": "0.3812164184",
+        "world": "11",
+        "signature": "1055191706"
+      },
+      {
         "archFriendlyFemaleName": "Center Sprint",
         "archFriendlyName": "Center  Sprint",
         "archId": "14",
@@ -18136,6 +18188,22 @@
         "roadTime": "0.5502294422",
         "world": "4",
         "signature": "1055604917"
+      },
+      {
+        "archFriendlyFemaleName": "Montmartre KOM",
+        "archFriendlyName": "Montmartre KOM",
+        "archId": "5",
+        "archSegmentDistanceInKilometers": "1.1999862194",
+        "archSegmentTotalInclineInMeters": "50.5592269897",
+        "direction": "forward",
+        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
+        "jerseyName": "Montmartre KOM",
+        "name": "Montmartre KOM",
+        "onRoutes": "1247427185,2128895616",
+        "roadId": "67",
+        "roadTime": "0.4650000000",
+        "world": "11",
+        "signature": "1055881124"
       },
       {
         "archId": "0",
@@ -18156,7 +18224,7 @@
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
         "name": "none",
-        "onRoutes": "3364574135,2818536273",
+        "onRoutes": "3364574135,2818536273,2805636083,565111133",
         "roadId": "0",
         "roadTime": "0.4808745411",
         "world": "11",
@@ -18303,6 +18371,22 @@
         "roadTime": "0.6586389954",
         "world": "10",
         "signature": "1059626129"
+      },
+      {
+        "archFriendlyFemaleName": "Monceau Sprint",
+        "archFriendlyName": "Monceau Sprint",
+        "archId": "3",
+        "archSegmentDistanceInKilometers": "0.3000000119",
+        "archSegmentTotalInclineInMeters": "0.2535644472",
+        "direction": "forward",
+        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
+        "jerseyName": "Monceau Sprint",
+        "name": "Monceau Sprint",
+        "onRoutes": "870135081,565111133,1365497350,1247427185,3381223955,2128895616",
+        "roadId": "157",
+        "roadTime": "0.8000000000",
+        "world": "11",
+        "signature": "1059797545"
       },
       {
         "archId": "0",
@@ -19065,7 +19149,7 @@
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "name": "none",
-        "onRoutes": "3364574135,2818536273",
+        "onRoutes": "3364574135,2818536273,3141079998,870135081,2805636083,565111133,1365497350,1247427185,3381223955",
         "roadId": "0",
         "roadTime": "0.6394654183",
         "world": "11",
@@ -20317,7 +20401,7 @@
       },
       {
         "imageName": "GloriousGravel2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_GLORIOUSGRAVEL2026",
+        "name": "Glorious Gravel",
         "signature": "454558755"
       },
       {
@@ -20711,6 +20795,11 @@
         "signature": "713852384"
       },
       {
+        "imageName": "BoraHansgrohe2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_BORAHANSGROHE2026",
+        "signature": "713890112"
+      },
+      {
         "imageName": "ZwiftLVL60_thumb",
         "name": "Level 60",
         "signature": "715624988"
@@ -20871,6 +20960,11 @@
         "signature": "824272012"
       },
       {
+        "imageName": "WorldOfWatts2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_WORLDOFWATTS2026",
+        "signature": "826913146"
+      },
+      {
         "imageName": "DIRT2021_thumb",
         "name": "DIRT Community Club",
         "signature": "832135341"
@@ -20942,7 +21036,7 @@
       },
       {
         "imageName": "WatchTheFemmes2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_WATCHTHEFEMMES2026",
+        "name": "Watch the Femmes",
         "signature": "864736682"
       },
       {
@@ -21177,7 +21271,7 @@
       },
       {
         "imageName": "TFC2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_TFC2026",
+        "name": "TFC 2026",
         "signature": "1025884615"
       },
       {
@@ -21347,7 +21441,7 @@
       },
       {
         "imageName": "TdF2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_TDF2026",
+        "name": "Tour Fever",
         "signature": "1148426555"
       },
       {
@@ -21469,6 +21563,11 @@
         "imageName": "Movistar2025_thumb",
         "name": "Movistar",
         "signature": "1218867486"
+      },
+      {
+        "imageName": "RMACC2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_RMACC2026",
+        "signature": "1232608917"
       },
       {
         "imageName": "MidDevonCC_thumb",
@@ -21847,7 +21946,7 @@
       },
       {
         "imageName": "RCPfeilRebellunas_thumb",
-        "name": "LOC_CYCLING_JERSEY_RCPFEILREBELLUNAS",
+        "name": "RC Pfeil Rebellunas",
         "signature": "1494393463"
       },
       {
@@ -22129,6 +22228,11 @@
         "imageName": "FDJSuez2025_thumb",
         "name": "FDJ Suez",
         "signature": "1668644908"
+      },
+      {
+        "imageName": "SurreyCyclingClub2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_SURREYCYCLINGCLUB2026",
+        "signature": "1668759972"
       },
       {
         "imageName": "Amatori2025_thumb",
@@ -22942,7 +23046,7 @@
       },
       {
         "imageName": "EDDK2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_EDDK2026",
+        "name": "EDDK",
         "signature": "2319565274"
       },
       {
@@ -23021,6 +23125,11 @@
         "signature": "2376223766"
       },
       {
+        "imageName": "MajorTaylor2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_MAJORTAYLOR2026",
+        "signature": "2378393885"
+      },
+      {
         "imageName": "ElGiroDeRigoCR2021_thumb",
         "name": "El Giro de Rigo 2021",
         "signature": "2386311153"
@@ -23084,6 +23193,11 @@
         "imageName": "TdFFaZ2025_thumb",
         "name": "2025 Watch the Femmes FCF",
         "signature": "2416362469"
+      },
+      {
+        "imageName": "OneLove2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_ONELOVE2026",
+        "signature": "2418394327"
       },
       {
         "imageName": "JLT_Condor_thumb",
@@ -23219,6 +23333,11 @@
         "imageName": "ZZRC_thumb",
         "name": "ZZRC",
         "signature": "2515880534"
+      },
+      {
+        "imageName": "ARCC2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_ARCC2026",
+        "signature": "2516602188"
       },
       {
         "imageName": "DASHutchinsonBrother2025_thumb",
@@ -23671,6 +23790,11 @@
         "signature": "2802328031"
       },
       {
+        "imageName": "IndoorOutdoorChallenge2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_INDOOROUTDOORCHALLENGE2026",
+        "signature": "2804005282"
+      },
+      {
         "imageName": "SLTRhinos2022_thumb",
         "name": "Super League Triathlon Rhinos",
         "signature": "2808241362"
@@ -24012,7 +24136,7 @@
       },
       {
         "imageName": "Masaka2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_MASAKA2026",
+        "name": "Masaka Cycling Club",
         "signature": "3061292639"
       },
       {
@@ -24367,7 +24491,7 @@
       },
       {
         "imageName": "Bike4Chai2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_BIKE4CHAI2026",
+        "name": "Bike4Chai",
         "signature": "3311428964"
       },
       {
@@ -25007,7 +25131,7 @@
       },
       {
         "imageName": "LesRouleursFous2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_LESROULEURSFOUS2026",
+        "name": "Les Rouleurs Fous",
         "signature": "3705005197"
       },
       {
@@ -25756,6 +25880,11 @@
         "signature": "4123532946"
       },
       {
+        "imageName": "ZwiftPride2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_ZWIFTPRIDE2026",
+        "signature": "4126234661"
+      },
+      {
         "imageName": "Lotto_2015_thumb",
         "name": "Lotto",
         "signature": "4130579852"
@@ -25959,6 +26088,11 @@
         "imageName": "FreddyOvett2025_thumb",
         "name": "Freddy Ovett",
         "signature": "4292298859"
+      },
+      {
+        "imageName": "WobbleCC2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_WOBBLECC2026",
+        "signature": "4294880444"
       }
     ]
   },
@@ -26183,6 +26317,11 @@
         "imageName": "RunFestivalBlack2021_thumb",
         "name": "Run Festival Black Kit 2021",
         "signature": "969205573"
+      },
+      {
+        "imageName": "HerculesRunningTankTop2026_thumb",
+        "name": "LOC_RUNNING_SHIRT_HerculesRunningTankTop2026_NAME",
+        "signature": "984124266"
       },
       {
         "imageName": "XterraRun2020_thumb",
@@ -26815,6 +26954,11 @@
         "signature": "3853619347"
       },
       {
+        "imageName": "HerculesRunningTankTop2026_thumb",
+        "name": "LOC_RUNNING_SHIRT_HerculesRunningTankTop2026_NAME",
+        "signature": "3881054767"
+      },
+      {
         "imageName": "Shirt04",
         "name": "Zwift Running Shirt 4",
         "signature": "3890549677"
@@ -27344,6 +27488,11 @@
         "signature": "3368541207"
       },
       {
+        "imageName": "HerculesRunningShirt2026_thumb",
+        "name": "LOC_RUNNING_SHORTS_HERCULESRUNNINGSHIRT2026",
+        "signature": "3372295163"
+      },
+      {
         "imageName": "Shorts04",
         "name": "Zwift Running Shorts 4",
         "signature": "3375414094"
@@ -27871,11 +28020,6 @@
         "signature": "442607221"
       },
       {
-        "imageName": "Wheel_SwissSideHADRONUltimate850Disc",
-        "name": "DTSwiss HADRON Ultimate 850/Disc",
-        "signature": "498424949"
-      },
-      {
         "imageName": "Wheel_DTSwissARC1100AeroTT",
         "name": "DTSwiss ARC 1100 DICUT DISC",
         "signature": "567256284"
@@ -28056,11 +28200,6 @@
         "signature": "2181416413"
       },
       {
-        "imageName": "Wheel_SwissSideHADRONUltimate650",
-        "name": "DTSwiss LOC_WHEELS_SwissSideHADRONUltimate650_NAME",
-        "signature": "2189164216"
-      },
-      {
         "imageName": "Wheel_Enve35",
         "name": "Enve SES 3.4",
         "signature": "2223270801"
@@ -28126,6 +28265,11 @@
         "signature": "3114121871"
       },
       {
+        "imageName": "Wheel_SwissSideHADRONUltimate650",
+        "name": "SwissSide HADRON Ultimate 650",
+        "signature": "3197301744"
+      },
+      {
         "imageName": "Wheel_BigSpinBMX2025",
         "name": "Zwift BMX Bandit",
         "signature": "3207647806"
@@ -28169,6 +28313,11 @@
         "imageName": "",
         "name": "Zwift Zwift Skeletal",
         "signature": "3849702821"
+      },
+      {
+        "imageName": "Wheel_SwissSideHADRONUltimate850Disc",
+        "name": "SwissSide HADRON Ultimate Disc",
+        "signature": "3944647638"
       },
       {
         "imageName": "Wheel_CampagnoloLow",
@@ -28318,6 +28467,11 @@
         "imageName": "Wheel_BigSpinBMX2025",
         "name": "Zwift BMX Bandit",
         "signature": "1040669859"
+      },
+      {
+        "imageName": "Wheel_SwissSideHADRONUltimate650",
+        "name": "SwissSide HADRON Ultimate 650",
+        "signature": "1196922082"
       },
       {
         "imageName": "Wheel_ShimanoDuraAceC60",
@@ -28480,11 +28634,6 @@
         "signature": "2913819265"
       },
       {
-        "imageName": "Wheel_SwissSideHADRONUltimate650",
-        "name": "DTSwiss LOC_WHEELS_SwissSideHADRONUltimate650_NAME",
-        "signature": "2914913734"
-      },
-      {
         "imageName": "Wheel_ZwiftCampBaseline2024",
         "name": "Zwift Zwift Baseline Wheels",
         "signature": "3171611979"
@@ -28505,6 +28654,11 @@
         "signature": "3454205320"
       },
       {
+        "imageName": "Wheel_SwissSideHADRONUltimate850Disc",
+        "name": "SwissSide HADRON Ultimate Disc",
+        "signature": "3456736597"
+      },
+      {
         "imageName": "Wheel_ZwiftSafety",
         "name": "Zwift Safety",
         "signature": "3473846672"
@@ -28523,11 +28677,6 @@
         "imageName": "Wheel_LightweightMeilenstein",
         "name": "Lightweight Lightweight Meilenstein",
         "signature": "3659884507"
-      },
-      {
-        "imageName": "Wheel_SwissSideHADRONUltimate850Disc",
-        "name": "DTSwiss HADRON Ultimate 850/Disc",
-        "signature": "3707266432"
       },
       {
         "imageName": "Wheel_PrincetonCarbonWorksMachTSV2Blur",
@@ -28937,6 +29086,20 @@
       },
       {
         "bikeClass": "HIGH_END",
+        "brand": "VanRysel",
+        "isTT": "1",
+        "lvId": "405837660",
+        "modelYear": "2025",
+        "name": "VanRysel RCR-X",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "651429321"
+      },
+      {
+        "bikeClass": "HIGH_END",
         "brand": "Specialized",
         "isTT": "0",
         "lvId": "4169711732",
@@ -29214,6 +29377,20 @@
         "price3": "500000",
         "price4": "750000",
         "signature": "1188190925"
+      },
+      {
+        "bikeClass": "MID_RANGE",
+        "brand": "VanRysel",
+        "isTT": "0",
+        "lvId": "3276754954",
+        "modelYear": "2024",
+        "name": "VanRysel RCR Pro",
+        "price0": "50000",
+        "price1": "100000",
+        "price2": "150000",
+        "price3": "200000",
+        "price4": "250000",
+        "signature": "1200868028"
       },
       {
         "bikeClass": "MID_RANGE",
@@ -29816,6 +29993,20 @@
         "price3": "200000",
         "price4": "250000",
         "signature": "2397946994"
+      },
+      {
+        "bikeClass": "HIGH_END",
+        "brand": "VanRysel",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2025",
+        "name": "VanRysel RCR-F",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "2412086003"
       },
       {
         "bikeClass": "HIGH_END",
@@ -31372,6 +31563,10 @@
         "signature": "2968318986"
       },
       {
+        "name": "VanRysel VanRyselRCRPro2023-Van Rysel",
+        "signature": "2982443883"
+      },
+      {
         "name": "Zwift Carbon-Ale Cipollini",
         "signature": "2996016213"
       },
@@ -31386,6 +31581,10 @@
       {
         "name": "Ridley Helium-RidleyHelium",
         "signature": "3046256071"
+      },
+      {
+        "name": "VanRysel VanRyselRCRX2026-Default",
+        "signature": "3050237137"
       },
       {
         "name": "Ventum One-Ventum One",
@@ -31474,6 +31673,10 @@
       {
         "name": "BMC SLR01-SLR01 3",
         "signature": "3511538066"
+      },
+      {
+        "name": "VanRysel VanRyselRCRF2026-Default",
+        "signature": "3565713668"
       },
       {
         "name": "VanRysel VanRyselEDR2021-base",
@@ -31739,7 +31942,7 @@
       },
       {
         "imageName": "SocksTourFever2026",
-        "name": "LOC_SOCKS_SOCKS_TOURFEVER2026_NAME",
+        "name": "Tour Fever",
         "signature": "924593880"
       },
       {
@@ -32732,7 +32935,7 @@
       },
       {
         "imageName": "TourFever2026_thumb",
-        "name": "LOC_ACCESSORY_TOURFEVER2026",
+        "name": "Tour Fever",
         "signature": "1227522566"
       },
       {
@@ -33067,7 +33270,7 @@
       },
       {
         "imageName": "BucketHatTourFever2026_thumb",
-        "name": "LOC_CYCLING_HEADGEAR_BUCKETHATTOURFEVER2026_NAME",
+        "name": "Ultimate Challenge Bucket Hat",
         "signature": "3048194832"
       },
       {
@@ -33264,6 +33467,11 @@
         "imageName": "RunnerCapTourDeZwift2021_thumb",
         "name": "Tour de Zwift 2021 Run Cap",
         "signature": "3718341152"
+      },
+      {
+        "imageName": "CyclingCapIndoorOutdoorChallenge2026_thumb",
+        "name": "LOC_CYCLING_HEADGEAR_INDOOROUTDOORCHALLENGE2026_NAME",
+        "signature": "3729485067"
       },
       {
         "imageName": "RcZRSCieleJune2020_thumb",
@@ -38038,6 +38246,33 @@
         "difficulty_levels": "050,075,100,125",
         "name": "Paterberg",
         "signature": "10051"
+      },
+      {
+        "ArchFemaleName": "Alto de Patios",
+        "ArchFriendlyName": "Alto de Patios",
+        "ArchID": "2",
+        "AverageSlope": "6.3690319061",
+        "CourseAscentF": "37678.5976562500",
+        "CourseAscentR": "-1.0000000000",
+        "CourseLength": "592827.0625000000",
+        "Description": "Alto de Patios",
+        "Duration": "25",
+        "Effort": "3.0000000000",
+        "Hash": "10052",
+        "InternalName": "Alto de Patios",
+        "JerseyFemaleHash": "1832490174",
+        "JerseyHash": "2498899049",
+        "JerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
+        "JerseyPath": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_01.tgax",
+        "JerseyPathFemale": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_Female.tgax",
+        "LeaderJerseyName": "Climb Champion",
+        "MinCompletionTime": "101.0000000000",
+        "MinimapIconPath": "UI/minimap/map_arch_start_watopia.tga",
+        "PinIconPath": "UI/WhiteOrangeTheme/HUD/Marker_Crown.tga",
+        "UserFacingName": "Alto de Patios",
+        "difficulty_levels": "050,075,100,125",
+        "name": "Alto de Patios",
+        "signature": "10052"
       }
     ]
   },
