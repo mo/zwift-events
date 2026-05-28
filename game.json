@@ -983,6 +983,86 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "155778.4375000000",
+        "blockedForMeetups": "1",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "2706297.7500000000",
+        "eventOnly": "0",
+        "eventPaddocks": "",
+        "imageName": "",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "0",
+        "levelLocked": "0",
+        "locKey": "Col de la Croix de Fer",
+        "map": "",
+        "name": "Col de la Croix de Fer",
+        "sports": "7",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "signature": "10053"
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "84424.3671875000",
+        "blockedForMeetups": "1",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "1185629.0000000000",
+        "eventOnly": "0",
+        "eventPaddocks": "",
+        "imageName": "",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "0",
+        "levelLocked": "0",
+        "locKey": "Col du T\u00e9l\u00e9graphe",
+        "map": "",
+        "name": "Col du T\u00e9l\u00e9graphe",
+        "sports": "7",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "signature": "10054"
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "122352.3593750000",
+        "blockedForMeetups": "1",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "1788212.1250000000",
+        "eventOnly": "0",
+        "eventPaddocks": "",
+        "imageName": "",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "0",
+        "levelLocked": "0",
+        "locKey": "Col du Galibier (Valloire)",
+        "map": "",
+        "name": "Col du Galibier (Valloire)",
+        "sports": "7",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "signature": "10055"
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "92265.5546875000",
+        "blockedForMeetups": "1",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "1280428.6250000000",
+        "eventOnly": "0",
+        "eventPaddocks": "",
+        "imageName": "",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "0",
+        "levelLocked": "0",
+        "locKey": "Col de Sarenne",
+        "map": "",
+        "name": "Col de Sarenne",
+        "sports": "7",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "signature": "10056"
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "206.1",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
@@ -20755,6 +20835,11 @@
         "signature": "687871233"
       },
       {
+        "imageName": "BellaVelo2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_BELLAVELO2026",
+        "signature": "688237744"
+      },
+      {
         "imageName": "TDFFaZCANYONSRAM2023_thumb",
         "name": "CANYON//SRAM TdFFaZ Jersey",
         "signature": "689784947"
@@ -20796,7 +20881,7 @@
       },
       {
         "imageName": "BoraHansgrohe2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_BORAHANSGROHE2026",
+        "name": "Red Bull \u2013 BORA \u2013 hansgrohe",
         "signature": "713890112"
       },
       {
@@ -20961,7 +21046,7 @@
       },
       {
         "imageName": "WorldOfWatts2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_WORLDOFWATTS2026",
+        "name": "World of Watts",
         "signature": "826913146"
       },
       {
@@ -21003,6 +21088,11 @@
         "imageName": "PhoenixRising2025_thumb",
         "name": "Phoenix Rising",
         "signature": "845913595"
+      },
+      {
+        "imageName": "TheSwiftKids2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_THESWIFTKIDS2026",
+        "signature": "849631546"
       },
       {
         "imageName": "Maap2019_thumb",
@@ -21078,6 +21168,11 @@
         "imageName": "Hawaiian01_thumb",
         "name": "Island Flowers",
         "signature": "881416075"
+      },
+      {
+        "imageName": "HISP2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_HISP2026",
+        "signature": "882756366"
       },
       {
         "imageName": "Zwift_eFondo_Jul_thumb",
@@ -21566,7 +21661,7 @@
       },
       {
         "imageName": "RMACC2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_RMACC2026",
+        "name": "RMACC",
         "signature": "1232608917"
       },
       {
@@ -22231,7 +22326,7 @@
       },
       {
         "imageName": "SurreyCyclingClub2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_SURREYCYCLINGCLUB2026",
+        "name": "Surrey Cycling Club",
         "signature": "1668759972"
       },
       {
@@ -23126,7 +23221,7 @@
       },
       {
         "imageName": "MajorTaylor2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_MAJORTAYLOR2026",
+        "name": "Major Taylor",
         "signature": "2378393885"
       },
       {
@@ -23196,7 +23291,7 @@
       },
       {
         "imageName": "OneLove2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_ONELOVE2026",
+        "name": "One Love",
         "signature": "2418394327"
       },
       {
@@ -23336,7 +23431,7 @@
       },
       {
         "imageName": "ARCC2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_ARCC2026",
+        "name": "ARCC",
         "signature": "2516602188"
       },
       {
@@ -23791,7 +23886,7 @@
       },
       {
         "imageName": "IndoorOutdoorChallenge2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_INDOOROUTDOORCHALLENGE2026",
+        "name": "Indoor Outdoor Challenge",
         "signature": "2804005282"
       },
       {
@@ -24245,6 +24340,11 @@
         "signature": "3109920408"
       },
       {
+        "imageName": "BPCC2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_BPCC2026",
+        "signature": "3119654525"
+      },
+      {
         "imageName": "WLBB2023_thumb",
         "name": "We Like Bike & Beers",
         "signature": "3120306832"
@@ -24273,6 +24373,11 @@
         "imageName": "WBRKit2018_thumb",
         "name": "World Bicycle Relief 2018",
         "signature": "3157550744"
+      },
+      {
+        "imageName": "LEtapeTdFFaZ2026_thumb",
+        "name": "L\u2019\u00c9tape du TdFFaZ",
+        "signature": "3160665859"
       },
       {
         "imageName": "Zwift_Color02_thumb",
@@ -24473,6 +24578,11 @@
         "imageName": "JapanElite2020_thumb",
         "name": "Japan Elite",
         "signature": "3297463904"
+      },
+      {
+        "imageName": "ProjectHeart2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_PROJECTHEART2026",
+        "signature": "3300287748"
       },
       {
         "imageName": "Spaero2022_thumb",
@@ -25128,6 +25238,11 @@
         "imageName": "Internationelles2021_thumb",
         "name": "Internationelles",
         "signature": "3694781490"
+      },
+      {
+        "imageName": "TEZH2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_TEZH2026",
+        "signature": "3700961815"
       },
       {
         "imageName": "LesRouleursFous2026_thumb",
@@ -25880,8 +25995,13 @@
         "signature": "4123532946"
       },
       {
+        "imageName": "CopenhagenVirtualCycling2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_COPENHAGENVIRTUALCYCLING2026",
+        "signature": "4125945482"
+      },
+      {
         "imageName": "ZwiftPride2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_ZWIFTPRIDE2026",
+        "name": "Pride On 2026",
         "signature": "4126234661"
       },
       {
@@ -26028,6 +26148,11 @@
         "imageName": "TeamFusion2019_thumb",
         "name": "Team Fusion",
         "signature": "4252106063"
+      },
+      {
+        "imageName": "LEtapeTdF2026_thumb",
+        "name": "L\u2019\u00c9tape du Tour",
+        "signature": "4252573539"
       },
       {
         "imageName": "Zwift_Green_Orange_KOM",
@@ -26320,7 +26445,7 @@
       },
       {
         "imageName": "HerculesRunningTankTop2026_thumb",
-        "name": "LOC_RUNNING_SHIRT_HerculesRunningTankTop2026_NAME",
+        "name": "Hercules Running Shirt",
         "signature": "984124266"
       },
       {
@@ -26955,7 +27080,7 @@
       },
       {
         "imageName": "HerculesRunningTankTop2026_thumb",
-        "name": "LOC_RUNNING_SHIRT_HerculesRunningTankTop2026_NAME",
+        "name": "Hercules Running Shirt",
         "signature": "3881054767"
       },
       {
@@ -27489,7 +27614,7 @@
       },
       {
         "imageName": "HerculesRunningShirt2026_thumb",
-        "name": "LOC_RUNNING_SHORTS_HERCULESRUNNINGSHIRT2026",
+        "name": "Hercules Running Shirt",
         "signature": "3372295163"
       },
       {
@@ -27983,6 +28108,11 @@
         "imageName": "Wheel_DTSwissARC1100DICUT65",
         "name": "DTSwiss ARC 1100 DICUT 65",
         "signature": "195571528"
+      },
+      {
+        "imageName": "Wheel_RecumbentlFront",
+        "name": "Zwift Recumbent Trike",
+        "signature": "214744904"
       },
       {
         "imageName": "Wheel_ShimanoDuraAceC60",
@@ -28607,6 +28737,11 @@
         "imageName": "Wheel_BigSpinCruiser2024",
         "name": "Zwift LOC_WHEELNAME_ZWIFT_BigSpinCruiser2024",
         "signature": "2740373137"
+      },
+      {
+        "imageName": "Wheel_RecumbentRear",
+        "name": "Zwift Recumbent Trike",
+        "signature": "2752513115"
       },
       {
         "imageName": "Wheel_ZwiftGravel",
@@ -29251,6 +29386,20 @@
         "price3": "200000",
         "price4": "250000",
         "signature": "988819017"
+      },
+      {
+        "bikeClass": "MID_RANGE",
+        "brand": "Zwift",
+        "isTT": "0",
+        "lvId": "3276754954",
+        "modelYear": "0",
+        "name": "Zwift Recumbent Trike",
+        "price0": "50000",
+        "price1": "100000",
+        "price2": "150000",
+        "price3": "200000",
+        "price4": "250000",
+        "signature": "990301571"
       },
       {
         "bikeClass": "ENTRY",
@@ -31723,6 +31872,10 @@
         "signature": "3850644062"
       },
       {
+        "name": "Zwift ZwiftRecumbent-Default",
+        "signature": "3866245386"
+      },
+      {
         "name": "Scott Foil-Orica",
         "signature": "3873708758"
       },
@@ -33270,7 +33423,7 @@
       },
       {
         "imageName": "BucketHatTourFever2026_thumb",
-        "name": "Ultimate Challenge Bucket Hat",
+        "name": "Tour Fever Bucket Hat",
         "signature": "3048194832"
       },
       {
@@ -33470,7 +33623,7 @@
       },
       {
         "imageName": "CyclingCapIndoorOutdoorChallenge2026_thumb",
-        "name": "LOC_CYCLING_HEADGEAR_INDOOROUTDOORCHALLENGE2026_NAME",
+        "name": "Indoor Outdoor Challenge",
         "signature": "3729485067"
       },
       {
@@ -38185,7 +38338,7 @@
         "JerseyPath": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_01.tgax",
         "JerseyPathFemale": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_Female.tgax",
         "LeaderJerseyName": "Climb Champion",
-        "MinCompletionTime": "166.0000000000",
+        "MinCompletionTime": "60.0000000000",
         "MinimapIconPath": "UI/minimap/map_arch_start_watopia.tga",
         "PinIconPath": "UI/WhiteOrangeTheme/HUD/Marker_Crown.tga",
         "UserFacingName": "Mur de Huy",
@@ -38212,7 +38365,7 @@
         "JerseyPath": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_01.tgax",
         "JerseyPathFemale": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_Female.tgax",
         "LeaderJerseyName": "Climb Champion",
-        "MinCompletionTime": "108.0000000000",
+        "MinCompletionTime": "30.0000000000",
         "MinimapIconPath": "UI/minimap/map_arch_start_watopia.tga",
         "PinIconPath": "UI/WhiteOrangeTheme/HUD/Marker_Crown.tga",
         "UserFacingName": "Koppenberg",
@@ -38239,7 +38392,7 @@
         "JerseyPath": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_01.tgax",
         "JerseyPathFemale": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_Female.tgax",
         "LeaderJerseyName": "Climb Champion",
-        "MinCompletionTime": "39.0000000000",
+        "MinCompletionTime": "20.0000000000",
         "MinimapIconPath": "UI/minimap/map_arch_start_watopia.tga",
         "PinIconPath": "UI/WhiteOrangeTheme/HUD/Marker_Crown.tga",
         "UserFacingName": "Paterberg",
@@ -38273,6 +38426,114 @@
         "difficulty_levels": "050,075,100,125",
         "name": "Alto de Patios",
         "signature": "10052"
+      },
+      {
+        "ArchFemaleName": "Col de la Croix de Fer",
+        "ArchFriendlyName": "Col de la Croix de Fer",
+        "ArchID": "2",
+        "AverageSlope": "4.7805490494",
+        "CourseAscentF": "155778.4375000000",
+        "CourseAscentR": "-1.0000000000",
+        "CourseLength": "2706297.7500000000",
+        "Description": "Col de la Croix de Fer",
+        "Duration": "94",
+        "Effort": "5.0000000000",
+        "Hash": "10053",
+        "InternalName": "Col de la Croix de Fer",
+        "JerseyFemaleHash": "1832490174",
+        "JerseyHash": "2498899049",
+        "JerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
+        "JerseyPath": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_01.tgax",
+        "JerseyPathFemale": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_Female.tgax",
+        "LeaderJerseyName": "Climb Champion",
+        "MinCompletionTime": "101.0000000000",
+        "MinimapIconPath": "UI/minimap/map_arch_start_watopia.tga",
+        "PinIconPath": "UI/WhiteOrangeTheme/HUD/Marker_Crown.tga",
+        "UserFacingName": "Col de la Croix de Fer",
+        "difficulty_levels": "050,075,100,125",
+        "name": "Col de la Croix de Fer",
+        "signature": "10053"
+      },
+      {
+        "ArchFemaleName": "Col du T\u00e9l\u00e9graphe",
+        "ArchFriendlyName": "Col du T\u00e9l\u00e9graphe",
+        "ArchID": "2",
+        "AverageSlope": "7.1422076225",
+        "CourseAscentF": "84424.3671875000",
+        "CourseAscentR": "-1.0000000000",
+        "CourseLength": "1185629.0000000000",
+        "Description": "Col du T\u00e9l\u00e9graphe",
+        "Duration": "55",
+        "Effort": "5.0000000000",
+        "Hash": "10054",
+        "InternalName": "Col du T\u00e9l\u00e9graphe",
+        "JerseyFemaleHash": "1832490174",
+        "JerseyHash": "2498899049",
+        "JerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
+        "JerseyPath": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_01.tgax",
+        "JerseyPathFemale": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_Female.tgax",
+        "LeaderJerseyName": "Climb Champion",
+        "MinCompletionTime": "101.0000000000",
+        "MinimapIconPath": "UI/minimap/map_arch_start_watopia.tga",
+        "PinIconPath": "UI/WhiteOrangeTheme/HUD/Marker_Crown.tga",
+        "UserFacingName": "Col du T\u00e9l\u00e9graphe",
+        "difficulty_levels": "050,075,100,125",
+        "name": "Col du T\u00e9l\u00e9graphe",
+        "signature": "10054"
+      },
+      {
+        "ArchFemaleName": "Col du Galibier (Valloire)",
+        "ArchFriendlyName": "Col du Galibier (Valloire)",
+        "ArchID": "2",
+        "AverageSlope": "6.8593478203",
+        "CourseAscentF": "122352.3593750000",
+        "CourseAscentR": "-1.0000000000",
+        "CourseLength": "1788212.1250000000",
+        "Description": "Col du Galibier (Valloire)",
+        "Duration": "79",
+        "Effort": "5.0000000000",
+        "Hash": "10055",
+        "InternalName": "Col du Galibier (Valloire)",
+        "JerseyFemaleHash": "1832490174",
+        "JerseyHash": "2498899049",
+        "JerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
+        "JerseyPath": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_01.tgax",
+        "JerseyPathFemale": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_Female.tgax",
+        "LeaderJerseyName": "Climb Champion",
+        "MinCompletionTime": "101.0000000000",
+        "MinimapIconPath": "UI/minimap/map_arch_start_watopia.tga",
+        "PinIconPath": "UI/WhiteOrangeTheme/HUD/Marker_Crown.tga",
+        "UserFacingName": "Col du Galibier (Valloire)",
+        "difficulty_levels": "050,075,100,125",
+        "name": "Col du Galibier (Valloire)",
+        "signature": "10055"
+      },
+      {
+        "ArchFemaleName": "Col de Sarenne",
+        "ArchFriendlyName": "Col de Sarenne",
+        "ArchID": "2",
+        "AverageSlope": "7.0819587708",
+        "CourseAscentF": "92265.5546875000",
+        "CourseAscentR": "-1.0000000000",
+        "CourseLength": "1280428.6250000000",
+        "Description": "Col de Sarenne",
+        "Duration": "59",
+        "Effort": "5.0000000000",
+        "Hash": "10056",
+        "InternalName": "Col de Sarenne",
+        "JerseyFemaleHash": "1832490174",
+        "JerseyHash": "2498899049",
+        "JerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
+        "JerseyPath": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_01.tgax",
+        "JerseyPathFemale": "Humans/Jerseys/Originals/Zwift_Orange_Jersey_Female.tgax",
+        "LeaderJerseyName": "Climb Champion",
+        "MinCompletionTime": "101.0000000000",
+        "MinimapIconPath": "UI/minimap/map_arch_start_watopia.tga",
+        "PinIconPath": "UI/WhiteOrangeTheme/HUD/Marker_Crown.tga",
+        "UserFacingName": "Col de Sarenne",
+        "difficulty_levels": "050,075,100,125",
+        "name": "Col de Sarenne",
+        "signature": "10056"
       }
     ]
   },
