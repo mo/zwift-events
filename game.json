@@ -16964,22 +16964,6 @@
         "signature": "-9223372035806856321"
       },
       {
-        "archFriendlyFemaleNameR": "Tchou Tchou Sprint",
-        "archFriendlyNameR": "Tchou Tchou Sprint",
-        "archId": "4",
-        "archSegmentDistanceInKilometers": "0.1500000060",
-        "archSegmentTotalInclineInMeters": "0.0218164064",
-        "direction": "reverse",
-        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
-        "jerseyName": "Tchou Tchou Sprint",
-        "name": "Tchou Tchou Sprint",
-        "onRoutes": "3141079998,870135081,2805636083,565111133,1365497350,1247427185,2128895616",
-        "roadId": "66",
-        "roadTime": "0.3000000000",
-        "world": "11",
-        "signature": "-9223372035804541048"
-      },
-      {
         "archFriendlyFemaleNameR": "Sprinteur Sprint Reverse",
         "archFriendlyNameR": "Sprinteur Sprint Reverse",
         "archId": "11",
@@ -17325,7 +17309,7 @@
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "name": "none",
-        "onRoutes": "1236439870,86621553,4234984253,2316916973",
+        "onRoutes": "1236439870,86621553",
         "roadId": "0",
         "roadTime": "0.6394654183",
         "world": "11",
@@ -18239,22 +18223,6 @@
         "signature": "1053743496"
       },
       {
-        "archFriendlyFemaleName": "\u00c9glise Sprint",
-        "archFriendlyName": "\u00c9glise Sprint",
-        "archId": "2",
-        "archSegmentDistanceInKilometers": "0.2701629996",
-        "archSegmentTotalInclineInMeters": "0.2853710949",
-        "direction": "forward",
-        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
-        "jerseyName": "\u00c9glise Sprint",
-        "name": "\u00c9glise Sprint",
-        "onRoutes": "3141079998,2805636083,1365497350,1247427185,2316916973,2128895616",
-        "roadId": "65",
-        "roadTime": "0.3812164184",
-        "world": "11",
-        "signature": "1055191706"
-      },
-      {
         "archFriendlyFemaleName": "Center Sprint",
         "archFriendlyName": "Center  Sprint",
         "archId": "14",
@@ -18268,22 +18236,6 @@
         "roadTime": "0.5502294422",
         "world": "4",
         "signature": "1055604917"
-      },
-      {
-        "archFriendlyFemaleName": "Montmartre KOM",
-        "archFriendlyName": "Montmartre KOM",
-        "archId": "5",
-        "archSegmentDistanceInKilometers": "1.1999862194",
-        "archSegmentTotalInclineInMeters": "50.5592269897",
-        "direction": "forward",
-        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
-        "jerseyName": "Montmartre KOM",
-        "name": "Montmartre KOM",
-        "onRoutes": "1247427185,2128895616",
-        "roadId": "67",
-        "roadTime": "0.4650000000",
-        "world": "11",
-        "signature": "1055881124"
       },
       {
         "archId": "0",
@@ -18304,7 +18256,7 @@
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
         "name": "none",
-        "onRoutes": "3364574135,2818536273,2805636083,565111133",
+        "onRoutes": "3364574135,2818536273",
         "roadId": "0",
         "roadTime": "0.4808745411",
         "world": "11",
@@ -18451,22 +18403,6 @@
         "roadTime": "0.6586389954",
         "world": "10",
         "signature": "1059626129"
-      },
-      {
-        "archFriendlyFemaleName": "Monceau Sprint",
-        "archFriendlyName": "Monceau Sprint",
-        "archId": "3",
-        "archSegmentDistanceInKilometers": "0.3000000119",
-        "archSegmentTotalInclineInMeters": "0.2535644472",
-        "direction": "forward",
-        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
-        "jerseyName": "Monceau Sprint",
-        "name": "Monceau Sprint",
-        "onRoutes": "870135081,565111133,1365497350,1247427185,3381223955,2128895616",
-        "roadId": "157",
-        "roadTime": "0.8000000000",
-        "world": "11",
-        "signature": "1059797545"
       },
       {
         "archId": "0",
@@ -19229,7 +19165,7 @@
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "name": "none",
-        "onRoutes": "3364574135,2818536273,3141079998,870135081,2805636083,565111133,1365497350,1247427185,3381223955",
+        "onRoutes": "3364574135,2818536273",
         "roadId": "0",
         "roadTime": "0.6394654183",
         "world": "11",
