@@ -17028,9 +17028,10 @@
         "archFriendlyNameR": "Champs-\u00c9lys\u00e9es",
         "archId": "0",
         "archSegmentDistanceInKilometers": "6.6160001755",
+        "archSegmentTotalInclineInMeters": "35.7843246460",
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
-        "name": "none",
+        "name": "Champs-\u00c9lys\u00e9es",
         "onRoutes": "1236439870,86621553",
         "roadId": "0",
         "roadTime": "0.4808745411",
@@ -17305,11 +17306,12 @@
         "archFriendlyFemaleNameR": "Lutece Reverse Sprint",
         "archFriendlyNameR": "Lutece Reverse Sprint",
         "archId": "1",
-        "archSegmentDistanceInKilometers": "0.2249999940",
+        "archSegmentDistanceInKilometers": "0.2315669805",
+        "archSegmentTotalInclineInMeters": "0",
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
-        "name": "none",
-        "onRoutes": "1236439870,86621553",
+        "name": "Lutece Sprint",
+        "onRoutes": "1236439870,86621553,4234984253,2316916973",
         "roadId": "0",
         "roadTime": "0.6394654183",
         "world": "11",
@@ -18253,9 +18255,10 @@
         "archFriendlyName": "Champs-\u00c9lys\u00e9es",
         "archId": "0",
         "archSegmentDistanceInKilometers": "6.6160001755",
+        "archSegmentTotalInclineInMeters": "35.7861824036",
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
-        "name": "none",
+        "name": "Champs-\u00c9lys\u00e9es",
         "onRoutes": "3364574135,2818536273",
         "roadId": "0",
         "roadTime": "0.4808745411",
@@ -19161,10 +19164,11 @@
         "archFriendlyFemaleName": "Lutece Sprint",
         "archFriendlyName": "Lutece Sprint",
         "archId": "1",
-        "archSegmentDistanceInKilometers": "0.1480000019",
+        "archSegmentDistanceInKilometers": "0.1513614953",
+        "archSegmentTotalInclineInMeters": "4.9075193405",
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
-        "name": "none",
+        "name": "Lutece Sprint",
         "onRoutes": "3364574135,2818536273",
         "roadId": "0",
         "roadTime": "0.6394654183",
@@ -19871,6 +19875,11 @@
         "signature": "106189863"
       },
       {
+        "imageName": "BisonClass2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_BISONCLASS2026",
+        "signature": "110758441"
+      },
+      {
         "imageName": "PrideOn2024_thumb",
         "name": "2024 Pride On",
         "signature": "114907065"
@@ -20061,6 +20070,11 @@
         "signature": "225381880"
       },
       {
+        "imageName": "CyclingExperts2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_CYCLINGEXPERTS2026",
+        "signature": "226401220"
+      },
+      {
         "imageName": "ATPRacing2021_thumb",
         "name": "ATP Racing 2021",
         "signature": "230859106"
@@ -20199,6 +20213,11 @@
         "imageName": "InfliteTypeOne2023_thumb",
         "name": "Inflite Type One",
         "signature": "326883871"
+      },
+      {
+        "imageName": "MountainMassif2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_MOUNTAINMASSIF2026",
+        "signature": "328501240"
       },
       {
         "imageName": "GGCC2020_thumb",
@@ -20501,6 +20520,11 @@
         "signature": "518109091"
       },
       {
+        "imageName": "FlammeRougeRacing2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_FLAMMEROUGERACING2026",
+        "signature": "519437886"
+      },
+      {
         "imageName": "ClashOfClubs2020_thumb",
         "name": "Clash Of Clubs Blue",
         "signature": "520081294"
@@ -20772,7 +20796,7 @@
       },
       {
         "imageName": "BellaVelo2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_BELLAVELO2026",
+        "name": "BellaVelo",
         "signature": "688237744"
       },
       {
@@ -20854,6 +20878,11 @@
         "imageName": "SROZ2025_thumb",
         "name": "SROZ",
         "signature": "735858779"
+      },
+      {
+        "imageName": "IRIS2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_IRIS2026",
+        "signature": "737077514"
       },
       {
         "imageName": "RideClubFinland2025_thumb",
@@ -21027,7 +21056,7 @@
       },
       {
         "imageName": "TheSwiftKids2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_THESWIFTKIDS2026",
+        "name": "The Swift Kids",
         "signature": "849631546"
       },
       {
@@ -21107,7 +21136,7 @@
       },
       {
         "imageName": "HISP2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_HISP2026",
+        "name": "HISP 2026",
         "signature": "882756366"
       },
       {
@@ -21329,6 +21358,11 @@
         "imageName": "Sub82022_thumb",
         "name": "Sub 8",
         "signature": "1033576880"
+      },
+      {
+        "imageName": "FudgingSlackers2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_FUDGINGSLACKERS2026",
+        "signature": "1036960726"
       },
       {
         "imageName": "2XUCycling2021_thumb",
@@ -22316,6 +22350,11 @@
         "signature": "1718052948"
       },
       {
+        "imageName": "ESRTW2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_ESRTW2026",
+        "signature": "1718594515"
+      },
+      {
         "imageName": "TheFeed2025_thumb",
         "name": "The Feed 2025",
         "signature": "1722503757"
@@ -23192,7 +23231,7 @@
       },
       {
         "imageName": "CafeDuCycliste2021_thumb",
-        "name": "Cafe du Cycliste",
+        "name": "Cafe du Cycliste 2026",
         "signature": "2397240918"
       },
       {
@@ -24277,7 +24316,7 @@
       },
       {
         "imageName": "BPCC2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_BPCC2026",
+        "name": "BPCC",
         "signature": "3119654525"
       },
       {
@@ -24451,6 +24490,11 @@
         "signature": "3246030373"
       },
       {
+        "imageName": "TeamNotPogi2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_TEAMNOTPOGI2026",
+        "signature": "3246181790"
+      },
+      {
         "imageName": "TdFKOM2020_thumb",
         "name": "Tour de France KOM",
         "signature": "3246186957"
@@ -24517,7 +24561,7 @@
       },
       {
         "imageName": "ProjectHeart2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_PROJECTHEART2026",
+        "name": "Project Heart",
         "signature": "3300287748"
       },
       {
@@ -25177,7 +25221,7 @@
       },
       {
         "imageName": "TEZH2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_TEZH2026",
+        "name": "TEZH 2026",
         "signature": "3700961815"
       },
       {
@@ -25932,7 +25976,7 @@
       },
       {
         "imageName": "CopenhagenVirtualCycling2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_COPENHAGENVIRTUALCYCLING2026",
+        "name": "Copenhagen Virtual Cycling",
         "signature": "4125945482"
       },
       {
@@ -26152,7 +26196,7 @@
       },
       {
         "imageName": "WobbleCC2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_WOBBLECC2026",
+        "name": "Wobble CC 2026",
         "signature": "4294880444"
       }
     ]
@@ -28281,6 +28325,11 @@
         "signature": "2365488570"
       },
       {
+        "imageName": "Wheel_Reserve34",
+        "name": "Reserve LOC_ENTITLEMENT_WHEELS_RESERVE_3437_NAME",
+        "signature": "2482805243"
+      },
+      {
         "imageName": "Wheel_BuffaloFahrrad",
         "name": "Zwift Buffalo Fahrrad",
         "signature": "2568138708"
@@ -28324,6 +28373,11 @@
         "imageName": "Wheel_PrincetonCarbonWorksAlta3532",
         "name": "Princeton Alta 3532",
         "signature": "2927980636"
+      },
+      {
+        "imageName": "Wheel_MicheDevaRD62",
+        "name": "Miche Miche Deva RD 62",
+        "signature": "3023364973"
       },
       {
         "imageName": "Wheel_ENVESES4",
@@ -28374,6 +28428,11 @@
         "imageName": "Wheel_ZwiftMountain",
         "name": "Zwift Mountain",
         "signature": "3787145210"
+      },
+      {
+        "imageName": "Wheel_Reserve57",
+        "name": "Reserve LOC_ENTITLEMENT_WHEELS_RESERVE_5764_NAME",
+        "signature": "3844299290"
       },
       {
         "imageName": "",
@@ -28500,9 +28559,19 @@
         "signature": "635106022"
       },
       {
+        "imageName": "Wheel_Reserve57",
+        "name": "Reserve LOC_ENTITLEMENT_WHEELS_RESERVE_5764_NAME",
+        "signature": "676356957"
+      },
+      {
         "imageName": "Wheel_ZwiftPlain",
         "name": "Zwift Plain",
         "signature": "705669234"
+      },
+      {
+        "imageName": "Wheel_Reserve34",
+        "name": "Reserve LOC_ENTITLEMENT_WHEELS_RESERVE_3437_NAME",
+        "signature": "735187485"
       },
       {
         "imageName": "Wheel_Zipp858",
@@ -28758,6 +28827,11 @@
         "imageName": "Wheel_ShimanoDuraAceC50",
         "name": "Shimano DURA-ACE C50",
         "signature": "3725678091"
+      },
+      {
+        "imageName": "Wheel_MicheDevaRD62",
+        "name": "Miche Miche Deva RD 62",
+        "signature": "3790155372"
       },
       {
         "imageName": "Wheel_Enve35",
@@ -29616,6 +29690,20 @@
         "price3": "200000",
         "price4": "250000",
         "signature": "1532698216"
+      },
+      {
+        "bikeClass": "HIGH_END",
+        "brand": "Cervelo",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2026",
+        "name": "Cerv\u00e9lo S5",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "1554559006"
       },
       {
         "bikeClass": "MID_RANGE",
@@ -31128,6 +31216,10 @@
         "signature": "549887359"
       },
       {
+        "name": "Liv LivDevote2022-base",
+        "signature": "552848003"
+      },
+      {
         "name": "Specialized Tarmac SL7 Sram-Tarmac Trinity 2022",
         "signature": "572769923"
       },
@@ -31136,12 +31228,20 @@
         "signature": "596257196"
       },
       {
+        "name": "Giant GiantRevolt2022-base",
+        "signature": "603780825"
+      },
+      {
         "name": "Cervelo CerveloS52021-base",
         "signature": "605555771"
       },
       {
         "name": "Zwift Carbon-Zwift Racer",
         "signature": "608105152"
+      },
+      {
+        "name": "BMC BmcTeamMachine2022-base",
+        "signature": "632152606"
       },
       {
         "name": "Cervelo S5-Qhubeka",
@@ -31170,6 +31270,14 @@
       {
         "name": "Cannondale EVO-Evo Team",
         "signature": "773794647"
+      },
+      {
+        "name": "Specialized Specialized Crux 2022-base",
+        "signature": "782256977"
+      },
+      {
+        "name": "Felt Felt TT 2021-base",
+        "signature": "785209795"
       },
       {
         "name": "Zwift Carbon-Orbea Orca",
@@ -31348,12 +31456,20 @@
         "signature": "1586380459"
       },
       {
+        "name": "Scott ScottSparkMTB2022-base",
+        "signature": "1605872172"
+      },
+      {
         "name": "Cervelo P5-Red",
         "signature": "1633025659"
       },
       {
         "name": "Zwift Steel-7-Eleven",
         "signature": "1662132237"
+      },
+      {
+        "name": "Scott ScottPlasma2022-base",
+        "signature": "1696285461"
       },
       {
         "name": "Specialized Tarmac SL7-Bora Hansgrohe",
@@ -31390,6 +31506,10 @@
       {
         "name": "Felt AR-Felt AR 2018 Blue",
         "signature": "1836980898"
+      },
+      {
+        "name": "Allied AlliedAble2022-base",
+        "signature": "1869437475"
       },
       {
         "name": "Canyon CanyonAeroadSalmistraro2025-CanyonAeroad2025 Salmistraro",
@@ -31792,6 +31912,10 @@
         "signature": "3736833547"
       },
       {
+        "name": "Cervelo CerveloS52026-default",
+        "signature": "3739708484"
+      },
+      {
         "name": "Specialized Tarmac SL7-Boels Dolmans",
         "signature": "3784605773"
       },
@@ -31878,6 +32002,10 @@
       {
         "name": "Giant TCR Advanced SL-Alpecin",
         "signature": "4075164819"
+      },
+      {
+        "name": "Specialized SpecializedDiverge2022-base",
+        "signature": "4083976335"
       },
       {
         "name": "Zwift Carbon-Zwift Ride",
