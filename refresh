@@ -5,3 +5,12 @@ git pull --rebase
 git add .
 git commit -m "update events"
 git push origin HEAD
+
+SHA=$(git rev-parse HEAD)
+echo "Waiting for CI run for $SHA..."
+while true; do
+  RUN_ID=$(gh run list --commit "$SHA" --limit 1 --json databaseId --jq '.[0].databaseId // empty' 2>/dev/null)
+  [ -n "$RUN_ID" ] && break
+  sleep 2
+done
+gh run watch "$RUN_ID"
