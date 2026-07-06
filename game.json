@@ -1557,7 +1557,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "31787.1191406250",
+        "distanceInMeters": "31989.7636718750",
         "duration": "3",
         "eventOnly": "0",
         "eventPaddocks": "6,7,8,9",
@@ -1572,7 +1572,7 @@
         "meetupLeadinAscentInMeters": "0",
         "meetupLeadinDistanceInMeters": "26.0896263123",
         "name": "No Sleep Till Brooklyn",
-        "publishedOn": "2026-12-16",
+        "publishedOn": "2025-12-16",
         "rowRec": "1",
         "runRec": "1",
         "sports": "1",
@@ -3189,6 +3189,56 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "499.6502990723",
+        "bikeRec": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "0.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "74494.5234375000",
+        "duration": "0",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.0408300832",
+        "freeRideLeadinDistanceInMeters": "8.9975023270",
+        "imageName": "PARIS_Heart_of_Montmartre",
+        "leadinAscentInMeters": "10.7284412384",
+        "leadinDistanceInMeters": "3185.0473632812",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_PARIS_HEART_OF_MONTMARTRE",
+        "map": "PARIS",
+        "meetupLeadinAscentInMeters": "0.1488476545",
+        "meetupLeadinDistanceInMeters": "25.4191646576",
+        "name": "Heart of Montmartre",
+        "publishedOn": "2026-07-06",
+        "sports": "1",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "1490",
+        "zwiftEventOnly": "0",
+        "signature": "565111133",
+        "routeSignature": "565111133",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "12.9953441620",
         "bikeRec": "0",
         "blockedForClubs": "0",
@@ -3483,7 +3533,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "5.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "35006.7539062500",
+        "distanceInMeters": "35470.4492187500",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "6,7,8,9",
@@ -3962,6 +4012,56 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "116.8557052612",
+        "bikeRec": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "0.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "15965.4375000000",
+        "duration": "0",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.0391015597",
+        "freeRideLeadinDistanceInMeters": "8.6045522690",
+        "imageName": "PARIS_La_Boucle",
+        "leadinAscentInMeters": "10.7288484573",
+        "leadinDistanceInMeters": "3185.3518066406",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_PARIS_LA_BOUCLE",
+        "map": "PARIS",
+        "meetupLeadinAscentInMeters": "0.1710156500",
+        "meetupLeadinDistanceInMeters": "27.7837200165",
+        "name": "La Boucle",
+        "publishedOn": "2026-07-06",
+        "sports": "1",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "320",
+        "zwiftEventOnly": "0",
+        "signature": "870135081",
+        "routeSignature": "870135081",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "155.0",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
@@ -4369,7 +4469,7 @@
         "meetupLeadinAscentInMeters": "149.0233154297",
         "meetupLeadinDistanceInMeters": "12062.3564453125",
         "name": "Richmond Rollercoaster",
-        "publishedOn": "2026-12-16",
+        "publishedOn": "2025-12-16",
         "sports": "3",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
@@ -4937,21 +5037,21 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "79.9722137451",
+        "ascentInMeters": "80.8193588257",
         "bikeRec": "1",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "7017.7465820312",
+        "distanceInMeters": "7240.9028320312",
         "duration": "3",
         "eventOnly": "0",
         "eventPaddocks": "11,12,13,14",
         "freeRideLeadinAscentInMeters": "0.1115698218",
         "freeRideLeadinDistanceInMeters": "27.5367641449",
         "imageName": "NEWYORK_Double_Span_Spin",
-        "leadinAscentInMeters": "39.7537307739",
+        "leadinAscentInMeters": "40.4223251343",
         "leadinDistanceInMeters": "5567.4873046875",
         "levelLocked": "0",
         "locKey": "LOC_ROUTE_NEWYORK_DOUBLE_SPAN_SPIN",
@@ -5084,14 +5184,14 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "207.1245880127",
+        "ascentInMeters": "211.7569580078",
         "bikeRec": "1",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "3.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "28377.3144531250",
+        "distanceInMeters": "28587.1953125000",
         "duration": "3",
         "eventOnly": "0",
         "eventPaddocks": "11,12,13,14",
@@ -5305,6 +5405,56 @@
         "zwiftEventOnly": "0",
         "signature": "1236439870",
         "routeSignature": "1236439870",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "189.8781585693",
+        "bikeRec": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "3.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "25143.6347656250",
+        "duration": "3",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.0453906246",
+        "freeRideLeadinDistanceInMeters": "4.3663439751",
+        "imageName": "PARIS_Montmartre_Mixer",
+        "leadinAscentInMeters": "8.6504116058",
+        "leadinDistanceInMeters": "2421.8776855469",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_PARIS_MONTMARTRE_MIXER",
+        "map": "PARIS",
+        "meetupLeadinAscentInMeters": "0.1475097984",
+        "meetupLeadinDistanceInMeters": "24.5203399658",
+        "name": "Montmartre Mixer",
+        "publishedOn": "2026-07-06",
+        "sports": "1",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "505",
+        "zwiftEventOnly": "0",
+        "signature": "1247427185",
+        "routeSignature": "1247427185",
         "routeRestrictions": {
           "TIMETRIAL": {
             "enabled": true
@@ -5546,6 +5696,56 @@
         "zwiftEventOnly": "0",
         "signature": "1327665278",
         "routeSignature": "1327665278",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "221.4649505615",
+        "bikeRec": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "2.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "30507.8574218750",
+        "duration": "2",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.0530859344",
+        "freeRideLeadinDistanceInMeters": "10.9408092499",
+        "imageName": "PARIS_Double_Espresso",
+        "leadinAscentInMeters": "10.7218484879",
+        "leadinDistanceInMeters": "3185.1562500000",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_PARIS_DOUBLE_ESPRESSO",
+        "map": "PARIS",
+        "meetupLeadinAscentInMeters": "0.1500097364",
+        "meetupLeadinDistanceInMeters": "25.0229492188",
+        "name": "Double Espresso",
+        "publishedOn": "2026-07-06",
+        "sports": "1",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "610",
+        "zwiftEventOnly": "0",
+        "signature": "1365497350",
+        "routeSignature": "1365497350",
         "routeRestrictions": {
           "TIMETRIAL": {
             "enabled": true
@@ -6493,7 +6693,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "17809.0722656250",
+        "distanceInMeters": "18011.3417968750",
         "duration": "3",
         "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
@@ -7383,7 +7583,7 @@
         "map": "YORKSHIRE",
         "meetupLeadinDistanceInMeters": "47.0419273376",
         "name": "Yorkshire Double Loop",
-        "publishedOn": "2026-12-16",
+        "publishedOn": "2025-12-16",
         "sports": "7",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
@@ -8237,6 +8437,56 @@
         }
       },
       {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "78.5497970581",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "3.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "10999.1445312500",
+        "duration": "3",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.3544043303",
+        "freeRideLeadinDistanceInMeters": "12.1149778366",
+        "imageName": "PARIS_Paris_Pacer",
+        "leadinAscentInMeters": "14.5362272263",
+        "leadinDistanceInMeters": "962.5698242188",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_PARIS_PARIS_PACER",
+        "map": "PARIS",
+        "meetupLeadinAscentInMeters": "0.6588865519",
+        "meetupLeadinDistanceInMeters": "31.5083045959",
+        "name": "Paris Pacer",
+        "publishedOn": "2026-07-06",
+        "runRec": "1",
+        "sports": "2",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "xp": "220",
+        "zwiftEventOnly": "0",
+        "signature": "2128895616",
+        "routeSignature": "2128895616",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
         "ascentBetweenFirstLastLrCPsInMeters": "0.0",
         "ascentInMeters": "1099.0",
         "blockedForClubs": "0",
@@ -8893,6 +9143,56 @@
         "zwiftEventOnly": "0",
         "signature": "2312882507",
         "routeSignature": "2312882507",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "33.7143974304",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "2.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "5000.0454101562",
+        "duration": "2",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.1019726396",
+        "freeRideLeadinDistanceInMeters": "20.3954029083",
+        "imageName": "PARIS_Rues_in_Rythme",
+        "leadinAscentInMeters": "0.1065136716",
+        "leadinDistanceInMeters": "348.7089233398",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_PARIS_RUES_IN_RYTHME",
+        "map": "PARIS",
+        "meetupLeadinAscentInMeters": "0.1038085818",
+        "meetupLeadinDistanceInMeters": "36.2546958923",
+        "name": "Rues in Rythme",
+        "publishedOn": "2026-07-06",
+        "runRec": "1",
+        "sports": "2",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "xp": "100",
+        "zwiftEventOnly": "0",
+        "signature": "2316916973",
+        "routeSignature": "2316916973",
         "routeRestrictions": {
           "TIMETRIAL": {
             "enabled": true
@@ -10351,6 +10651,56 @@
         "zwiftEventOnly": "0",
         "signature": "2773927650",
         "routeSignature": "2773927650",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "447.9553222656",
+        "bikeRec": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "0.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "69202.7343750000",
+        "duration": "0",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.2575585842",
+        "freeRideLeadinDistanceInMeters": "23.8508586884",
+        "imageName": "PARIS_Paris_Toujours",
+        "leadinAscentInMeters": "10.7288122177",
+        "leadinDistanceInMeters": "3185.1540527344",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_PARIS_PARIS_TOUJOURS",
+        "map": "PARIS",
+        "meetupLeadinAscentInMeters": "0.3253418505",
+        "meetupLeadinDistanceInMeters": "46.3799018860",
+        "name": "Paris Toujours",
+        "publishedOn": "2026-07-06",
+        "sports": "1",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "xp": "1385",
+        "zwiftEventOnly": "0",
+        "signature": "2805636083",
+        "routeSignature": "2805636083",
         "routeRestrictions": {
           "TIMETRIAL": {
             "enabled": true
@@ -11864,14 +12214,14 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "289.7971801758",
+        "ascentInMeters": "295.2136535645",
         "bikeRec": "1",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "36223.1328125000",
+        "distanceInMeters": "36683.7734375000",
         "duration": "3",
         "eventOnly": "0",
         "eventPaddocks": "11,12,13,14",
@@ -12019,7 +12369,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "31183.8398437500",
+        "distanceInMeters": "31388.1074218750",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "6,7,8,9",
@@ -12186,6 +12536,56 @@
         "zwiftEventOnly": "0",
         "signature": "3114603308",
         "routeSignature": "3114603308",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "113.4141387939",
+        "bikeRec": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "0.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "16426.3847656250",
+        "duration": "0",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "7.8360886574",
+        "imageName": "PARIS_Cr_pe_Escape",
+        "leadinAscentInMeters": "10.7288608551",
+        "leadinDistanceInMeters": "3185.3518066406",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_PARIS_CRPE_ESCAPE",
+        "map": "PARIS",
+        "meetupLeadinAscentInMeters": "0.1498534977",
+        "meetupLeadinDistanceInMeters": "25.0211086273",
+        "name": "Cr\u00eape Escape",
+        "publishedOn": "2026-07-06",
+        "sports": "1",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "330",
+        "zwiftEventOnly": "0",
+        "signature": "3141079998",
+        "routeSignature": "3141079998",
         "routeRestrictions": {
           "TIMETRIAL": {
             "enabled": true
@@ -12651,7 +13051,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "19284.0957031250",
+        "distanceInMeters": "19487.4238281250",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "6,7,8,9",
@@ -13160,6 +13560,56 @@
         "zwiftEventOnly": "0",
         "signature": "3379779247",
         "routeSignature": "3379779247",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "35.6329994202",
+        "bikeRec": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "2.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "7180.1020507812",
+        "duration": "2",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.0544238240",
+        "freeRideLeadinDistanceInMeters": "11.3313360214",
+        "imageName": "PARIS_Loop_de_loop_de_loop",
+        "leadinAscentInMeters": "10.6699028015",
+        "leadinDistanceInMeters": "3185.3034667969",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_PARIS_LOOP_DE_LOOP_DE_LOOP",
+        "map": "PARIS",
+        "meetupLeadinAscentInMeters": "0.2182909846",
+        "meetupLeadinDistanceInMeters": "40.0412139893",
+        "name": "Loop de loop de loop",
+        "publishedOn": "2026-07-06",
+        "sports": "1",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "145",
+        "zwiftEventOnly": "0",
+        "signature": "3381223955",
+        "routeSignature": "3381223955",
         "routeRestrictions": {
           "TIMETRIAL": {
             "enabled": true
@@ -14111,7 +14561,7 @@
         "meetupLeadinAscentInMeters": "0",
         "meetupLeadinDistanceInMeters": "40.1769905090",
         "name": "Innsbruck KOM After Party",
-        "publishedOn": "2026-12-16",
+        "publishedOn": "2025-12-16",
         "sports": "3",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
@@ -16647,6 +17097,56 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "28.9802322388",
+        "bikeRec": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "2.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "20842.6738281250",
+        "duration": "3",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.2271484137",
+        "freeRideLeadinDistanceInMeters": "25.0477600098",
+        "imageName": "PARIS_Cirque_du_Suffer",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "315.7496948242",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_PARIS_CIRQUE_DU_SUFFER",
+        "map": "PARIS",
+        "meetupLeadinAscentInMeters": "0.3245508671",
+        "meetupLeadinDistanceInMeters": "40.1167793274",
+        "name": "Cirque du Suffer",
+        "publishedOn": "2026-07-06",
+        "sports": "1",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "xp": "415",
+        "zwiftEventOnly": "0",
+        "signature": "4234984253",
+        "routeSignature": "4234984253",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "47.6",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
@@ -16962,6 +17462,22 @@
         "roadTime": "0.2657975578",
         "world": "1",
         "signature": "-9223372035806856321"
+      },
+      {
+        "archFriendlyFemaleNameR": "Tchou Tchou Sprint",
+        "archFriendlyNameR": "Tchou Tchou Sprint",
+        "archId": "4",
+        "archSegmentDistanceInKilometers": "0.1500000060",
+        "archSegmentTotalInclineInMeters": "0.0218164064",
+        "direction": "reverse",
+        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
+        "jerseyName": "Tchou Tchou Sprint",
+        "name": "Tchou Tchou Sprint",
+        "onRoutes": "3141079998,870135081,2805636083,565111133,1365497350,1247427185,2128895616",
+        "roadId": "66",
+        "roadTime": "0.3000000000",
+        "world": "11",
+        "signature": "-9223372035804541048"
       },
       {
         "archFriendlyFemaleNameR": "Sprinteur Sprint Reverse",
@@ -18225,6 +18741,22 @@
         "signature": "1053743496"
       },
       {
+        "archFriendlyFemaleName": "\u00c9glise Sprint",
+        "archFriendlyName": "\u00c9glise Sprint",
+        "archId": "6",
+        "archSegmentDistanceInKilometers": "0.2500000000",
+        "archSegmentTotalInclineInMeters": "0.2853613198",
+        "direction": "forward",
+        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
+        "jerseyName": "\u00c9glise Sprint",
+        "name": "\u00c9glise Sprint",
+        "onRoutes": "3141079998,2805636083,1365497350,1247427185,2316916973,2128895616",
+        "roadId": "65",
+        "roadTime": "0.3812164184",
+        "world": "11",
+        "signature": "1055191706"
+      },
+      {
         "archFriendlyFemaleName": "Center Sprint",
         "archFriendlyName": "Center  Sprint",
         "archId": "14",
@@ -18238,6 +18770,22 @@
         "roadTime": "0.5502294422",
         "world": "4",
         "signature": "1055604917"
+      },
+      {
+        "archFriendlyFemaleName": "Montmartre KOM",
+        "archFriendlyName": "Montmartre KOM",
+        "archId": "5",
+        "archSegmentDistanceInKilometers": "1.1999862194",
+        "archSegmentTotalInclineInMeters": "50.5592269897",
+        "direction": "forward",
+        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
+        "jerseyName": "Montmartre KOM",
+        "name": "Montmartre KOM",
+        "onRoutes": "1247427185",
+        "roadId": "67",
+        "roadTime": "0.4550000000",
+        "world": "11",
+        "signature": "1055881124"
       },
       {
         "archId": "0",
@@ -18259,7 +18807,7 @@
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
         "name": "Champs-\u00c9lys\u00e9es",
-        "onRoutes": "3364574135,2818536273",
+        "onRoutes": "3364574135,2818536273,2805636083,565111133",
         "roadId": "0",
         "roadTime": "0.4808745411",
         "world": "11",
@@ -18406,6 +18954,22 @@
         "roadTime": "0.6586389954",
         "world": "10",
         "signature": "1059626129"
+      },
+      {
+        "archFriendlyFemaleName": "Monceau Sprint",
+        "archFriendlyName": "Monceau Sprint",
+        "archId": "3",
+        "archSegmentDistanceInKilometers": "0.3000000119",
+        "archSegmentTotalInclineInMeters": "0.2535644472",
+        "direction": "forward",
+        "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
+        "jerseyName": "Monceau Sprint",
+        "name": "Monceau Sprint",
+        "onRoutes": "870135081,565111133,1365497350,1247427185,3381223955,2128895616",
+        "roadId": "157",
+        "roadTime": "0.8000000000",
+        "world": "11",
+        "signature": "1059797545"
       },
       {
         "archId": "0",
@@ -19169,7 +19733,7 @@
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "name": "Lutece Sprint",
-        "onRoutes": "3364574135,2818536273",
+        "onRoutes": "3364574135,2818536273,3141079998,870135081,2805636083,565111133,1365497350,1247427185,3381223955",
         "roadId": "0",
         "roadTime": "0.6394654183",
         "world": "11",
@@ -19876,7 +20440,7 @@
       },
       {
         "imageName": "BisonClass2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_BISONCLASS2026",
+        "name": "Bison Class Racing",
         "signature": "110758441"
       },
       {
@@ -20071,7 +20635,7 @@
       },
       {
         "imageName": "CyclingExperts2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_CYCLINGEXPERTS2026",
+        "name": "Cycling Experts",
         "signature": "226401220"
       },
       {
@@ -20216,7 +20780,7 @@
       },
       {
         "imageName": "MountainMassif2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_MOUNTAINMASSIF2026",
+        "name": "Mountain Massif 2026",
         "signature": "328501240"
       },
       {
@@ -20521,7 +21085,7 @@
       },
       {
         "imageName": "FlammeRougeRacing2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_FLAMMEROUGERACING2026",
+        "name": "Flamme Rouge Racing 2026",
         "signature": "519437886"
       },
       {
@@ -20881,7 +21445,7 @@
       },
       {
         "imageName": "IRIS2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_IRIS2026",
+        "name": "IRIS",
         "signature": "737077514"
       },
       {
@@ -21150,6 +21714,11 @@
         "signature": "893312655"
       },
       {
+        "imageName": "TeamCofidis2026_thumb",
+        "name": "Team Cofidis",
+        "signature": "900253913"
+      },
+      {
         "imageName": "BlackSheepOrange2019_thumb",
         "name": "Black Sheep Blue",
         "signature": "901269715"
@@ -21361,7 +21930,7 @@
       },
       {
         "imageName": "FudgingSlackers2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_FUDGINGSLACKERS2026",
+        "name": "Fudging Slackers",
         "signature": "1036960726"
       },
       {
@@ -21643,6 +22212,11 @@
         "imageName": "LSRFPodcast2022_thumb",
         "name": "LSRF '22",
         "signature": "1235387122"
+      },
+      {
+        "imageName": "LequipeProvence2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_LEQUIPEPROVENCE2026",
+        "signature": "1235712408"
       },
       {
         "imageName": "Ribble2019_thumb",
@@ -22351,7 +22925,7 @@
       },
       {
         "imageName": "ESRTW2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_ESRTW2026",
+        "name": "ESRT W",
         "signature": "1718594515"
       },
       {
@@ -22373,6 +22947,11 @@
         "imageName": "Zwift_LVL40_thumb",
         "name": "Level 40",
         "signature": "1735340823"
+      },
+      {
+        "imageName": "Rave2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_RAVE2026",
+        "signature": "1745871788"
       },
       {
         "imageName": "Skyline2020_thumb",
@@ -22825,6 +23404,11 @@
         "signature": "2092402045"
       },
       {
+        "imageName": "Radlabor2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_RADLABOR2026",
+        "signature": "2095287304"
+      },
+      {
         "imageName": "LivAlUla2024_thumb",
         "name": "Liv AlUla Jayco 2024",
         "signature": "2095486697"
@@ -23248,6 +23832,11 @@
         "imageName": "ZwiftTeamPL_thumb",
         "name": "Team Poland",
         "signature": "2411042224"
+      },
+      {
+        "imageName": "TSE2026_thumb",
+        "name": "TSE",
+        "signature": "2411262689"
       },
       {
         "imageName": "ZFondo202202_thumb",
@@ -24491,7 +25080,7 @@
       },
       {
         "imageName": "TeamNotPogi2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_TEAMNOTPOGI2026",
+        "name": "Team Not Pogi",
         "signature": "3246181790"
       },
       {
@@ -24973,6 +25562,11 @@
         "imageName": "Rye2015_thumb",
         "name": "Rye",
         "signature": "3535883671"
+      },
+      {
+        "imageName": "DraftingDinos2026_thumb",
+        "name": "Drafting Dinos 2026",
+        "signature": "3537659432"
       },
       {
         "imageName": "RoxsaltAttaquer2021_thumb",
@@ -26425,7 +27019,7 @@
       },
       {
         "imageName": "HerculesRunningTankTop2026_thumb",
-        "name": "Hercules Running Shirt",
+        "name": "Hercules Running Kit",
         "signature": "984124266"
       },
       {
@@ -27060,7 +27654,7 @@
       },
       {
         "imageName": "HerculesRunningTankTop2026_thumb",
-        "name": "Hercules Running Shirt",
+        "name": "Hercules Running Kit",
         "signature": "3881054767"
       },
       {
@@ -27594,7 +28188,7 @@
       },
       {
         "imageName": "HerculesRunningShirt2026_thumb",
-        "name": "Hercules Running Shirt",
+        "name": "Hercules Running Kit",
         "signature": "3372295163"
       },
       {
@@ -28326,7 +28920,7 @@
       },
       {
         "imageName": "Wheel_Reserve34",
-        "name": "Reserve LOC_ENTITLEMENT_WHEELS_RESERVE_3437_NAME",
+        "name": "Reserve Reserve 34/37",
         "signature": "2482805243"
       },
       {
@@ -28431,7 +29025,7 @@
       },
       {
         "imageName": "Wheel_Reserve57",
-        "name": "Reserve LOC_ENTITLEMENT_WHEELS_RESERVE_5764_NAME",
+        "name": "Reserve Reserve 57/64",
         "signature": "3844299290"
       },
       {
@@ -28443,6 +29037,11 @@
         "imageName": "Wheel_SwissSideHADRONUltimate850Disc",
         "name": "SwissSide HADRON Ultimate Disc",
         "signature": "3944647638"
+      },
+      {
+        "imageName": "Wheel_CadexMax50",
+        "name": "Cadex Cadex Max 50",
+        "signature": "3969146157"
       },
       {
         "imageName": "Wheel_CampagnoloLow",
@@ -28560,8 +29159,13 @@
       },
       {
         "imageName": "Wheel_Reserve57",
-        "name": "Reserve LOC_ENTITLEMENT_WHEELS_RESERVE_5764_NAME",
+        "name": "Reserve Reserve 57/64",
         "signature": "676356957"
+      },
+      {
+        "imageName": "Wheel_CadexMax50",
+        "name": "Cadex Cadex Max 50",
+        "signature": "689667921"
       },
       {
         "imageName": "Wheel_ZwiftPlain",
@@ -28570,7 +29174,7 @@
       },
       {
         "imageName": "Wheel_Reserve34",
-        "name": "Reserve LOC_ENTITLEMENT_WHEELS_RESERVE_3437_NAME",
+        "name": "Reserve Reserve 34/37",
         "signature": "735187485"
       },
       {
@@ -29552,6 +30156,20 @@
         "signature": "1200868028"
       },
       {
+        "bikeClass": "HIGH_END",
+        "brand": "WilierFilante",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2026",
+        "name": "WilierFilante Wilier Filante SLR ID2",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "1225483900"
+      },
+      {
         "bikeClass": "MID_RANGE",
         "brand": "Scott",
         "isTT": "0",
@@ -29697,7 +30315,7 @@
         "isTT": "0",
         "lvId": "4169711732",
         "modelYear": "2026",
-        "name": "Cerv\u00e9lo S5",
+        "name": "Cervelo S5",
         "price0": "100000",
         "price1": "200000",
         "price2": "350000",
@@ -30686,6 +31304,20 @@
         "signature": "3523334161"
       },
       {
+        "bikeClass": "HIGH_END",
+        "brand": "Giant",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2026",
+        "name": "Giant Propel Advanced SL Team",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "3525927424"
+      },
+      {
         "bikeClass": "ENTRY",
         "brand": "Zwift",
         "isTT": "1",
@@ -31036,6 +31668,20 @@
         "signature": "4129467727"
       },
       {
+        "bikeClass": "HIGH_END",
+        "brand": "Cannondale",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2026",
+        "name": "Cannondale SuperSix EVO LAB71 Team",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "4146485962"
+      },
+      {
         "bikeClass": "MID_RANGE",
         "brand": "Cannondale",
         "isTT": "0",
@@ -31160,6 +31806,10 @@
         "signature": "253698565"
       },
       {
+        "name": "WilierFilante WilierFilanteSLRID22026-Default",
+        "signature": "296065455"
+      },
+      {
         "name": "Trek Speed Concept 2021-Base",
         "signature": "304373641"
       },
@@ -31170,6 +31820,10 @@
       {
         "name": "Cube Cube Litening-Cube Litening 2018",
         "signature": "375521613"
+      },
+      {
+        "name": "Cannondale CannondaleSuperSixEvo2026-Default",
+        "signature": "390604316"
       },
       {
         "name": "Zwift Carbon-Zwift Light",
@@ -31346,6 +32000,10 @@
       {
         "name": "Canyon Aeroad Team Edition-Canyon SRAM 2022",
         "signature": "1066566931"
+      },
+      {
+        "name": "Giant GiantPropelAdvancedSL2026-default",
+        "signature": "1073806096"
       },
       {
         "name": "Specialized Roubaix S-Works-Rocket Red",
@@ -36848,6 +37506,76 @@
         "routeSignature": "1437969615",
         "sport": "0",
         "signature": "476"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "CR\u00caPE ESCAPE",
+        "routeSignature": "3141079998",
+        "sport": "0",
+        "signature": "477"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "LA BOUCLE",
+        "routeSignature": "870135081",
+        "sport": "0",
+        "signature": "478"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "PARIS TOUJOURS",
+        "routeSignature": "2805636083",
+        "sport": "0",
+        "signature": "479"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "HEART OF MONTMARTRE",
+        "routeSignature": "565111133",
+        "sport": "0",
+        "signature": "480"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "DOUBLE ESPRESSO",
+        "routeSignature": "1365497350",
+        "sport": "0",
+        "signature": "481"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "MONTMARTRE MIXER",
+        "routeSignature": "1247427185",
+        "sport": "0",
+        "signature": "482"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "LOOP DE LOOP DE LOOP",
+        "routeSignature": "3381223955",
+        "sport": "0",
+        "signature": "483"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "CIRQUE DU SUFFER",
+        "routeSignature": "4234984253",
+        "sport": "0",
+        "signature": "484"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "RUES IN RYTHME",
+        "routeSignature": "2316916973",
+        "sport": "1",
+        "signature": "485"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "PARIS PACER",
+        "routeSignature": "2128895616",
+        "sport": "1",
+        "signature": "486"
       }
     ]
   },
