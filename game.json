@@ -5718,14 +5718,14 @@
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "221.4649505615",
         "bikeRec": "1",
-        "blockedForClubs": "0",
+        "blockedForClubs": "1",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "30507.8574218750",
         "duration": "2",
-        "eventOnly": "0",
+        "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0.0530859344",
         "freeRideLeadinDistanceInMeters": "10.9408092499",
@@ -5751,13 +5751,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": true
+            "enabled": false
           },
           "MEETUPS": {
             "enabled": true
           },
           "CLUBS": {
-            "enabled": true
+            "enabled": false
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -11061,14 +11061,14 @@
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0.0",
         "ascentInMeters": "483.3600769043",
-        "blockedForClubs": "0",
+        "blockedForClubs": "1",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "3.5",
         "distanceBetweenFirstLastLrCPsInMeters": "0.0",
         "distanceInMeters": "60785.4257812500",
         "duration": "4",
-        "eventOnly": "0",
+        "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0.0",
         "freeRideLeadinDistanceInMeters": "901.4",
@@ -11093,13 +11093,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": true
+            "enabled": false
           },
           "MEETUPS": {
             "enabled": true
           },
           "CLUBS": {
-            "enabled": true
+            "enabled": false
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -12558,14 +12558,14 @@
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "113.4141387939",
         "bikeRec": "1",
-        "blockedForClubs": "0",
+        "blockedForClubs": "1",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "0.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "16426.3847656250",
         "duration": "0",
-        "eventOnly": "0",
+        "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0",
         "freeRideLeadinDistanceInMeters": "7.8360886574",
@@ -12591,13 +12591,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": true
+            "enabled": false
           },
           "MEETUPS": {
             "enabled": true
           },
           "CLUBS": {
-            "enabled": true
+            "enabled": false
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
