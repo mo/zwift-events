@@ -3194,7 +3194,7 @@
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
-        "difficulty": "0.0",
+        "difficulty": "3.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "74494.5234375000",
         "duration": "0",
@@ -4017,7 +4017,7 @@
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
-        "difficulty": "0.0",
+        "difficulty": "3.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "15965.4375000000",
         "duration": "0",
@@ -5718,7 +5718,7 @@
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "221.4649505615",
         "bikeRec": "1",
-        "blockedForClubs": "1",
+        "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
@@ -5757,7 +5757,7 @@
             "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -10676,9 +10676,9 @@
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
-        "difficulty": "0.0",
+        "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "69202.7343750000",
+        "distanceInMeters": "69128.1953125000",
         "duration": "0",
         "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
@@ -11061,7 +11061,7 @@
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0.0",
         "ascentInMeters": "483.3600769043",
-        "blockedForClubs": "1",
+        "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "3.5",
@@ -11099,7 +11099,7 @@
             "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -12558,10 +12558,10 @@
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "113.4141387939",
         "bikeRec": "1",
-        "blockedForClubs": "1",
+        "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
-        "difficulty": "0.0",
+        "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "16426.3847656250",
         "duration": "0",
@@ -12597,7 +12597,7 @@
             "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -14735,14 +14735,14 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "837.9556884766",
+        "ascentInMeters": "849.8174438477",
         "bikeRec": "1",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "5.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "78904.9843750000",
+        "distanceInMeters": "79337.7968750000",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "11,12,13,14",
@@ -18781,7 +18781,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
         "jerseyName": "Montmartre KOM",
         "name": "Montmartre KOM",
-        "onRoutes": "1247427185",
+        "onRoutes": "3141079998,870135081,2805636083,565111133,1365497350,1247427185",
         "roadId": "67",
         "roadTime": "0.4550000000",
         "world": "11",
@@ -21639,6 +21639,11 @@
         "signature": "854534852"
       },
       {
+        "imageName": "Assos2026_thumb",
+        "name": "ASSOS 2026",
+        "signature": "854864448"
+      },
+      {
         "imageName": "BritishCyclingMember_thumb",
         "name": "British Cycling Member",
         "signature": "858896296"
@@ -22054,6 +22059,11 @@
         "signature": "1128201030"
       },
       {
+        "imageName": "StabekkSykkelklubb2026_thumb",
+        "name": "Stabekk Sykkleklubb",
+        "signature": "1135838729"
+      },
+      {
         "imageName": "Espresso2022_thumb",
         "name": "Espresso Cycle & Tri Coaching",
         "signature": "1137000404"
@@ -22215,7 +22225,7 @@
       },
       {
         "imageName": "LequipeProvence2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_LEQUIPEPROVENCE2026",
+        "name": "L\u2019equipe Provence 2026",
         "signature": "1235712408"
       },
       {
@@ -22950,7 +22960,7 @@
       },
       {
         "imageName": "Rave2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_RAVE2026",
+        "name": "Rave 2026",
         "signature": "1745871788"
       },
       {
@@ -23405,7 +23415,7 @@
       },
       {
         "imageName": "Radlabor2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_RADLABOR2026",
+        "name": "Radlabor",
         "signature": "2095287304"
       },
       {
@@ -24117,6 +24127,11 @@
         "imageName": "AHDRLiv_thumb",
         "name": "AHDR Liv",
         "signature": "2614650015"
+      },
+      {
+        "imageName": "RaphaWomens1002026_thumb",
+        "name": "Rapha W100 Watch the Femmes",
+        "signature": "2618852549"
       },
       {
         "imageName": "VitalityCycling2021_thumb",
@@ -25932,6 +25947,11 @@
         "imageName": "Zwift_CamoPix_02_thumb",
         "name": "DigiCamo 2",
         "signature": "3763851073"
+      },
+      {
+        "imageName": "SynCycling2026_thumb",
+        "name": "SYN Apex World Tour",
+        "signature": "3764568642"
       },
       {
         "imageName": "TourDeZwift2018_thumb",
@@ -28810,7 +28830,7 @@
       },
       {
         "imageName": "Wheel_Cadex42",
-        "name": "Cadex CADEX 42",
+        "name": "Cadex 42",
         "signature": "1497226614"
       },
       {
@@ -28860,7 +28880,7 @@
       },
       {
         "imageName": "Wheel_VanquishRC6",
-        "name": "HED HED Vanquish RC6 Pro",
+        "name": "HED Vanquish RC6 Pro",
         "signature": "1791179228"
       },
       {
@@ -28920,7 +28940,7 @@
       },
       {
         "imageName": "Wheel_Reserve34",
-        "name": "Reserve Reserve 34/37",
+        "name": "Reserve 34/37",
         "signature": "2482805243"
       },
       {
@@ -28935,7 +28955,7 @@
       },
       {
         "imageName": "Wheel_Cadex65",
-        "name": "Cadex CADEX 65",
+        "name": "Cadex 65",
         "signature": "2621265514"
       },
       {
@@ -28970,12 +28990,12 @@
       },
       {
         "imageName": "Wheel_MicheDevaRD62",
-        "name": "Miche Miche Deva RD 62",
+        "name": "Miche Deva RD 62",
         "signature": "3023364973"
       },
       {
         "imageName": "Wheel_ENVESES4",
-        "name": "Enve ENVE SES 4.5 PRO",
+        "name": "Enve SES 4.5 PRO",
         "signature": "3114121871"
       },
       {
@@ -28992,6 +29012,11 @@
         "imageName": "Wheel_Enve67",
         "name": "Enve SES 6.7",
         "signature": "3251069251"
+      },
+      {
+        "imageName": "Wheel_RovalRapideCLX",
+        "name": "Roval Sprint CLX",
+        "signature": "3400914270"
       },
       {
         "imageName": "Wheel_BromptonPLine2025",
@@ -29025,7 +29050,7 @@
       },
       {
         "imageName": "Wheel_Reserve57",
-        "name": "Reserve Reserve 57/64",
+        "name": "Reserve 57/64",
         "signature": "3844299290"
       },
       {
@@ -29040,7 +29065,7 @@
       },
       {
         "imageName": "Wheel_CadexMax50",
-        "name": "Cadex Cadex Max 50",
+        "name": "Cadex Max 50",
         "signature": "3969146157"
       },
       {
@@ -29154,17 +29179,17 @@
       },
       {
         "imageName": "Wheel_ENVESES4",
-        "name": "Enve ENVE SES 4.5 PRO",
+        "name": "Enve SES 4.5 PRO",
         "signature": "635106022"
       },
       {
         "imageName": "Wheel_Reserve57",
-        "name": "Reserve Reserve 57/64",
+        "name": "Reserve 57/64",
         "signature": "676356957"
       },
       {
         "imageName": "Wheel_CadexMax50",
-        "name": "Cadex Cadex Max 50",
+        "name": "Cadex Max 50",
         "signature": "689667921"
       },
       {
@@ -29174,7 +29199,7 @@
       },
       {
         "imageName": "Wheel_Reserve34",
-        "name": "Reserve Reserve 34/37",
+        "name": "Reserve 34/37",
         "signature": "735187485"
       },
       {
@@ -29224,7 +29249,7 @@
       },
       {
         "imageName": "Wheel_Cadex42",
-        "name": "Cadex CADEX 42",
+        "name": "Cadex 42",
         "signature": "1347687916"
       },
       {
@@ -29374,7 +29399,7 @@
       },
       {
         "imageName": "Wheel_VanquishRC6",
-        "name": "HED HED Vanquish RC6 Pro",
+        "name": "HED Vanquish RC6 Pro",
         "signature": "2913819265"
       },
       {
@@ -29408,6 +29433,11 @@
         "signature": "3473846672"
       },
       {
+        "imageName": "Wheel_RovalRapideCLX",
+        "name": "Roval Sprint CLX",
+        "signature": "3517161569"
+      },
+      {
         "imageName": "Wheel_RovalRapide",
         "name": "Roval Rapide CLX",
         "signature": "3548735686"
@@ -29434,7 +29464,7 @@
       },
       {
         "imageName": "Wheel_MicheDevaRD62",
-        "name": "Miche Miche Deva RD 62",
+        "name": "Miche Deva RD 62",
         "signature": "3790155372"
       },
       {
@@ -29444,7 +29474,7 @@
       },
       {
         "imageName": "Wheel_Cadex65",
-        "name": "Cadex CADEX 65",
+        "name": "Cadex 65",
         "signature": "3940857684"
       },
       {
@@ -29974,6 +30004,20 @@
         "signature": "940439989"
       },
       {
+        "bikeClass": "HIGH_END",
+        "brand": "Canyon",
+        "isTT": "1",
+        "lvId": "405837660",
+        "modelYear": "2026",
+        "name": "Canyon Speedmax CFR",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "959676272"
+      },
+      {
         "bikeClass": "MID_RANGE",
         "brand": "Specialized",
         "isTT": "0",
@@ -30161,7 +30205,7 @@
         "isTT": "0",
         "lvId": "4169711732",
         "modelYear": "2026",
-        "name": "WilierFilante Wilier Filante SLR ID2",
+        "name": "WilierFilante Filante SLR ID2 Team",
         "price0": "100000",
         "price1": "200000",
         "price2": "350000",
@@ -31094,6 +31138,20 @@
         "signature": "3017804836"
       },
       {
+        "bikeClass": "HIGH_END",
+        "brand": "Canyon",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2026",
+        "name": "Canyon Aeroad CFR Alpecin Premier-Tech",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "3032254907"
+      },
+      {
         "bikeClass": "MID_RANGE",
         "brand": "Merida",
         "isTT": "0",
@@ -31218,6 +31276,20 @@
         "price3": "200000",
         "price4": "250000",
         "signature": "3367169312"
+      },
+      {
+        "bikeClass": "HIGH_END",
+        "brand": "Specialized",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2026",
+        "name": "Specialized Tarmac SL9",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "3371227947"
       },
       {
         "bikeClass": "MID_RANGE",
@@ -31806,6 +31878,10 @@
         "signature": "253698565"
       },
       {
+        "name": "Specialized SpecializedTarmacSL92026-Default",
+        "signature": "279467276"
+      },
+      {
         "name": "WilierFilante WilierFilanteSLRID22026-Default",
         "signature": "296065455"
       },
@@ -32126,6 +32202,10 @@
         "signature": "1662132237"
       },
       {
+        "name": "Canyon CanyonSpeedmaxCFR2026-Default",
+        "signature": "1663193786"
+      },
+      {
         "name": "Scott ScottPlasma2022-base",
         "signature": "1696285461"
       },
@@ -32160,6 +32240,10 @@
       {
         "name": "Scott Foil-Green",
         "signature": "1803547299"
+      },
+      {
+        "name": "Canyon AeroadAlpecin2026-Default",
+        "signature": "1819599615"
       },
       {
         "name": "Felt AR-Felt AR 2018 Blue",
@@ -34207,6 +34291,11 @@
         "imageName": "CyclingCapRaphaRising2022_thumb",
         "name": "Rapha Rising 2022",
         "signature": "3324753264"
+      },
+      {
+        "imageName": "BackwardsCapSynClubCircuit2026_thumb",
+        "name": "SYN APEX World Tour",
+        "signature": "3335823310"
       },
       {
         "imageName": "BeanieZwiftUnlocked2025_thumb",
@@ -37576,6 +37665,34 @@
         "routeSignature": "2128895616",
         "sport": "1",
         "signature": "486"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "TWILIGHT CRIT",
+        "routeSignature": "362278484",
+        "sport": "0",
+        "signature": "487"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "MECH ISLE MAYHEM",
+        "routeSignature": "2919739330",
+        "sport": "0",
+        "signature": "488"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "WHAT YUMEZI WERE LOST",
+        "routeSignature": "811898717",
+        "sport": "0",
+        "signature": "489"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "URUMAZE",
+        "routeSignature": "4092230492",
+        "sport": "0",
+        "signature": "490"
       }
     ]
   },
