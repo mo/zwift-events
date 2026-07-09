@@ -4021,7 +4021,7 @@
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "15965.4375000000",
         "duration": "0",
-        "eventOnly": "0",
+        "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0.0391015597",
         "freeRideLeadinDistanceInMeters": "8.6045522690",
@@ -4047,7 +4047,7 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": true
+            "enabled": false
           },
           "MEETUPS": {
             "enabled": true
@@ -11068,7 +11068,7 @@
         "distanceBetweenFirstLastLrCPsInMeters": "0.0",
         "distanceInMeters": "60785.4257812500",
         "duration": "4",
-        "eventOnly": "1",
+        "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0.0",
         "freeRideLeadinDistanceInMeters": "901.4",
@@ -11093,7 +11093,7 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": false
+            "enabled": true
           },
           "MEETUPS": {
             "enabled": true
