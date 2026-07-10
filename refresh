@@ -2,8 +2,9 @@
 
 git pull --rebase
 ./1-fetch-zwift-data.py
+./2-get-completed-routes.py
 git add .
-git commit -m "update events"
+git commit -m "update events & completed routes"
 git push origin HEAD
 
 SHA=$(git rev-parse HEAD)
