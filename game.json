@@ -12565,7 +12565,7 @@
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "16426.3847656250",
         "duration": "0",
-        "eventOnly": "1",
+        "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0",
         "freeRideLeadinDistanceInMeters": "7.8360886574",
@@ -12591,7 +12591,7 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": false
+            "enabled": true
           },
           "MEETUPS": {
             "enabled": true
