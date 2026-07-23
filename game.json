@@ -2710,6 +2710,55 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "20.3926963806",
+        "bikeRec": "1",
+        "blockedForClubs": "1",
+        "blockedForMeetups": "1",
+        "blockedForTimeTrial": "0",
+        "difficulty": "1.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "3903.7590332031",
+        "duration": "1",
+        "eventOnly": "1",
+        "eventPaddocks": "16,17,18,19",
+        "freeRideLeadinAscentInMeters": "0.7751755118",
+        "freeRideLeadinDistanceInMeters": "23.9764785767",
+        "imageName": "MAKURIISLANDS_Twilight_Crit",
+        "leadinAscentInMeters": "1.6332421303",
+        "leadinDistanceInMeters": "65.9097824097",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_MAKURIISLANDS_TWILIGHT_CRIT",
+        "map": "MAKURIISLANDS",
+        "meetupLeadinAscentInMeters": "1.2167768478",
+        "meetupLeadinDistanceInMeters": "39.0265197754",
+        "name": "Twilight Crit",
+        "sports": "1",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "80",
+        "zwiftEventOnly": "1",
+        "signature": "362278484",
+        "routeSignature": "362278484",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": false
+          },
+          "MEETUPS": {
+            "enabled": false
+          },
+          "CLUBS": {
+            "enabled": false
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "226.3478088379",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
@@ -3963,6 +4012,55 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "281.6099548340",
+        "bikeRec": "1",
+        "blockedForClubs": "1",
+        "blockedForMeetups": "1",
+        "blockedForTimeTrial": "0",
+        "difficulty": "3.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "17429.5078125000",
+        "duration": "3",
+        "eventOnly": "1",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "3.3150193691",
+        "freeRideLeadinDistanceInMeters": "42.6763534546",
+        "imageName": "MAKURIISLANDS_WhatYumeziWereLost",
+        "leadinAscentInMeters": "3.7019925117",
+        "leadinDistanceInMeters": "111.9608306885",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_MAKURIISLANDS_WHATYUMEZIWERELOST",
+        "map": "MAKURIISLANDS",
+        "meetupLeadinAscentInMeters": "3.3699212074",
+        "meetupLeadinDistanceInMeters": "52.9231300354",
+        "name": "WhatYumeziWereLost",
+        "sports": "1",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "xp": "350",
+        "zwiftEventOnly": "1",
+        "signature": "811898717",
+        "routeSignature": "811898717",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": false
+          },
+          "MEETUPS": {
+            "enabled": false
+          },
+          "CLUBS": {
+            "enabled": false
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "203.1",
         "bikeRec": "1",
         "blockedForClubs": "0",
@@ -4014,7 +4112,7 @@
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "116.8557052612",
         "bikeRec": "1",
-        "blockedForClubs": "0",
+        "blockedForClubs": "1",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "3.0",
@@ -4053,7 +4151,7 @@
             "enabled": true
           },
           "CLUBS": {
-            "enabled": true
+            "enabled": false
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -5718,7 +5816,7 @@
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "221.4649505615",
         "bikeRec": "1",
-        "blockedForClubs": "0",
+        "blockedForClubs": "1",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
@@ -5757,7 +5855,7 @@
             "enabled": true
           },
           "CLUBS": {
-            "enabled": true
+            "enabled": false
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -11541,6 +11639,55 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "113.1425628662",
+        "bikeRec": "1",
+        "blockedForClubs": "1",
+        "blockedForMeetups": "1",
+        "blockedForTimeTrial": "0",
+        "difficulty": "2.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "18337.3320312500",
+        "duration": "2",
+        "eventOnly": "1",
+        "eventPaddocks": "21,22,23,24",
+        "freeRideLeadinAscentInMeters": "0.3179492056",
+        "freeRideLeadinDistanceInMeters": "10.5002269745",
+        "imageName": "MAKURIISLANDS_Mech_Isle_Mayhem",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "85.2417526245",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_MAKURIISLANDS_MECH_ISLE_MAYHEM",
+        "map": "MAKURIISLANDS",
+        "meetupLeadinAscentInMeters": "0.7667383552",
+        "meetupLeadinDistanceInMeters": "26.5480709076",
+        "name": "Mech Isle Mayhem",
+        "sports": "1",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "365",
+        "zwiftEventOnly": "1",
+        "signature": "2919739330",
+        "routeSignature": "2919739330",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": false
+          },
+          "MEETUPS": {
+            "enabled": false
+          },
+          "CLUBS": {
+            "enabled": false
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "617.6887817383",
         "bikeRec": "1",
         "blockedForClubs": "0",
@@ -16469,6 +16616,55 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "193.3733367920",
+        "bikeRec": "1",
+        "blockedForClubs": "1",
+        "blockedForMeetups": "1",
+        "blockedForTimeTrial": "0",
+        "difficulty": "2.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "24753.9492187500",
+        "duration": "3",
+        "eventOnly": "1",
+        "eventPaddocks": "21,22,23,24",
+        "freeRideLeadinAscentInMeters": "0.7847169638",
+        "freeRideLeadinDistanceInMeters": "27.4808788300",
+        "imageName": "MAKURIISLANDS_Urumaze",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "85.2417526245",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_MAKURIISLANDS_URUMAZE",
+        "map": "MAKURIISLANDS",
+        "meetupLeadinAscentInMeters": "0.8716991544",
+        "meetupLeadinDistanceInMeters": "43.5804634094",
+        "name": "Urumaze",
+        "sports": "1",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "495",
+        "zwiftEventOnly": "1",
+        "signature": "4092230492",
+        "routeSignature": "4092230492",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": false
+          },
+          "MEETUPS": {
+            "enabled": false
+          },
+          "CLUBS": {
+            "enabled": false
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "735.9",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
@@ -17986,7 +18182,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "jerseyName": "Country Sprint",
         "name": "COUNTRY_SPRINT",
-        "onRoutes": "525689100,3282611437,2653858696,2866480562,2927651296",
+        "onRoutes": "525689100,3282611437,2653858696,2866480562,2927651296,811898717",
         "roadId": "0",
         "roadTime": "0.4924368000",
         "world": "9",
@@ -18176,6 +18372,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "jerseyName": "BOARDWALK SPRINT",
         "name": "BOARDWALK_SPRINT",
+        "onRoutes": "2919739330",
         "roadId": "134",
         "roadTime": "0.1677000000",
         "world": "9",
@@ -19690,7 +19887,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
         "jerseyName": "Temple KOM",
         "name": "TEMPLE_KOM",
-        "onRoutes": "3603635554,1562187590,525689100,2896159042,2866480562,3330165223",
+        "onRoutes": "3603635554,1562187590,525689100,2896159042,2866480562,3330165223,811898717",
         "roadId": "41",
         "roadTime": "0.4768478965",
         "world": "9",
@@ -20136,7 +20333,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "jerseyName": "TOWER SPRINT",
         "name": "TOWER_SPRINT",
-        "onRoutes": "3407362320,1453570384,1457923570,3742187716,2927651296,186601870,2892858917,2833089100,3600776267",
+        "onRoutes": "3407362320,1453570384,1457923570,3742187716,2927651296,186601870,2892858917,2833089100,3600776267,4092230492",
         "roadId": "6",
         "roadTime": "0.2130466684",
         "world": "9",
@@ -20210,7 +20407,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "jerseyName": "CASTLE PARK SPRINT",
         "name": "CASTLE_PARK_SPRINT",
-        "onRoutes": "3407362320,1453570384,3742187716,890800649,3636436865,65777922",
+        "onRoutes": "3407362320,1453570384,3742187716,890800649,3636436865,65777922,362278484",
         "roadId": "18",
         "roadTime": "0.6855761013",
         "world": "9",
@@ -20225,7 +20422,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "jerseyName": "TIDEPOOL SPRINT",
         "name": "TIDEPOOL_SPRINT",
-        "onRoutes": "2833089100",
+        "onRoutes": "2833089100,2919739330,4092230492",
         "roadId": "128",
         "roadTime": "0.8920000000",
         "world": "9",
@@ -20255,7 +20452,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "jerseyName": "SHISA SPRINT",
         "name": "SHISA_SPRINT",
-        "onRoutes": "1760877317,890800649,2927651296",
+        "onRoutes": "1760877317,890800649,2927651296,4092230492",
         "roadId": "134",
         "roadTime": "0.6923000000",
         "world": "9",
@@ -20352,6 +20549,11 @@
         "imageName": "TdF2025_thumb",
         "name": "2025 Tour Fever",
         "signature": "64218091"
+      },
+      {
+        "imageName": "TourOfWatopia2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_TOUROFWATOPIA2026",
+        "signature": "66625728"
       },
       {
         "imageName": "ZwiftNationalChampions_thumb",
@@ -20787,6 +20989,11 @@
         "imageName": "GGCC2020_thumb",
         "name": "GGCC",
         "signature": "330017973"
+      },
+      {
+        "imageName": "FenixPremierTechTdFFaZ2026_thumb",
+        "name": "Fenix-Premier Tech 2026 TdFFaZ",
+        "signature": "339424314"
       },
       {
         "imageName": "TdFFaZ2025_thumb",
@@ -21712,6 +21919,11 @@
         "imageName": "Zwift_eFondo_Jul_thumb",
         "name": "Zwift eFondo July",
         "signature": "888463839"
+      },
+      {
+        "imageName": "WeRideParis2026_thumb",
+        "name": "WE RIDE PARIS",
+        "signature": "892899551"
       },
       {
         "imageName": "PedalRacing2018_thumb",
@@ -22897,6 +23109,11 @@
         "imageName": "IndoorSpecialist_thumb",
         "name": "Indoor Specialist",
         "signature": "1677202555"
+      },
+      {
+        "imageName": "TourOfWatopiaUltimate2026_thumb",
+        "name": "LOC_CYCLING_JERSEY_TOUROFWATOPIAULTIMATE2026",
+        "signature": "1695291627"
       },
       {
         "imageName": "KiwiCrew2022_thumb",
@@ -26574,6 +26791,11 @@
         "signature": "4115647532"
       },
       {
+        "imageName": "CanyonSRAMWeFemmes2026_thumb",
+        "name": "CANYON//SRAM WeFemmes 2026",
+        "signature": "4117053196"
+      },
+      {
         "imageName": "ProjectEchelon2024_thumb",
         "name": "Project Echelon 2024",
         "signature": "4118910897"
@@ -30201,11 +30423,11 @@
       },
       {
         "bikeClass": "HIGH_END",
-        "brand": "WilierFilante",
+        "brand": "Wilier",
         "isTT": "0",
         "lvId": "4169711732",
         "modelYear": "2026",
-        "name": "WilierFilante Filante SLR ID2 Team",
+        "name": "Wilier Filante SLR ID2 Team",
         "price0": "100000",
         "price1": "200000",
         "price2": "350000",
@@ -30758,6 +30980,20 @@
         "price3": "200000",
         "price4": "250000",
         "signature": "2205705045"
+      },
+      {
+        "bikeClass": "HIGH_END",
+        "brand": "Canyon",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2026",
+        "name": "Canyon LOC_ENTITLEMENT_CYCLING_BIKE_CANYON_AEROADCFR2026_NAME",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "2303301376"
       },
       {
         "bikeClass": "CONCEPT",
@@ -31712,6 +31948,20 @@
         "signature": "4048415486"
       },
       {
+        "bikeClass": "HIGH_END",
+        "brand": "Canyon",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2026",
+        "name": "Canyon Aeroad Abell",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "4085226104"
+      },
+      {
         "bikeClass": "MID_RANGE",
         "brand": "Scott",
         "isTT": "0",
@@ -31882,7 +32132,7 @@
         "signature": "279467276"
       },
       {
-        "name": "WilierFilante WilierFilanteSLRID22026-Default",
+        "name": "Wilier WilierFilanteSLRID22026-Default",
         "signature": "296065455"
       },
       {
@@ -32314,6 +32564,10 @@
         "signature": "2085745080"
       },
       {
+        "name": "Canyon AeroadCS2026-Default",
+        "signature": "2132627160"
+      },
+      {
         "name": "Canyon CanyonSpeedmaxCRSLXDisc2021-Black/White",
         "signature": "2169696877"
       },
@@ -32608,6 +32862,10 @@
       {
         "name": "Cube Cube Litening-Circus Wanty",
         "signature": "3434593695"
+      },
+      {
+        "name": "Canyon AeroadGreen2026-Default",
+        "signature": "3475506684"
       },
       {
         "name": "Specialized Tarmac Pro-Quickstep",
@@ -32960,6 +33218,11 @@
         "signature": "1381501486"
       },
       {
+        "imageName": "SocksTourOfWatopia2026",
+        "name": "LOC_SOCKS_SOCKS_TOUROFWATOPIA2026_NAME",
+        "signature": "1418681064"
+      },
+      {
         "imageName": "Pattern01Blue",
         "name": "Patterned Blue",
         "signature": "1422305746"
@@ -33163,6 +33426,11 @@
         "imageName": "Fruits02",
         "name": "Fruit Socks",
         "signature": "2644465467"
+      },
+      {
+        "imageName": "SocksWeRideParis2026",
+        "name": "WE RIDE PARIS",
+        "signature": "2696317452"
       },
       {
         "imageName": "TourOfMakuri2022",
@@ -33743,6 +34011,11 @@
         "signature": "478478662"
       },
       {
+        "imageName": "RunningCapTourOfWatopia2026_thumb",
+        "name": "LOC_CYCLING_HEADGEAR_RUNNINGCAPTOUROFWATOPIA2026_NAME",
+        "signature": "510898553"
+      },
+      {
         "imageName": "RunnerCapRFTO2022_thumb",
         "name": "2022 adidas RFTO",
         "signature": "518828917"
@@ -33963,6 +34236,11 @@
         "signature": "1498204581"
       },
       {
+        "imageName": "CyclingCapDuraAce2026_thumb",
+        "name": "LOC_CYCLING_HEADGEAR_DuraAce2026_NAME",
+        "signature": "1527767683"
+      },
+      {
         "imageName": "CyclingCapTourDeZwift2021_thumb",
         "name": "Tour de Zwift 2021 Ride Cap",
         "signature": "1609128200"
@@ -34091,6 +34369,11 @@
         "imageName": "GarminUnbound2021",
         "name": "Garmin Unbound Helmet Skin",
         "signature": "2462854936"
+      },
+      {
+        "imageName": "BackwardsCapZwiftRacingLeague2026_thumb",
+        "name": "LOC_RUNNING_HEADGEAR_BACKWARDSCAPZWIFTRACINGLEAGUE2026_NAME",
+        "signature": "2509063280"
       },
       {
         "imageName": "WahooCustomCap2018_thumb",
