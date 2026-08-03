@@ -4112,14 +4112,14 @@
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "116.8557052612",
         "bikeRec": "1",
-        "blockedForClubs": "1",
+        "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "3.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "15965.4375000000",
         "duration": "0",
-        "eventOnly": "1",
+        "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0.0391015597",
         "freeRideLeadinDistanceInMeters": "8.6045522690",
@@ -4145,13 +4145,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": false
+            "enabled": true
           },
           "MEETUPS": {
             "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -5816,14 +5816,14 @@
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "221.4649505615",
         "bikeRec": "1",
-        "blockedForClubs": "1",
+        "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
         "distanceInMeters": "30507.8574218750",
         "duration": "2",
-        "eventOnly": "1",
+        "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0.0530859344",
         "freeRideLeadinDistanceInMeters": "10.9408092499",
@@ -5849,13 +5849,13 @@
             "enabled": true
           },
           "FREE_RIDE": {
-            "enabled": false
+            "enabled": true
           },
           "MEETUPS": {
             "enabled": true
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
