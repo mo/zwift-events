@@ -92,6 +92,7 @@ def has_route_badge(route):
         and 'PORTAL' not in loc_key
     )
 
+rows_written = 0
 with open('site/upcoming-banded.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     for event in events:
@@ -129,8 +130,9 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
             route.get('xp', ''),
             'yes' if has_route_badge(route) else '',
         ])
+        rows_written += 1
 
-print(f'Wrote {len(events)} rows to site/upcoming-banded.csv')
+print(f'Wrote {rows_written} rows to site/upcoming-banded.csv')
 
 # --- badges.json ---
 
