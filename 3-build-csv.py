@@ -115,7 +115,7 @@ with open('site/upcoming-banded.csv', 'w', newline='') as f:
             route_name,
             route_length_km,
             route_elev_m,
-            '' if is_completed(route_name) else 'n/a' if not has_route_badge(route) else 'NEEDED',
+            '' if is_completed(route_name) else 'n/a' if not has_route_badge(route) else 'NEED',
             event_type,
             route.get('map', ''),
             event.get('durationInSeconds', 0) // 60,

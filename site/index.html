@@ -112,9 +112,9 @@
             <th data-sort="start">start</th>
             <th data-sort="name">eventName</th>
             <th data-sort="route-name">routeName</th>
-            <th data-sort="route-length">routeLen</th>
-            <th data-sort="elevation">routeElev</th>
-            <th data-sort="route-badge">routeBadge</th>
+            <th data-sort="route-length">rtLen</th>
+            <th data-sort="elevation">rtElev</th>
+            <th data-sort="route-badge">badge</th>
             <th data-sort="event-type">type</th>
             <th data-sort="route-map">world</th>
             <th data-sort="duration">duration</th>
@@ -297,7 +297,7 @@
         const convenientOnly = convenientOnlyCheckbox.checked
         const excludeWorkouts = excludeWorkoutsCheckbox.checked
         let rows = allRows.filter((fields) => !filterDate || fields[0].startsWith(filterDate))
-        if (neededOnly) rows = rows.filter((fields) => fields[5] === "NEEDED")
+        if (neededOnly) rows = rows.filter((fields) => fields[5] === "NEED")
         if (convenientOnly)
           rows = rows.filter((fields) => {
             const hour = parseInt(new Date(fields[0].replace(" ", "T") + ":00").toLocaleString("sv", { timeZone: "Europe/Stockholm", hour: "2-digit", hour12: false }))
