@@ -20,18 +20,18 @@
       }
       th,
       td {
-        border: 1px solid #ccc;
+        border: 1px solid var(--border);
         padding: 0.4rem 0.8rem;
         text-align: left;
       }
       th {
-        background: #f0f0f0;
+        background: var(--th-bg);
         cursor: pointer;
         user-select: none;
         white-space: nowrap;
       }
       tbody tr:hover {
-        background: rgb(239, 245, 248);
+        background: var(--row-hover);
       }
       td a {
         color: inherit;
@@ -130,7 +130,7 @@
         <tbody></tbody>
       </table>
     </div>
-    <p id="row-count" style="color: #999; font-size: 0.85rem; margin-top: 0.5rem"></p>
+    <p id="row-count" style="color: var(--muted); font-size: 0.85rem; margin-top: 0.5rem"></p>
 
     <script>
       // Fetches a CSV stream and calls onRows(rows)
@@ -316,7 +316,7 @@
         const fragment = document.createDocumentFragment()
         rows.forEach((fields) => {
           const tr = document.createElement("tr")
-          if (fields[0] < nowSE) tr.style.color = "#AAA"
+          if (fields[0] < nowSE) tr.style.color = "var(--dim)"
           const routeUrl = fields[14]
           fields.forEach((f, i) => {
             if (i === 13) return // ruleSet — hidden
