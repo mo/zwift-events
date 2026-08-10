@@ -1,0 +1,71 @@
+#!/bin/bash
+set -euo pipefail
+
+#
+# Invoked automatically by claude-hook-SessionStart-startup (see
+# ~/.claude/settings.json) whenever a Claude Code session starts inside a
+# git worktree of this repo. Not meant to be run by hand.
+#
+# Does the boilerplate part of the worktree setup:
+#   - make sure the worktree's branch tracks origin/main
+#   - copy the gitignored, generated site files from the main checkout so that
+#     4-run-local-server.sh works right away without first having to run
+#     3-build-csv.py in the worktree
+#
+# These are copies rather than symlinks on purpose: 3-build-csv.py rewrites
+# them in place, and through a symlink that would clobber the main checkout's
+# copies.
+#
+# Argument: absolute path to the worktree's top-level git root.
+#
+
+WORKTREE_ROOT="${1:?usage: $(basename "$0") <worktree-root>}"
+
+# Generated (gitignored) files to copy over, relative to the repo root.
+# These are the outputs of 3-build-csv.py.
+GENERATED_FILES=(
+    site/badges.json
+    site/upcoming-banded.csv
+)
+
+COMMON_GIT_DIR=$(git -C "$WORKTREE_ROOT" rev-parse --path-format=absolute --git-common-dir)
+MAIN_REPO_ROOT=$(dirname "$COMMON_GIT_DIR")
+
+if [ "$MAIN_REPO_ROOT" == "$WORKTREE_ROOT" ]; then
+    # Not actually a worktree checkout, nothing to do.
+    exit 0
+fi
+
+CURRENT_BRANCH=$(git -C "$WORKTREE_ROOT" branch --show-current)
+if [ -n "$CURRENT_BRANCH" ]; then
+    UPSTREAM=$(git -C "$WORKTREE_ROOT" rev-parse --abbrev-ref --symbolic-full-name '@{u}' 2>/dev/null || true)
+    if [ "$UPSTREAM" != "origin/main" ]; then
+        git -C "$WORKTREE_ROOT" branch --set-upstream-to=origin/main "$CURRENT_BRANCH" >/dev/null
+    fi
+fi
+
+for REL_FILE in "${GENERATED_FILES[@]}"; do
+    if [ -e "$MAIN_REPO_ROOT/$REL_FILE" ] && [ ! -e "$WORKTREE_ROOT/$REL_FILE" ]; then
+        mkdir -p "$WORKTREE_ROOT/$(dirname "$REL_FILE")"
+        cp "$MAIN_REPO_ROOT/$REL_FILE" "$WORKTREE_ROOT/$REL_FILE"
+    fi
+done
+
+cat <<EOF
+
+--- agent-worktree-init-for-mo-zwift-events ---
+This worktree's branch tracks origin/main, and the generated site files
+(${GENERATED_FILES[*]}) were copied in from $MAIN_REPO_ROOT.
+
+That means 4-run-local-server.sh works here right away. The copies are
+private to this worktree, so running 3-build-csv.py is safe -- it only
+rewrites them here and leaves the main checkout alone. They are whatever
+the main checkout had at the time this worktree was set up, so regenerate
+them if you need them up to date:
+
+    ./3-build-csv.py
+
+Note that 4-run-local-server.sh always listens on port 8080, so only one
+worktree (or the main checkout) can serve the site at a time.
+---
+EOF
