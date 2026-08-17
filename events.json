@@ -41465,9 +41465,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "TEST_BIT_10",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES",
-          "TEST_BIT_10"
+          "NO_TT_BIKES"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -41507,9 +41507,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
+      "TEST_BIT_10",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES",
-      "TEST_BIT_10"
+      "NO_TT_BIKES"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -41752,9 +41752,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -41814,9 +41814,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -41876,9 +41876,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -41938,9 +41938,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -42000,9 +42000,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -42037,9 +42037,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -42552,9 +42552,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -42663,9 +42663,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -42774,8 +42774,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -42838,8 +42838,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -42902,8 +42902,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -42966,8 +42966,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -43030,8 +43030,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -43069,8 +43069,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -43177,9 +43177,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -43243,9 +43243,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -43309,9 +43309,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -43375,9 +43375,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -43416,9 +43416,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -43660,8 +43660,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -43690,8 +43690,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -43941,8 +43941,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -44003,8 +44003,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -44065,8 +44065,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -44127,8 +44127,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -44189,8 +44189,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -44226,8 +44226,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -44332,8 +44332,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -44366,8 +44366,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -44475,9 +44475,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "TEST_BIT_10",
           "ALLOWS_LATE_JOIN",
-          "NO_POWERUPS",
-          "TEST_BIT_10"
+          "NO_POWERUPS"
         ],
         "workoutHash": null,
         "customUrl": "https://cdn.zwift.com/events/upload/workouts/6a7ec652b5c4f2c996193bfa-2026-07-28_SweetSpot1.zwo",
@@ -44503,9 +44503,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
+      "TEST_BIT_10",
       "ALLOWS_LATE_JOIN",
-      "NO_POWERUPS",
-      "TEST_BIT_10"
+      "NO_POWERUPS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -44742,8 +44742,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -44801,8 +44801,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -45228,9 +45228,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -45474,9 +45474,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "NO_TT_BIKES"
         ],
         "workoutHash": null,
         "customUrl": "https://cdn.zwift.com/events/upload/workouts/Power_Endurance.xml",
@@ -45505,9 +45505,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
+      "LADIES_ONLY",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES",
-      "LADIES_ONLY"
+      "NO_TT_BIKES"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -45753,8 +45753,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -45817,8 +45817,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -45881,8 +45881,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -45945,8 +45945,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -46009,8 +46009,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -46048,8 +46048,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -46156,9 +46156,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -46196,9 +46196,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
+      "NO_TT_BIKES",
       "ENFORCE_HRM",
-      "NO_TT_BIKES"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -46304,8 +46304,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "NO_POWERUPS",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -46361,8 +46361,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "NO_POWERUPS",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -46418,8 +46418,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "NO_POWERUPS",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -46475,8 +46475,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "NO_POWERUPS",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -46502,8 +46502,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "NO_POWERUPS",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -46866,9 +46866,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -46928,9 +46928,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -46990,9 +46990,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -47052,9 +47052,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -47114,9 +47114,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -47146,9 +47146,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
+      "NO_TT_BIKES",
       "ENFORCE_HRM",
-      "NO_TT_BIKES"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -47253,8 +47253,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "ALLOWS_LATE_JOIN",
-          "TEST_BIT_10"
+          "TEST_BIT_10",
+          "ALLOWS_LATE_JOIN"
         ],
         "workoutHash": null,
         "customUrl": "https://cdn.zwift.com/events/upload/workouts/6a7ec652b5c4f2c996193bfa-2026-07-28_SweetSpot1.zwo",
@@ -47281,8 +47281,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "ALLOWS_LATE_JOIN",
-      "TEST_BIT_10"
+      "TEST_BIT_10",
+      "ALLOWS_LATE_JOIN"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -48297,9 +48297,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -48358,9 +48358,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -48419,9 +48419,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -48480,9 +48480,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -48541,9 +48541,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -48572,9 +48572,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
-      "ENFORCE_HRM"
+      "ENFORCE_HRM",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -48981,8 +48981,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49045,8 +49045,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49109,8 +49109,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49173,8 +49173,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49237,8 +49237,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49276,8 +49276,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -49387,8 +49387,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49446,8 +49446,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49473,8 +49473,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -49574,9 +49574,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49638,9 +49638,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49702,9 +49702,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49766,9 +49766,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -49800,9 +49800,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -50162,9 +50162,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "TEST_BIT_10",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES",
-          "TEST_BIT_10"
+          "NO_TT_BIKES"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -50194,9 +50194,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
+      "TEST_BIT_10",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES",
-      "TEST_BIT_10"
+      "NO_TT_BIKES"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -50443,10 +50443,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "REVERSE_ROUTE",
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "REVERSE_ROUTE",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -50479,10 +50479,10 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "REVERSE_ROUTE",
-      "SHOW_RACE_RESULTS",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "REVERSE_ROUTE",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -50593,10 +50593,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
+          "TEST_BIT_10",
           "ALLOWS_LATE_JOIN",
           "NO_POWERUPS",
-          "TEST_BIT_10"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -50624,10 +50624,10 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
+      "TEST_BIT_10",
       "ALLOWS_LATE_JOIN",
       "NO_POWERUPS",
-      "TEST_BIT_10"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -51157,9 +51157,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -51217,9 +51217,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -51277,9 +51277,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -51337,9 +51337,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -51397,9 +51397,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -51427,9 +51427,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
+      "NO_TT_BIKES",
       "ENFORCE_HRM",
-      "NO_TT_BIKES"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -51811,9 +51811,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -51869,9 +51869,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -51927,9 +51927,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -51985,9 +51985,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -52043,9 +52043,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -52071,9 +52071,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -52173,9 +52173,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "NO_TT_BIKES"
         ],
         "workoutHash": null,
         "customUrl": "https://cdn.zwift.com/events/upload/workouts/Power_Endurance.xml",
@@ -52204,9 +52204,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
+      "LADIES_ONLY",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES",
-      "LADIES_ONLY"
+      "NO_TT_BIKES"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -52316,8 +52316,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -52346,8 +52346,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -52454,8 +52454,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -52584,8 +52584,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -52648,8 +52648,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -52712,8 +52712,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -52776,8 +52776,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -52840,8 +52840,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -52879,8 +52879,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -53124,8 +53124,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -53161,8 +53161,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -53271,9 +53271,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -53332,9 +53332,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -53393,9 +53393,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -53454,9 +53454,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -53515,9 +53515,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -53546,9 +53546,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -53652,9 +53652,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -53692,9 +53692,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
+      "NO_TT_BIKES",
       "ENFORCE_HRM",
-      "NO_TT_BIKES"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -53801,9 +53801,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -53862,9 +53862,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -53923,9 +53923,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -53984,9 +53984,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -54015,9 +54015,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
+      "NO_TT_BIKES",
       "ENFORCE_HRM",
-      "NO_TT_BIKES"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -54120,9 +54120,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -54186,9 +54186,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -54252,9 +54252,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -54318,9 +54318,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -54359,9 +54359,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -54479,8 +54479,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "https://cdn.zwift.com/AudioBroadcasts/wbrgrouprideaudiov4",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -54511,8 +54511,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -54614,10 +54614,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -54679,10 +54679,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -54744,10 +54744,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -54809,10 +54809,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -54874,10 +54874,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -54914,10 +54914,10 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
+      "LADIES_ONLY",
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
       "NO_TT_BIKES",
-      "LADIES_ONLY"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -55165,8 +55165,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "NO_DRAFTING",
-          "NO_POWERUPS"
+          "NO_POWERUPS",
+          "NO_DRAFTING"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -55223,8 +55223,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "NO_DRAFTING",
-          "NO_POWERUPS"
+          "NO_POWERUPS",
+          "NO_DRAFTING"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -55281,8 +55281,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "NO_DRAFTING",
-          "NO_POWERUPS"
+          "NO_POWERUPS",
+          "NO_DRAFTING"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -55339,8 +55339,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "NO_DRAFTING",
-          "NO_POWERUPS"
+          "NO_POWERUPS",
+          "NO_DRAFTING"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -55367,8 +55367,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "NO_DRAFTING",
-      "NO_POWERUPS"
+      "NO_POWERUPS",
+      "NO_DRAFTING"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -56278,9 +56278,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -56340,9 +56340,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -56402,9 +56402,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -56464,9 +56464,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -56526,9 +56526,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -56563,9 +56563,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -56669,8 +56669,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -56731,8 +56731,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -56793,8 +56793,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -56855,8 +56855,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -56917,8 +56917,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -56954,8 +56954,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -57068,9 +57068,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "NO_DRAFTING",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "NO_DRAFTING"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -57100,8 +57100,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -57207,10 +57207,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -57268,10 +57268,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -57329,10 +57329,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -57390,10 +57390,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -57421,10 +57421,10 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
+      "NO_TT_BIKES",
       "ENFORCE_HRM",
-      "NO_TT_BIKES"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -57542,9 +57542,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -57577,9 +57577,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -57687,9 +57687,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -57748,9 +57748,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -57809,9 +57809,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -57870,9 +57870,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -57901,9 +57901,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -58445,8 +58445,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -58504,8 +58504,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -58638,8 +58638,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -58766,8 +58766,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "ALLOWS_LATE_JOIN",
-          "TEST_BIT_10"
+          "TEST_BIT_10",
+          "ALLOWS_LATE_JOIN"
         ],
         "workoutHash": null,
         "customUrl": "https://cdn.zwift.com/events/upload/workouts/65ec8ac5be6ee8b838a65b78-9_Workout_HIIT_intermittente.zwo",
@@ -58795,8 +58795,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "ALLOWS_LATE_JOIN",
-      "TEST_BIT_10"
+      "TEST_BIT_10",
+      "ALLOWS_LATE_JOIN"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -58898,8 +58898,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -58955,8 +58955,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -59012,8 +59012,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -59069,8 +59069,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -59096,8 +59096,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -59336,9 +59336,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -59467,9 +59467,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
+          "LADIES_ONLY",
           "ALLOWS_LATE_JOIN",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -59496,9 +59496,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
+      "LADIES_ONLY",
       "ALLOWS_LATE_JOIN",
-      "LADIES_ONLY"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -59600,9 +59600,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -59661,9 +59661,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -59722,9 +59722,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -59783,9 +59783,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -59814,9 +59814,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -60064,8 +60064,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -60128,8 +60128,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -60192,8 +60192,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -60256,8 +60256,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -60320,8 +60320,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -60359,8 +60359,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -60806,9 +60806,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "TEST_BIT_10",
           "ALLOWS_LATE_JOIN",
-          "NO_POWERUPS",
-          "TEST_BIT_10"
+          "NO_POWERUPS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -60834,9 +60834,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
+      "TEST_BIT_10",
       "ALLOWS_LATE_JOIN",
-      "NO_POWERUPS",
-      "TEST_BIT_10"
+      "NO_POWERUPS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -60937,9 +60937,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -60977,9 +60977,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
+      "NO_TT_BIKES",
       "ENFORCE_HRM",
-      "NO_TT_BIKES"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -61238,9 +61238,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -61299,9 +61299,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -61360,9 +61360,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -61421,9 +61421,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -61452,9 +61452,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -61907,9 +61907,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -61973,9 +61973,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -62039,9 +62039,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -62105,9 +62105,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -62146,9 +62146,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -62264,8 +62264,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -62301,8 +62301,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -62557,9 +62557,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "TEST_BIT_10",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES",
-          "TEST_BIT_10"
+          "NO_TT_BIKES"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -62698,9 +62698,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -62759,9 +62759,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -62820,9 +62820,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -62881,9 +62881,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -62912,9 +62912,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -63016,10 +63016,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63081,10 +63081,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63146,10 +63146,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63211,10 +63211,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63276,10 +63276,10 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63316,10 +63316,10 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
+      "LADIES_ONLY",
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
       "NO_TT_BIKES",
-      "LADIES_ONLY"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -63573,8 +63573,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63708,8 +63708,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63769,8 +63769,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63830,8 +63830,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63891,8 +63891,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63952,8 +63952,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -63983,8 +63983,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -64221,9 +64221,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -64283,9 +64283,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -64345,9 +64345,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -64407,9 +64407,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -64469,9 +64469,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -64506,9 +64506,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -64611,9 +64611,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -64675,9 +64675,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -64739,9 +64739,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -64803,9 +64803,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -64837,9 +64837,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -64944,9 +64944,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65008,9 +65008,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65072,9 +65072,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65106,9 +65106,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -65213,8 +65213,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65268,8 +65268,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65323,8 +65323,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65378,8 +65378,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65403,8 +65403,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -65506,8 +65506,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "ALLOWS_LATE_JOIN",
-          "TEST_BIT_10"
+          "TEST_BIT_10",
+          "ALLOWS_LATE_JOIN"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65532,8 +65532,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "ALLOWS_LATE_JOIN",
-      "TEST_BIT_10"
+      "TEST_BIT_10",
+      "ALLOWS_LATE_JOIN"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -65633,9 +65633,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65694,9 +65694,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65755,9 +65755,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65816,9 +65816,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -65847,9 +65847,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -66326,8 +66326,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -66388,8 +66388,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -66450,8 +66450,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -66512,8 +66512,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -66574,8 +66574,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -66611,8 +66611,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -66905,8 +66905,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "ALLOWS_LATE_JOIN",
-          "LADIES_ONLY"
+          "LADIES_ONLY",
+          "ALLOWS_LATE_JOIN"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -66938,8 +66938,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "ALLOWS_LATE_JOIN",
-      "LADIES_ONLY"
+      "LADIES_ONLY",
+      "ALLOWS_LATE_JOIN"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -67051,8 +67051,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -67084,8 +67084,8 @@
     "sport": "RUNNING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -67191,9 +67191,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -67248,9 +67248,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -67305,9 +67305,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -67362,9 +67362,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -67389,9 +67389,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -67497,9 +67497,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -67567,9 +67567,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -67600,9 +67600,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -67709,8 +67709,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -67734,8 +67734,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -67834,10 +67834,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -67902,10 +67902,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -67970,10 +67970,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -68038,10 +68038,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -68106,10 +68106,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -68144,10 +68144,10 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
-      "ENFORCE_HRM"
+      "NO_DRAFTING",
+      "ENFORCE_HRM",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -68868,9 +68868,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "https://cdn.zwift.com/events/upload/workouts/03_Half_Hour_of_Power.xml",
@@ -68899,9 +68899,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -69276,9 +69276,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "NO_TT_BIKES"
         ],
         "workoutHash": null,
         "customUrl": "https://cdn.zwift.com/events/upload/workouts/Power_Endurance.xml",
@@ -69307,9 +69307,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
+      "LADIES_ONLY",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES",
-      "LADIES_ONLY"
+      "NO_TT_BIKES"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -69412,8 +69412,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -69469,8 +69469,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -69526,8 +69526,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -69583,8 +69583,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -69640,8 +69640,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -69667,8 +69667,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -69769,8 +69769,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -69833,8 +69833,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -69897,8 +69897,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -69961,8 +69961,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -70025,8 +70025,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -70064,8 +70064,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -70330,9 +70330,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -70370,9 +70370,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
+      "NO_TT_BIKES",
       "ENFORCE_HRM",
-      "NO_TT_BIKES"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -70479,10 +70479,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -70547,10 +70547,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -70615,10 +70615,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -70683,10 +70683,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -70751,10 +70751,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -70789,10 +70789,10 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
-      "ENFORCE_HRM"
+      "NO_DRAFTING",
+      "ENFORCE_HRM",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -70905,9 +70905,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "NO_TT_BIKES"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -70938,9 +70938,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
+      "LADIES_ONLY",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES",
-      "LADIES_ONLY"
+      "NO_TT_BIKES"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -71046,9 +71046,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -71112,9 +71112,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -71178,9 +71178,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -71244,9 +71244,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -71285,9 +71285,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -71394,9 +71394,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -71458,9 +71458,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -71522,9 +71522,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -71586,9 +71586,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -71620,9 +71620,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -72049,8 +72049,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -72151,9 +72151,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -72213,9 +72213,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -72275,9 +72275,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -72337,9 +72337,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -72399,9 +72399,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -72436,9 +72436,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -72542,10 +72542,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -72610,10 +72610,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -72678,10 +72678,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -72746,10 +72746,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -72814,10 +72814,10 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
           "NO_POWERUPS",
-          "ENFORCE_HRM"
+          "NO_DRAFTING",
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -72852,10 +72852,10 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
       "NO_POWERUPS",
-      "ENFORCE_HRM"
+      "NO_DRAFTING",
+      "ENFORCE_HRM",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -72964,8 +72964,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -73026,8 +73026,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -73088,8 +73088,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -73150,8 +73150,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -73212,8 +73212,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -73249,8 +73249,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -73743,9 +73743,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -73804,9 +73804,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -73865,9 +73865,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -73926,9 +73926,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -73987,9 +73987,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -74018,9 +74018,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -74267,8 +74267,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "https://cdn.zwift.com/AudioBroadcasts/wbrgrouprideaudiov4",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -74297,8 +74297,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -74677,9 +74677,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -74711,9 +74711,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -74818,8 +74818,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "ALLOWS_LATE_JOIN",
-          "TEST_BIT_10"
+          "TEST_BIT_10",
+          "ALLOWS_LATE_JOIN"
         ],
         "workoutHash": null,
         "customUrl": "https://cdn.zwift.com/events/upload/workouts/Aerobic_Conditioning.xml",
@@ -74844,8 +74844,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "ALLOWS_LATE_JOIN",
-      "TEST_BIT_10"
+      "TEST_BIT_10",
+      "ALLOWS_LATE_JOIN"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -74945,8 +74945,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -75009,8 +75009,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -75073,8 +75073,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -75137,8 +75137,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -75201,8 +75201,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -75240,8 +75240,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -75349,8 +75349,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "ALLOWS_LATE_JOIN",
-          "TEST_BIT_10"
+          "TEST_BIT_10",
+          "ALLOWS_LATE_JOIN"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -75376,8 +75376,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "ALLOWS_LATE_JOIN",
-      "TEST_BIT_10"
+      "TEST_BIT_10",
+      "ALLOWS_LATE_JOIN"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -75607,9 +75607,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "TEST_BIT_10",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES",
-          "TEST_BIT_10"
+          "NO_TT_BIKES"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -76030,8 +76030,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -76171,8 +76171,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -76202,8 +76202,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -76309,9 +76309,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -76416,9 +76416,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -76664,8 +76664,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -76726,8 +76726,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -76788,8 +76788,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -76850,8 +76850,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -76912,8 +76912,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -76944,8 +76944,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -77049,8 +77049,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -77108,8 +77108,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -77366,8 +77366,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -77423,8 +77423,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -77480,8 +77480,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -77537,8 +77537,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -77564,8 +77564,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -77814,8 +77814,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -77846,8 +77846,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -77952,9 +77952,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "NO_TT_BIKES"
         ],
         "workoutHash": null,
         "customUrl": "https://cdn.zwift.com/events/upload/workouts/Power_Endurance.xml",
@@ -77983,9 +77983,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
+      "LADIES_ONLY",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES",
-      "LADIES_ONLY"
+      "NO_TT_BIKES"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -78089,8 +78089,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -78153,8 +78153,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -78217,8 +78217,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -78281,8 +78281,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -78345,8 +78345,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -78384,8 +78384,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -78492,8 +78492,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "ENFORCE_HRM"
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -78554,8 +78554,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "ENFORCE_HRM"
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -78616,8 +78616,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "ENFORCE_HRM"
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -78678,8 +78678,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "ENFORCE_HRM"
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -78740,8 +78740,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "ENFORCE_HRM"
+          "ENFORCE_HRM",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -78772,8 +78772,8 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "ENFORCE_HRM"
+      "ENFORCE_HRM",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -78878,9 +78878,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -78918,9 +78918,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
+      "NO_TT_BIKES",
       "ENFORCE_HRM",
-      "NO_TT_BIKES"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -79026,8 +79026,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -79084,8 +79084,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -79142,8 +79142,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -79200,8 +79200,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -79228,8 +79228,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -79468,8 +79468,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -79532,8 +79532,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -79596,8 +79596,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -79660,8 +79660,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -79724,8 +79724,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -79763,8 +79763,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -80150,8 +80150,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -80298,9 +80298,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -80564,8 +80564,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -80628,8 +80628,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -80901,8 +80901,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -81303,9 +81303,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
+          "LADIES_ONLY",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES",
-          "LADIES_ONLY"
+          "NO_TT_BIKES"
         ],
         "workoutHash": null,
         "customUrl": "https://cdn.zwift.com/events/upload/workouts/Power_Endurance.xml",
@@ -81334,9 +81334,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
+      "LADIES_ONLY",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES",
-      "LADIES_ONLY"
+      "NO_TT_BIKES"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -81571,8 +81571,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -81635,8 +81635,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -81699,8 +81699,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -81763,8 +81763,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -81827,8 +81827,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -81866,8 +81866,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -81974,9 +81974,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
+          "NO_TT_BIKES",
           "ENFORCE_HRM",
-          "NO_TT_BIKES"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -82014,9 +82014,9 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
+      "NO_TT_BIKES",
       "ENFORCE_HRM",
-      "NO_TT_BIKES"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -82122,9 +82122,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -82151,9 +82151,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
       "ALLOWS_LATE_JOIN",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -82263,9 +82263,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
           "ALLOWS_LATE_JOIN",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -82413,8 +82413,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -82485,8 +82485,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -82625,8 +82625,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -82687,8 +82687,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -82749,8 +82749,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -82811,8 +82811,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -82873,8 +82873,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -82905,8 +82905,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -83010,8 +83010,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": null,
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": null,
@@ -83069,8 +83069,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83128,8 +83128,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83187,8 +83187,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83246,8 +83246,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83275,8 +83275,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": null,
@@ -83388,8 +83388,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83419,8 +83419,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "SHOW_RACE_RESULTS",
-      "ALLOWS_LATE_JOIN"
+      "ALLOWS_LATE_JOIN",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -83524,8 +83524,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83586,8 +83586,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83648,8 +83648,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83710,8 +83710,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83772,8 +83772,8 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
-          "SHOW_RACE_RESULTS",
-          "NO_TT_BIKES"
+          "NO_TT_BIKES",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83809,8 +83809,8 @@
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
-      "SHOW_RACE_RESULTS",
-      "NO_TT_BIKES"
+      "NO_TT_BIKES",
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": false,
     "recurringOffset": null,
@@ -83919,9 +83919,9 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "ALLOWS_LATE_JOIN",
           "LADIES_ONLY",
-          "TEST_BIT_10"
+          "TEST_BIT_10",
+          "ALLOWS_LATE_JOIN"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -83951,9 +83951,9 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "ALLOWS_LATE_JOIN",
       "LADIES_ONLY",
-      "TEST_BIT_10"
+      "TEST_BIT_10",
+      "ALLOWS_LATE_JOIN"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -84055,8 +84055,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "ALLOWS_LATE_JOIN",
-          "TEST_BIT_10"
+          "TEST_BIT_10",
+          "ALLOWS_LATE_JOIN"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -84081,8 +84081,8 @@
     "sport": "CYCLING",
     "cullingType": "CULLING_SUBGROUP_ONLY",
     "rulesSet": [
-      "ALLOWS_LATE_JOIN",
-      "TEST_BIT_10"
+      "TEST_BIT_10",
+      "ALLOWS_LATE_JOIN"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -84182,9 +84182,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -84243,9 +84243,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -84304,9 +84304,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -84365,9 +84365,9 @@
         "auxiliaryUrl": "",
         "rulesSet": [
           "ENFORCE_NO_ZPOWER",
+          "NO_POWERUPS",
           "NO_DRAFTING",
-          "SHOW_RACE_RESULTS",
-          "NO_POWERUPS"
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -84396,9 +84396,9 @@
     "cullingType": "CULLING_EVENT_ONLY",
     "rulesSet": [
       "ENFORCE_NO_ZPOWER",
+      "NO_POWERUPS",
       "NO_DRAFTING",
-      "SHOW_RACE_RESULTS",
-      "NO_POWERUPS"
+      "SHOW_RACE_RESULTS"
     ],
     "recurring": true,
     "recurringOffset": 7,
@@ -84907,8 +84907,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
@@ -84966,8 +84966,8 @@
         "totalJoinedCount": 0,
         "auxiliaryUrl": "",
         "rulesSet": [
-          "SHOW_RACE_RESULTS",
-          "ALLOWS_LATE_JOIN"
+          "ALLOWS_LATE_JOIN",
+          "SHOW_RACE_RESULTS"
         ],
         "workoutHash": null,
         "customUrl": "",
