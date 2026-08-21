@@ -1751,6 +1751,54 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "334.8999938965",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "3.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "5793.8417968750",
+        "duration": "2",
+        "eventOnly": "0",
+        "eventPaddocks": "6,7,8,9",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "9.7202196121",
+        "imageName": "WATOPIA_Mountain_Mash_Run",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "205.5890197754",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_WATOPIA_MOUNTAIN_MASH",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "0",
+        "meetupLeadinDistanceInMeters": "26.4910984039",
+        "name": "Mountain Mash Run",
+        "sports": "2",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "xp": "230",
+        "zwiftEventOnly": "0",
+        "signature": "136182452",
+        "routeSignature": "136182452",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "58.9",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
@@ -1882,6 +1930,55 @@
           },
           "FREE_RIDE": {
             "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "283.5184631348",
+        "bikeRec": "1",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "3.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "23869.4804687500",
+        "duration": "3",
+        "eventOnly": "1",
+        "eventPaddocks": "6,7,8,9",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "15.1841754913",
+        "imageName": "WATOPIA_Spiral_Summit",
+        "leadinAscentInMeters": "0.0126757845",
+        "leadinDistanceInMeters": "150.4228973389",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_WATOPIA_SPIRAL_SUMMIT",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "0",
+        "meetupLeadinDistanceInMeters": "30.2240009308",
+        "name": "Spiral Summit",
+        "sports": "1",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "xp": "475",
+        "zwiftEventOnly": "1",
+        "signature": "159415549",
+        "routeSignature": "159415549",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": false
           },
           "MEETUPS": {
             "enabled": true
@@ -2304,7 +2401,7 @@
         "meetupLeadinAscentInMeters": "0",
         "meetupLeadinDistanceInMeters": "50.4",
         "name": "Loop de Loop",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "250",
@@ -2721,16 +2818,16 @@
         "duration": "1",
         "eventOnly": "1",
         "eventPaddocks": "16,17,18,19",
-        "freeRideLeadinAscentInMeters": "0.7751755118",
-        "freeRideLeadinDistanceInMeters": "23.9764785767",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "15.2717952728",
         "imageName": "MAKURIISLANDS_Twilight_Crit",
-        "leadinAscentInMeters": "1.6332421303",
-        "leadinDistanceInMeters": "65.9097824097",
+        "leadinAscentInMeters": "13.0989694595",
+        "leadinDistanceInMeters": "1838.7584228516",
         "levelLocked": "0",
         "locKey": "LOC_ROUTE_MAKURIISLANDS_TWILIGHT_CRIT",
         "map": "MAKURIISLANDS",
-        "meetupLeadinAscentInMeters": "1.2167768478",
-        "meetupLeadinDistanceInMeters": "39.0265197754",
+        "meetupLeadinAscentInMeters": "0",
+        "meetupLeadinDistanceInMeters": "35.4366340637",
         "name": "Twilight Crit",
         "sports": "1",
         "supportedLaps": "1",
@@ -3023,6 +3120,54 @@
         "zwiftEventOnly": "0",
         "signature": "480315274",
         "routeSignature": "480315274",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "80.6999969482",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "1.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "7110.2001953125",
+        "duration": "1",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "15.1268892288",
+        "imageName": "WATOPIA_Two_Bridges_Loop_Run",
+        "leadinAscentInMeters": "0.1000000015",
+        "leadinDistanceInMeters": "193.1999969482",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_WATOPIA_TWO_BRIDGES_LOOP",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "0",
+        "meetupLeadinDistanceInMeters": "30.2892646790",
+        "name": "Two Bridges Loop Run",
+        "sports": "2",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "280",
+        "zwiftEventOnly": "0",
+        "signature": "482200332",
+        "routeSignature": "482200332",
         "routeRestrictions": {
           "TIMETRIAL": {
             "enabled": true
@@ -3501,7 +3646,7 @@
         "meetupLeadinAscentInMeters": "7.4",
         "meetupLeadinDistanceInMeters": "1390.9",
         "name": "Volcano Circuit",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "80",
@@ -3795,7 +3940,7 @@
         "meetupLeadinAscentInMeters": "56.6000595093",
         "meetupLeadinDistanceInMeters": "1504.3303222656",
         "name": "Zwift Games 2024 Epic",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "1590",
@@ -3859,6 +4004,54 @@
           },
           "MEETUPS": {
             "enabled": false
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "20.3137969971",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "1.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "4103.5727539062",
+        "duration": "1",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "20.4451141357",
+        "imageName": "WATOPIA_Volcano_Circuit_Run",
+        "leadinAscentInMeters": "19.5632400513",
+        "leadinDistanceInMeters": "2758.5104980469",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_WATOPIA_VOLCANOCIR",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "0",
+        "meetupLeadinDistanceInMeters": "38.2554588318",
+        "name": "Volcano Circuit Run",
+        "sports": "2",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "160",
+        "zwiftEventOnly": "0",
+        "signature": "764410120",
+        "routeSignature": "764410120",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
           },
           "CLUBS": {
             "enabled": true
@@ -3964,6 +4157,54 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "20.3999996185",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "1.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "4103.5000000000",
+        "duration": "1",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "1.5685933828",
+        "freeRideLeadinDistanceInMeters": "73.5481948853",
+        "imageName": "WATOPIA_Volcano_Circuit_CCW_Run",
+        "leadinAscentInMeters": "29.7000007629",
+        "leadinDistanceInMeters": "4841.1469726562",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_WATOPIA_VOLCANOCCW",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "1.5699411631",
+        "meetupLeadinDistanceInMeters": "95.9771652222",
+        "name": "Volcano Circuit CCW Run",
+        "sports": "2",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "160",
+        "zwiftEventOnly": "0",
+        "signature": "802314860",
+        "routeSignature": "802314860",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "416.7949829102",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
@@ -4033,7 +4274,7 @@
         "map": "MAKURIISLANDS",
         "meetupLeadinAscentInMeters": "3.3699212074",
         "meetupLeadinDistanceInMeters": "52.9231300354",
-        "name": "WhatYumeziWereLost",
+        "name": "WhatYumeziWe'reLost?",
         "sports": "1",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
@@ -4595,26 +4836,26 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "21.028",
+        "ascentInMeters": "26.2866478",
         "blockedForClubs": "1",
         "blockedForMeetups": "1",
         "blockedForTimeTrial": "1",
         "difficulty": "1",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "2074.20",
+        "distanceInMeters": "2592.529885",
         "duration": "2",
         "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0",
-        "freeRideLeadinDistanceInMeters": "11.464",
+        "freeRideLeadinDistanceInMeters": "14.33014584",
         "imageName": "GRAVEL MOUNTAIN_Red_Rock_Run",
         "leadinAscentInMeters": "0",
-        "leadinDistanceInMeters": "85.188",
+        "leadinDistanceInMeters": "106.4898682",
         "levelLocked": "0",
         "locKey": "LOC_ROUTE_GRAVEL_MOUNTAIN_RED_ROCK_RUN",
         "map": "GRAVEL MOUNTAIN",
         "meetupLeadinAscentInMeters": "0",
-        "meetupLeadinDistanceInMeters": "15.23",
+        "meetupLeadinDistanceInMeters": "19.04895592",
         "name": "Red Rock Run",
         "runRec": "1",
         "sports": "2",
@@ -5672,26 +5913,26 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "21.0293184",
+        "ascentInMeters": "26.13675308",
         "blockedForClubs": "1",
         "blockedForMeetups": "1",
         "blockedForTimeTrial": "1",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "2073.28730468752",
+        "distanceInMeters": "2591.50729248",
         "duration": "1",
         "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0",
-        "freeRideLeadinDistanceInMeters": "11.46411666872",
+        "freeRideLeadinDistanceInMeters": "52.01867294",
         "imageName": "GRAVEL MOUNTAIN_Red_Rock_Loop_Arcade",
         "leadinAscentInMeters": "0",
-        "leadinDistanceInMeters": "130.5383544922",
+        "leadinDistanceInMeters": "106.4891663",
         "levelLocked": "0",
         "locKey": "LOC_ROUTE_GRAVEL_MOUNTAIN_RED_ROCK_LOOP_ARCADE",
         "map": "GRAVEL MOUNTAIN",
         "meetupLeadinAscentInMeters": "0",
-        "meetupLeadinDistanceInMeters": "15.23916473388",
+        "meetupLeadinDistanceInMeters": "52.01867294",
         "name": "Red Rock Loop Arcade",
         "sports": "1",
         "supportedLaps": "1",
@@ -5721,7 +5962,7 @@
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "1114.4089355469",
-        "blockedForClubs": "1",
+        "blockedForClubs": "0",
         "blockedForMeetups": "1",
         "blockedForTimeTrial": "0",
         "distanceBetweenFirstLastLrCPsInMeters": "0.0",
@@ -5756,7 +5997,7 @@
             "enabled": false
           },
           "CLUBS": {
-            "enabled": false
+            "enabled": true
           },
           "PARTNER_EVENT_ORGANIZERS": {
             "enabled": false
@@ -6293,7 +6534,55 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "20.88",
+        "ascentInMeters": "25",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "1.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "6546.5268554688",
+        "duration": "1",
+        "eventOnly": "0",
+        "eventPaddocks": "6,7,8,9",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "11.7356414795",
+        "imageName": "WATOPIA_Temple_Trek_Run",
+        "leadinAscentInMeters": "18.8999996185",
+        "leadinDistanceInMeters": "4163.1762695312",
+        "levelLocked": "10",
+        "locKey": "LOC_ROUTE_WATOPIA_TEMPLE_TREK",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "0",
+        "meetupLeadinDistanceInMeters": "28.0053997040",
+        "name": "Temple Trek Run",
+        "sports": "2",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "xp": "256",
+        "zwiftEventOnly": "0",
+        "signature": "1434769940",
+        "routeSignature": "1434769940",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "26.286648",
         "bikeRec": "1",
         "bikeType": "7",
         "blockedForClubs": "1",
@@ -6301,20 +6590,20 @@
         "blockedForTimeTrial": "1",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "2073.28730468752",
+        "distanceInMeters": "2591.609131",
         "duration": "1",
         "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0",
-        "freeRideLeadinDistanceInMeters": "14.87",
+        "freeRideLeadinDistanceInMeters": "14.33014584",
         "imageName": "GRAVEL MOUNTAIN_Red_Rock_Loop_Reverse",
         "leadinAscentInMeters": "0",
-        "leadinDistanceInMeters": "39.18",
+        "leadinDistanceInMeters": "106.4898682",
         "levelLocked": "0",
         "locKey": "LOC_ROUTE_GRAVEL_MOUNTAIN_RED_ROCK_LOOP_REVERSE",
         "map": "GRAVEL MOUNTAIN",
         "meetupLeadinAscentInMeters": "0",
-        "meetupLeadinDistanceInMeters": "20.81",
+        "meetupLeadinDistanceInMeters": "19.04895592",
         "name": "Red Rock Loop Reverse",
         "sports": "1",
         "supportedLaps": "1",
@@ -6608,7 +6897,7 @@
         "meetupLeadinAscentInMeters": "1.4982",
         "meetupLeadinDistanceInMeters": "811.2010",
         "name": "The Uber Pretzel",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
         "xp": "2560",
@@ -8871,6 +9160,54 @@
         }
       },
       {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "305.7347106934",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "5.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "7888.8911132812",
+        "duration": "1",
+        "eventOnly": "0",
+        "eventPaddocks": "21,22,23,24",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "8.1942873001",
+        "imageName": "WATOPIA_Oh_Hill_No_Run",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "163.7703704834",
+        "levelLocked": "10",
+        "locKey": "LOC_ROUTE_WATOPIA_OH_HILL_NO",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "0",
+        "meetupLeadinDistanceInMeters": "8.1942873001",
+        "name": "Oh Hill No Run",
+        "sports": "2",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "320",
+        "zwiftEventOnly": "0",
+        "signature": "2181212478",
+        "routeSignature": "2181212478",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
         "ascentBetweenFirstLastLrCPsInMeters": "0.0",
         "ascentInMeters": "157.7",
         "bikeRec": "1",
@@ -9380,7 +9717,7 @@
         "meetupLeadinAscentInMeters": "17.2000007629",
         "meetupLeadinDistanceInMeters": "3947.3999023438",
         "name": "Temple Trek",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
         "xp": "128",
@@ -9643,6 +9980,54 @@
         }
       },
       {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "144.3600921631",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "2.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "12416.8593750000",
+        "duration": "2",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.0371338166",
+        "freeRideLeadinDistanceInMeters": "125.4322128296",
+        "imageName": "WATOPIA_Loop_de_Loop_Run",
+        "leadinAscentInMeters": "0.0959519520",
+        "leadinDistanceInMeters": "193.9167175293",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_WATOPIA_LOOP_DE_LOOP",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "0.0635301545",
+        "meetupLeadinDistanceInMeters": "161.9129638672",
+        "name": "Loop de Loop Run",
+        "sports": "2",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "250",
+        "zwiftEventOnly": "0",
+        "signature": "2455695527",
+        "routeSignature": "2455695527",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
         "ascentBetweenFirstLastLrCPsInMeters": "0.0",
         "ascentInMeters": "48.7",
         "bikeRec": "1",
@@ -9666,7 +10051,7 @@
         "meetupLeadinAscentInMeters": "0.0",
         "meetupLeadinDistanceInMeters": "34",
         "name": "Beach Island Loop",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "workoutRec": "1",
@@ -9715,7 +10100,7 @@
         "meetupLeadinAscentInMeters": "1.0790",
         "meetupLeadinDistanceInMeters": "1147.9448",
         "name": "Watopia Pretzel",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "1440",
@@ -11320,7 +11705,7 @@
         "meetupLeadinAscentInMeters": "2.8354",
         "meetupLeadinDistanceInMeters": "882.9844",
         "name": "Four Horsemen",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "1780",
@@ -11639,27 +12024,27 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "113.1425628662",
+        "ascentInMeters": "113.1468200684",
         "bikeRec": "1",
         "blockedForClubs": "1",
         "blockedForMeetups": "1",
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "18337.3320312500",
+        "distanceInMeters": "18334.8730468750",
         "duration": "2",
         "eventOnly": "1",
         "eventPaddocks": "21,22,23,24",
-        "freeRideLeadinAscentInMeters": "0.3179492056",
-        "freeRideLeadinDistanceInMeters": "10.5002269745",
+        "freeRideLeadinAscentInMeters": "0.0681543052",
+        "freeRideLeadinDistanceInMeters": "19.2784233093",
         "imageName": "MAKURIISLANDS_Mech_Isle_Mayhem",
-        "leadinAscentInMeters": "0",
-        "leadinDistanceInMeters": "85.2417526245",
+        "leadinAscentInMeters": "7.9582028389",
+        "leadinDistanceInMeters": "2031.0549316406",
         "levelLocked": "0",
         "locKey": "LOC_ROUTE_MAKURIISLANDS_MECH_ISLE_MAYHEM",
         "map": "MAKURIISLANDS",
-        "meetupLeadinAscentInMeters": "0.7667383552",
-        "meetupLeadinDistanceInMeters": "26.5480709076",
+        "meetupLeadinAscentInMeters": "0.1078710929",
+        "meetupLeadinDistanceInMeters": "41.8385620117",
         "name": "Mech Isle Mayhem",
         "sports": "1",
         "supportedLaps": "1",
@@ -11903,7 +12288,7 @@
         "meetupLeadinAscentInMeters": "0.0",
         "meetupLeadinDistanceInMeters": "150.1",
         "name": "Mountain Mash",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
         "xp": "116",
@@ -12801,6 +13186,54 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "48.6321678162",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "1.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "12782.5058593750",
+        "duration": "2",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.0001904296",
+        "freeRideLeadinDistanceInMeters": "124.2773056030",
+        "imageName": "WATOPIA_Beach_Island_Loop_Run",
+        "leadinAscentInMeters": "0.0959470719",
+        "leadinDistanceInMeters": "193.1950531006",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_WATOPIA_BEACH_ISLAND_LOOP",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "0.0001904296",
+        "meetupLeadinDistanceInMeters": "176.6679382324",
+        "name": "Beach Island Loop Run",
+        "sports": "2",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "510",
+        "zwiftEventOnly": "0",
+        "signature": "3188374033",
+        "routeSignature": "3188374033",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "691.4",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
@@ -12928,6 +13361,54 @@
         "zwiftEventOnly": "0",
         "signature": "3261167746",
         "routeSignature": "3261167746",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0.9637641907",
+        "ascentInMeters": "61.2464027405",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "1.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "424.5761718750",
+        "distanceInMeters": "10268.3330078125",
+        "duration": "2",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.8703808784",
+        "freeRideLeadinDistanceInMeters": "92.3859863281",
+        "imageName": "WATOPIA_Flat_Route_Run",
+        "leadinAscentInMeters": "0.8305712342",
+        "leadinDistanceInMeters": "499.8751525879",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_WATOPIA_FLAT",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "0.9280858040",
+        "meetupLeadinDistanceInMeters": "112.6232528687",
+        "name": "Flat Route Run",
+        "sports": "2",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "390",
+        "zwiftEventOnly": "0",
+        "signature": "3261621461",
+        "routeSignature": "3261621461",
         "routeRestrictions": {
           "TIMETRIAL": {
             "enabled": true
@@ -13094,6 +13575,54 @@
         }
       },
       {
+        "ascentBetweenFirstLastLrCPsInMeters": "0.9342041016",
+        "ascentInMeters": "49.9702873230",
+        "blockedForClubs": "0",
+        "blockedForMeetups": "0",
+        "blockedForTimeTrial": "0",
+        "difficulty": "1.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "422.0175781250",
+        "distanceInMeters": "12349.7753906250",
+        "duration": "2",
+        "eventOnly": "0",
+        "eventPaddocks": "1,2,3,4",
+        "freeRideLeadinAscentInMeters": "0.8731054068",
+        "freeRideLeadinDistanceInMeters": "121.7463760376",
+        "imageName": "WATOPIA_Volcano_Flat_Run",
+        "leadinAscentInMeters": "0.8023777008",
+        "leadinDistanceInMeters": "497.2769165039",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_WATOPIA_VOLCANOFLAT",
+        "map": "WATOPIA",
+        "meetupLeadinAscentInMeters": "0.8749167919",
+        "meetupLeadinDistanceInMeters": "99.8601608276",
+        "name": "Volcano Flat Run",
+        "sports": "2",
+        "supportedLaps": "1",
+        "supportsTimeTrialMode": "0",
+        "xp": "480",
+        "zwiftEventOnly": "0",
+        "signature": "3297733101",
+        "routeSignature": "3297733101",
+        "routeRestrictions": {
+          "TIMETRIAL": {
+            "enabled": true
+          },
+          "FREE_RIDE": {
+            "enabled": true
+          },
+          "MEETUPS": {
+            "enabled": true
+          },
+          "CLUBS": {
+            "enabled": true
+          },
+          "PARTNER_EVENT_ORGANIZERS": {
+            "enabled": false
+          }
+        }
+      },
+      {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "42.5",
         "blockedForClubs": "0",
@@ -13164,7 +13693,7 @@
         "meetupLeadinAscentInMeters": "0.0",
         "meetupLeadinDistanceInMeters": "34.0",
         "name": "Two Bridges Loop",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "140",
@@ -13849,7 +14378,7 @@
         "meetupLeadinAscentInMeters": "0.7751",
         "meetupLeadinDistanceInMeters": "1119.2186",
         "name": "Watopia Flat Route",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "workoutRec": "1",
@@ -14135,7 +14664,7 @@
         "meetupLeadinAscentInMeters": "0",
         "meetupLeadinDistanceInMeters": "8.1942873001",
         "name": "Oh Hill No",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "160",
@@ -14982,27 +15511,27 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "21.0293184",
+        "ascentInMeters": "26.286648",
         "bikeType": "7",
         "blockedForClubs": "1",
         "blockedForMeetups": "1",
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "2073.28730468752",
+        "distanceInMeters": "2591.609131",
         "duration": "1",
         "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0",
-        "freeRideLeadinDistanceInMeters": "11.46411666872",
+        "freeRideLeadinDistanceInMeters": "14.33014584",
         "imageName": "GRAVEL MOUNTAIN_Red_Rock_Loop",
         "leadinAscentInMeters": "0",
-        "leadinDistanceInMeters": "85.19189453124",
+        "leadinDistanceInMeters": "106.4898682",
         "levelLocked": "0",
         "locKey": "LOC_ROUTE_GRAVEL_MOUNTAIN_RED_ROCK_LOOP",
         "map": "GRAVEL MOUNTAIN",
         "meetupLeadinAscentInMeters": "0",
-        "meetupLeadinDistanceInMeters": "15.23916473388",
+        "meetupLeadinDistanceInMeters": "19.04895592",
         "name": "Red Rock Loop",
         "sports": "1",
         "supportedLaps": "1",
@@ -15717,7 +16246,7 @@
         "meetupLeadinAscentInMeters": "0.0000",
         "meetupLeadinDistanceInMeters": "85.3927",
         "name": "The Mega Pretzel",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "0",
         "supportsTimeTrialMode": "0",
         "xp": "2140",
@@ -15861,7 +16390,7 @@
         "meetupLeadinAscentInMeters": "17.5",
         "meetupLeadinDistanceInMeters": "3472.9",
         "name": "Volcano Circuit CCW",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "80",
@@ -16395,7 +16924,7 @@
         "meetupLeadinAscentInMeters": "1.1565",
         "meetupLeadinDistanceInMeters": "1155.1965",
         "name": "Volcano Flat",
-        "sports": "7",
+        "sports": "1",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "workoutRec": "1",
@@ -16623,20 +17152,20 @@
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "24753.9492187500",
+        "distanceInMeters": "24749.9082031250",
         "duration": "3",
         "eventOnly": "1",
         "eventPaddocks": "21,22,23,24",
-        "freeRideLeadinAscentInMeters": "0.7847169638",
-        "freeRideLeadinDistanceInMeters": "27.4808788300",
+        "freeRideLeadinAscentInMeters": "0.1058496088",
+        "freeRideLeadinDistanceInMeters": "40.9723243713",
         "imageName": "MAKURIISLANDS_Urumaze",
-        "leadinAscentInMeters": "0",
-        "leadinDistanceInMeters": "85.2417526245",
+        "leadinAscentInMeters": "7.9581642151",
+        "leadinDistanceInMeters": "2031.0532226562",
         "levelLocked": "0",
         "locKey": "LOC_ROUTE_MAKURIISLANDS_URUMAZE",
         "map": "MAKURIISLANDS",
-        "meetupLeadinAscentInMeters": "0.8716991544",
-        "meetupLeadinDistanceInMeters": "43.5804634094",
+        "meetupLeadinAscentInMeters": "0.1076757908",
+        "meetupLeadinDistanceInMeters": "63.5480079651",
         "name": "Urumaze",
         "sports": "1",
         "supportedLaps": "1",
@@ -17927,7 +18456,7 @@
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
         "name": "Hilly Loop",
-        "onRoutes": "107363867,243949867,3324272424,1696938496,3378411990,2888820995",
+        "onRoutes": "107363867,243949867,3324272424,1696938496,3378411990,2888820995,2455695527",
         "roadId": "0",
         "roadTime": "0.9828947442",
         "world": "1",
@@ -18008,7 +18537,7 @@
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "name": "Sprint Forward End",
-        "onRoutes": "3382019812,2494975884,263936293,553661379,242381847,1475638265,107363867,3811569265,3454338139,3312037616,3023359358,2900074211,3453194200,243949867,762151244,3324272424,1696938496,2644664789,2888820995,1201172818,979250573,2661047295",
+        "onRoutes": "3382019812,2494975884,263936293,553661379,242381847,1475638265,107363867,3811569265,3454338139,3312037616,3023359358,2900074211,3453194200,243949867,762151244,3324272424,1696938496,2644664789,2888820995,1201172818,979250573,2661047295,482200332,2455695527",
         "roadId": "0",
         "roadTime": "0.6042982501",
         "world": "1",
@@ -18253,7 +18782,7 @@
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/Badge_Volcano.tga",
         "name": "Volcano Lap",
-        "onRoutes": "3866241330,2681889340",
+        "onRoutes": "3866241330,2681889340,802314860",
         "roadId": "23",
         "roadTime": "0.7861780000",
         "world": "1",
@@ -18781,7 +19310,7 @@
         "archSegmentDistanceInKilometers": "0.3650198877",
         "direction": "forward",
         "name": "Grade01",
-        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046",
+        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046,2181212478",
         "roadId": "150",
         "roadTime": "0.1250782049",
         "world": "1",
@@ -18796,7 +19325,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "jerseyName": "Stoneway Sprint",
         "name": "Stoneway Sprint",
-        "onRoutes": "2328501978,240388043,2330634655,270817258",
+        "onRoutes": "2328501978,240388043,2330634655,270817258,1434769940",
         "roadId": "149",
         "roadTime": "0.1241328033",
         "world": "1",
@@ -18835,7 +19364,7 @@
         "archSegmentDistanceInKilometers": "0.3569999933",
         "direction": "forward",
         "name": "Grade02",
-        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046",
+        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046,2181212478",
         "roadId": "150",
         "roadTime": "0.1642966565",
         "world": "1",
@@ -18846,7 +19375,7 @@
         "archSegmentDistanceInKilometers": "0.3569999933",
         "direction": "forward",
         "name": "Grade03",
-        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046",
+        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046,2181212478",
         "roadId": "150",
         "roadTime": "0.1904032583",
         "world": "1",
@@ -18861,7 +19390,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "jerseyName": "Acropolis Sprint",
         "name": "Acropolis Sprint",
-        "onRoutes": "2569385980,2328501978,240388043,2330634655,270817258",
+        "onRoutes": "2569385980,2328501978,240388043,2330634655,270817258,1434769940",
         "roadId": "149",
         "roadTime": "0.2657975578",
         "world": "1",
@@ -18931,7 +19460,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
         "jerseyName": "Jarvis KOM",
         "name": "Jarvis KOM",
-        "onRoutes": "1092181131,2698009951,4199497144,3068694512,979250573,2251715424",
+        "onRoutes": "1092181131,2698009951,4199497144,3068694512,979250573,2251715424,159415549",
         "roadId": "192",
         "roadTime": "0.4040033757",
         "world": "1",
@@ -18989,7 +19518,7 @@
         "archSegmentDistanceInKilometers": "0.3569999933",
         "direction": "forward",
         "name": "Grade04",
-        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046",
+        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046,2181212478",
         "roadId": "150",
         "roadTime": "0.2890210924",
         "world": "1",
@@ -19030,7 +19559,7 @@
         "archSegmentDistanceInKilometers": "0.3569999933",
         "direction": "forward",
         "name": "Grade05",
-        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046",
+        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046,2181212478",
         "roadId": "150",
         "roadTime": "0.4418663604",
         "world": "1",
@@ -19082,7 +19611,7 @@
         "archSegmentDistanceInKilometers": "0.3569999933",
         "direction": "forward",
         "name": "Grade06",
-        "onRoutes": "3532866973,1631692097,4280627426,4102513789,3558689342,3324272424,2064290391,183635628,1724903700,3961473046",
+        "onRoutes": "3532866973,1631692097,4280627426,4102513789,3558689342,3324272424,2064290391,183635628,1724903700,3961473046,2181212478",
         "roadId": "150",
         "roadTime": "0.5161456325",
         "world": "1",
@@ -19119,7 +19648,7 @@
         "archSegmentDistanceInKilometers": "0.3569999933",
         "direction": "forward",
         "name": "Grade07",
-        "onRoutes": "3532866973,1631692097,4280627426,4102513789,3558689342,3324272424,2064290391,183635628,1724903700,3961473046",
+        "onRoutes": "3532866973,1631692097,4280627426,4102513789,3558689342,3324272424,2064290391,183635628,1724903700,3961473046,2181212478",
         "roadId": "150",
         "roadTime": "0.6083169024",
         "world": "1",
@@ -19173,7 +19702,7 @@
         "archSegmentDistanceInKilometers": "0.3569999933",
         "direction": "forward",
         "name": "Grade08",
-        "onRoutes": "3532866973,1631692097,4280627426,4102513789,3558689342,3324272424,2064290391,183635628,1724903700,3961473046",
+        "onRoutes": "3532866973,1631692097,4280627426,4102513789,3558689342,3324272424,2064290391,183635628,1724903700,3961473046,2181212478",
         "roadId": "150",
         "roadTime": "0.6935520817",
         "world": "1",
@@ -19213,7 +19742,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "jerseyName": "Jarvis Sprint",
         "name": "Jarvis Sprint",
-        "onRoutes": "1092181131,2698009951,4199497144,3068694512,979250573",
+        "onRoutes": "1092181131,2698009951,4199497144,3068694512,979250573,159415549",
         "roadId": "192",
         "roadTime": "0.7267690045",
         "world": "1",
@@ -19235,7 +19764,7 @@
         "archSegmentDistanceInKilometers": "0.3569999933",
         "direction": "forward",
         "name": "Grade09",
-        "onRoutes": "3532866973,1631692097,4280627426,4102513789,3558689342,3324272424,2064290391,183635628,1724903700,3961473046",
+        "onRoutes": "3532866973,1631692097,4280627426,4102513789,3558689342,3324272424,2064290391,183635628,1724903700,3961473046,2181212478",
         "roadId": "150",
         "roadTime": "0.7919555354",
         "world": "1",
@@ -19350,7 +19879,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
         "jerseyName": "The Grade",
         "name": "The Grade",
-        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046,3536020075",
+        "onRoutes": "3532866973,4102513789,3558689342,2064290391,183635628,3961473046,3536020075,2181212478",
         "roadId": "150",
         "roadTime": "0.9100000000",
         "world": "1",
@@ -19376,7 +19905,7 @@
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
         "jerseyName": "Jarvis Lap",
         "name": "Jarvis Lap",
-        "onRoutes": "1092181131,2698009951,4199497144,3068694512",
+        "onRoutes": "1092181131,2698009951,4199497144,3068694512,159415549",
         "roadId": "192",
         "roadTime": "0.8926478317",
         "world": "1",
@@ -19412,7 +19941,7 @@
         "archSegmentDistanceInKilometers": "0.3570129275",
         "direction": "forward",
         "name": "Grade10",
-        "onRoutes": "3532866973,1631692097,4280627426,4102513789,3558689342,3324272424,2064290391,183635628,1724903700,3961473046",
+        "onRoutes": "3532866973,1631692097,4280627426,4102513789,3558689342,3324272424,2064290391,183635628,1724903700,3961473046,2181212478",
         "roadId": "150",
         "roadTime": "0.9100000000",
         "world": "1",
@@ -19915,7 +20444,7 @@
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
         "name": "Sprint Forward End",
-        "onRoutes": "3382019812,2737483381,3395698268,2966818006,3219074012,2494975884,3848492017,2878180967,2218409282,1586193601,553661379,3621162212,3748780161,242381847,2748657713,2474227587,3864857876,3368626651,2900074211,1327147942,5745690,3573087582,3261167746,2062126722",
+        "onRoutes": "3382019812,2737483381,3395698268,2966818006,3219074012,2494975884,3848492017,2878180967,2218409282,1586193601,553661379,3621162212,3748780161,242381847,2748657713,2474227587,3864857876,3368626651,2900074211,1327147942,5745690,3573087582,3261167746,2062126722,3261621461,3188374033",
         "roadId": "0",
         "roadTime": "0.6042982501",
         "world": "1",
@@ -20002,7 +20531,7 @@
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
         "name": "Hilly KOM",
-        "onRoutes": "3382019812,2737483381,2494975884,4142772830,3848492017,2878180967,553661379,3621162212,242381847,3921412335,1327147942,2627606248,5745690,243949867,762151244,4131664304,1675611962",
+        "onRoutes": "3382019812,2737483381,2494975884,4142772830,3848492017,2878180967,553661379,3621162212,242381847,3921412335,1327147942,2627606248,5745690,243949867,762151244,4131664304,1675611962,2455695527",
         "roadId": "0",
         "roadTime": "0.1840789487",
         "world": "1",
@@ -20245,7 +20774,7 @@
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/Badge_Volcano.tga",
         "name": "Volcano Lap",
-        "onRoutes": "686828068,3368626651,1327147942,2251715424",
+        "onRoutes": "686828068,3368626651,1327147942,2251715424,764410120",
         "roadId": "23",
         "roadTime": "0.7861780000",
         "world": "1",
@@ -20480,7 +21009,7 @@
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/Badge_Volcano.tga",
         "name": "Volcano KOM End",
-        "onRoutes": "4142772830,849508252,3848492017,2878180967,387309391,3621162212,3748780161,242381847,982239385,2748657713,1475638265,3921412335,4263172118,3864857876,3368626651,1327147942,2627606248,3261167746,1092181131,1675611962",
+        "onRoutes": "4142772830,849508252,3848492017,2878180967,387309391,3621162212,3748780161,242381847,982239385,2748657713,1475638265,3921412335,4263172118,3864857876,3368626651,1327147942,2627606248,3261167746,1092181131,1675611962,159415549",
         "roadId": "24",
         "roadTime": "0.8178010000",
         "world": "1",
@@ -20552,7 +21081,7 @@
       },
       {
         "imageName": "TourOfWatopia2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_TOUROFWATOPIA2026",
+        "name": "2026 TOUR OF WATOPIA",
         "signature": "66625728"
       },
       {
@@ -20814,6 +21343,11 @@
         "imageName": "GustavIden2023_thumb",
         "name": "Gustav Iden",
         "signature": "212066337"
+      },
+      {
+        "imageName": "WKG2026_thumb",
+        "name": "WKG 2026",
+        "signature": "215317882"
       },
       {
         "imageName": "NTT2022_thumb",
@@ -21996,6 +22530,11 @@
         "signature": "938813787"
       },
       {
+        "imageName": "TeamType12026_thumb",
+        "name": "TeamType1 2026",
+        "signature": "940097539"
+      },
+      {
         "imageName": "IrelandElite2020_thumb",
         "name": "Ireland Elite",
         "signature": "947106687"
@@ -22171,6 +22710,11 @@
         "signature": "1056669642"
       },
       {
+        "imageName": "ZwiftStandardOrange_thumb",
+        "name": "PRO KIT 1",
+        "signature": "1059971842"
+      },
+      {
         "imageName": "CaTech2018_thumb",
         "name": "CA Technologies 2018",
         "signature": "1065184178"
@@ -22272,7 +22816,7 @@
       },
       {
         "imageName": "StabekkSykkelklubb2026_thumb",
-        "name": "Stabekk Sykkleklubb",
+        "name": "Stabekk Sykkelklubb",
         "signature": "1135838729"
       },
       {
@@ -22771,6 +23315,11 @@
         "signature": "1463878036"
       },
       {
+        "imageName": "ZTBR2026_thumb",
+        "name": "ZTBR 2026",
+        "signature": "1464267761"
+      },
+      {
         "imageName": "ZwiftZFondoJan2019_thumb",
         "name": "Zwift zFondo January 2019",
         "signature": "1464573843"
@@ -22877,7 +23426,7 @@
       },
       {
         "imageName": "MyProCoach2023_thumb",
-        "name": "MyProCoach",
+        "name": "My Pro Coach",
         "signature": "1566215999"
       },
       {
@@ -23001,6 +23550,11 @@
         "signature": "1624079531"
       },
       {
+        "imageName": "TheWarriorGames2026_thumb",
+        "name": "The Warrior Games",
+        "signature": "1628071536"
+      },
+      {
         "imageName": "TourDePier_2015_thumb",
         "name": "Tour de Pier",
         "signature": "1628085330"
@@ -23112,7 +23666,7 @@
       },
       {
         "imageName": "TourOfWatopiaUltimate2026_thumb",
-        "name": "LOC_CYCLING_JERSEY_TOUROFWATOPIAULTIMATE2026",
+        "name": "2026 TOUR OF WATOPIA UC",
         "signature": "1695291627"
       },
       {
@@ -23139,6 +23693,11 @@
         "imageName": "DBR2025_thumb",
         "name": "DBR 2025",
         "signature": "1713605012"
+      },
+      {
+        "imageName": "EastEssexTriClub2026_thumb",
+        "name": "East Essex Tri Club",
+        "signature": "1715202032"
       },
       {
         "imageName": "CyclingWeekly2021_thumb",
@@ -23526,6 +24085,11 @@
         "signature": "1987737590"
       },
       {
+        "imageName": "DWGZ2026_thumb",
+        "name": "DWGZ",
+        "signature": "1987887694"
+      },
+      {
         "imageName": "Rapha100Womens2020_thumb",
         "name": "Rapha W100",
         "signature": "1988029743"
@@ -23809,6 +24373,11 @@
         "imageName": "Endura2022_thumb",
         "name": "Endura",
         "signature": "2242745186"
+      },
+      {
+        "imageName": "TheCoalition2026_thumb",
+        "name": "The Coalition 2026",
+        "signature": "2243403122"
       },
       {
         "imageName": "JumboVismaTdF2023_thumb",
@@ -25969,6 +26538,11 @@
         "imageName": "TourDeZwift2026_thumb",
         "name": "Tour de Zwift 2026",
         "signature": "3645038944"
+      },
+      {
+        "imageName": "6PointSilver2026_thumb",
+        "name": "6Points 10 Year",
+        "signature": "3645937110"
       },
       {
         "imageName": "TRINITYRace2022_thumb",
@@ -28997,7 +29571,7 @@
       },
       {
         "imageName": "Wheel_PrincetonCarbonWorksMachTSV2Blur",
-        "name": "Princeton  Mach TSV2/Blur Disc",
+        "name": "Princeton Mach TSV2/Blur Disc",
         "signature": "817265411"
       },
       {
@@ -29024,6 +29598,11 @@
         "imageName": "Wheel_CannondalePong",
         "name": "Cannondale R4000 Roller Blade",
         "signature": "1114387765"
+      },
+      {
+        "imageName": "Wheel_ShimanoDuraAceC992026",
+        "name": "Shimano C99/Disc",
+        "signature": "1160815788"
       },
       {
         "imageName": "Wheel_DTSwissARC1100DICUT85DISC",
@@ -29166,6 +29745,11 @@
         "signature": "2482805243"
       },
       {
+        "imageName": "Wheel_ShimanoDuraAceC502026",
+        "name": "Shimano C50",
+        "signature": "2489344011"
+      },
+      {
         "imageName": "Wheel_BuffaloFahrrad",
         "name": "Zwift Buffalo Fahrrad",
         "signature": "2568138708"
@@ -29221,6 +29805,11 @@
         "signature": "3114121871"
       },
       {
+        "imageName": "Wheel_ShimanoDuraAceC602026",
+        "name": "Shimano C60",
+        "signature": "3181958393"
+      },
+      {
         "imageName": "Wheel_SwissSideHADRONUltimate650",
         "name": "SwissSide HADRON Ultimate 650",
         "signature": "3197301744"
@@ -29237,7 +29826,7 @@
       },
       {
         "imageName": "Wheel_RovalRapideCLX",
-        "name": "Roval Sprint CLX",
+        "name": "Roval Rapide Sprint CLX",
         "signature": "3400914270"
       },
       {
@@ -29269,6 +29858,16 @@
         "imageName": "Wheel_ZwiftMountain",
         "name": "Zwift Mountain",
         "signature": "3787145210"
+      },
+      {
+        "imageName": "Wheel_Cadex4SpokeDisc65",
+        "name": "Cadex LOC_ENTITLEMENT_CYCLING_WHEELS_GIANT_CADEX4_NAME",
+        "signature": "3827121667"
+      },
+      {
+        "imageName": "Wheel_ShimanoDuraAceC362026",
+        "name": "Shimano C36",
+        "signature": "3842759965"
       },
       {
         "imageName": "Wheel_Reserve57",
@@ -29329,6 +29928,11 @@
   },
   "BIKEREARWHEELS": {
     "BIKEREARWHEEL": [
+      {
+        "imageName": "Wheel_ShimanoDuraAceC362026",
+        "name": "Shimano C36",
+        "signature": "14115933"
+      },
       {
         "imageName": "Wheel_RovalProject74",
         "name": "Roval PROJECT 74",
@@ -29423,6 +30027,11 @@
         "imageName": "Wheel_Reserve34",
         "name": "Reserve 34/37",
         "signature": "735187485"
+      },
+      {
+        "imageName": "Wheel_ShimanoDuraAceC992026",
+        "name": "Shimano C99/Disc",
+        "signature": "827108797"
       },
       {
         "imageName": "Wheel_Zipp858",
@@ -29640,6 +30249,16 @@
         "signature": "3309968019"
       },
       {
+        "imageName": "Wheel_ShimanoDuraAceC602026",
+        "name": "Shimano C60",
+        "signature": "3415380320"
+      },
+      {
+        "imageName": "Wheel_Cadex4SpokeDisc65",
+        "name": "Cadex LOC_ENTITLEMENT_CYCLING_WHEELS_GIANT_CADEX4_NAME",
+        "signature": "3443883036"
+      },
+      {
         "imageName": "Wheel_RovalTerraCLX",
         "name": "Roval Terra CLX",
         "signature": "3454205320"
@@ -29656,7 +30275,7 @@
       },
       {
         "imageName": "Wheel_RovalRapideCLX",
-        "name": "Roval Sprint CLX",
+        "name": "Roval Rapide Sprint CLX",
         "signature": "3517161569"
       },
       {
@@ -29675,8 +30294,13 @@
         "signature": "3659884507"
       },
       {
+        "imageName": "Wheel_ShimanoDuraAceC502026",
+        "name": "Shimano C50",
+        "signature": "3673160473"
+      },
+      {
         "imageName": "Wheel_PrincetonCarbonWorksMachTSV2Blur",
-        "name": "Princeton  Mach TSV2/Blur Disc",
+        "name": "Princeton Mach TSV2/Blur Disc",
         "signature": "3710951039"
       },
       {
@@ -30870,20 +31494,6 @@
         "signature": "2029842509"
       },
       {
-        "bikeClass": "HIGH_END",
-        "brand": "Wilier",
-        "isTT": "0",
-        "lvId": "4169711732",
-        "modelYear": "2026",
-        "name": "Wilier Filante SLR ID2 We Ride Paris",
-        "price0": "100000",
-        "price1": "200000",
-        "price2": "350000",
-        "price3": "500000",
-        "price4": "750000",
-        "signature": "3123624451"
-      },
-      {
         "bikeClass": "ENTRY",
         "brand": "Specialized",
         "isTT": "0",
@@ -31001,7 +31611,7 @@
         "isTT": "0",
         "lvId": "4169711732",
         "modelYear": "2026",
-        "name": "Canyon LOC_ENTITLEMENT_CYCLING_BIKE_CANYON_AEROADCFR2026_NAME",
+        "name": "Canyon Aeroad CFR - CANYON//SRAM",
         "price0": "100000",
         "price1": "200000",
         "price2": "350000",
@@ -31445,6 +32055,20 @@
       },
       {
         "bikeClass": "HIGH_END",
+        "brand": "Wilier",
+        "isTT": "0",
+        "lvId": "4169711732",
+        "modelYear": "2026",
+        "name": "Wilier Filante SLR ID2 We Ride Paris",
+        "price0": "100000",
+        "price1": "200000",
+        "price2": "350000",
+        "price3": "500000",
+        "price4": "750000",
+        "signature": "3123624451"
+      },
+      {
+        "bikeClass": "HIGH_END",
         "brand": "Scott",
         "isTT": "0",
         "lvId": "1253068759",
@@ -31533,7 +32157,7 @@
         "isTT": "0",
         "lvId": "4169711732",
         "modelYear": "2026",
-        "name": "Specialized Tarmac SL9",
+        "name": "Specialized S-Works Tarmac SL9",
         "price0": "100000",
         "price1": "200000",
         "price2": "350000",
@@ -32470,6 +33094,10 @@
         "signature": "1663193786"
       },
       {
+        "name": "Wilier WilierFilantePSG2026-Default",
+        "signature": "1676923889"
+      },
+      {
         "name": "Scott ScottPlasma2022-base",
         "signature": "1696285461"
       },
@@ -33233,7 +33861,7 @@
       },
       {
         "imageName": "SocksTourOfWatopia2026",
-        "name": "LOC_SOCKS_SOCKS_TOUROFWATOPIA2026_NAME",
+        "name": "2026 TOUR OF WATOPIA",
         "signature": "1418681064"
       },
       {
@@ -34026,7 +34654,7 @@
       },
       {
         "imageName": "RunningCapTourOfWatopia2026_thumb",
-        "name": "LOC_CYCLING_HEADGEAR_RUNNINGCAPTOUROFWATOPIA2026_NAME",
+        "name": "2026 TOUR OF WATOPIA",
         "signature": "510898553"
       },
       {
@@ -34251,7 +34879,7 @@
       },
       {
         "imageName": "CyclingCapDuraAce2026_thumb",
-        "name": "LOC_CYCLING_HEADGEAR_DuraAce2026_NAME",
+        "name": "DURA-ACE Cap",
         "signature": "1527767683"
       },
       {
@@ -34386,7 +35014,7 @@
       },
       {
         "imageName": "BackwardsCapZwiftRacingLeague2026_thumb",
-        "name": "LOC_RUNNING_HEADGEAR_BACKWARDSCAPZWIFTRACINGLEAGUE2026_NAME",
+        "name": "Zwift Racing League",
         "signature": "2509063280"
       },
       {
@@ -37979,7 +38607,7 @@
       },
       {
         "imageName": "RouteComplete",
-        "name": "WHAT YUMEZI WERE LOST",
+        "name": "WHATYUMEZIWE'RELOST?",
         "routeSignature": "811898717",
         "sport": "0",
         "signature": "489"
@@ -37990,6 +38618,83 @@
         "routeSignature": "4092230492",
         "sport": "0",
         "signature": "490"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "SPIRAL SUMMIT",
+        "routeSignature": "159415549",
+        "sport": "0",
+        "signature": "491"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "VOLCANO CIRCUIT RUN",
+        "routeSignature": "764410120",
+        "sport": "1",
+        "signature": "492"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "OH HILL NO RUN",
+        "routeSignature": "2181212478",
+        "sport": "1",
+        "signature": "493"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "TEMPLE TREK RUN",
+        "routeSignature": "1434769940",
+        "sport": "1",
+        "signature": "494"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "TWO BRIDGES LOOP RUN",
+        "routeSignature": "482200332",
+        "sport": "1",
+        "signature": "495"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "MOUNTAIN MASH RUN",
+        "routeSignature": "136182452",
+        "sport": "1",
+        "signature": "496"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "VOLCANO CIRCUIT CCW RUN",
+        "routeSignature": "802314860",
+        "sport": "1",
+        "signature": "497"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "FLAT ROUTE RUN",
+        "routeSignature": "3261621461",
+        "sport": "1",
+        "signature": "498"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "LOOP DE LOOP RUN",
+        "routeSignature": "2455695527",
+        "sport": "1",
+        "signature": "499"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "VOLCANO FLAT RUN",
+        "routeSignature": "3297733101",
+        "sport": "1",
+        "signature": "500"
+      },
+      {
+        "imageName": "RouteComplete",
+        "name": "BEACH ISLAND LOOP RUN",
+        "routeSignature": "3188374033",
+        "sport": "1",
+        "signature": "501"
       }
     ]
   },
