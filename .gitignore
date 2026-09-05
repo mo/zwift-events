@@ -2,4 +2,8 @@
 dist/
 upcoming-banded.csv
 badges.json
+# Per-rider pages are rendered from templates/ by 3-build-csv.py
+site/martin/
+site/magnus/
+site/nils/
 __pycache__/

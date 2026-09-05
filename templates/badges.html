@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light" />
-    <title>Zwift Route Badges – Martin</title>
+    <title>Zwift Route Badges</title>
     <link rel="stylesheet" href="../shared.css" />
     <style>
       body {
@@ -120,11 +120,7 @@
     </style>
   </head>
   <body>
-    <nav class="rider-nav">
-      <a href="../martin/badges.html" class="active">Martin</a>
-      <a href="../nils/badges.html">Nils</a>
-      <a href="../magnus/badges.html">Magnus</a>
-    </nav>
+    <nav class="rider-nav"></nav>
     <nav>
       <a href="index.html">Upcoming</a>
       <a href="badges.html" class="active">Badges</a>
@@ -147,6 +143,7 @@
     </div>
     <div class="worlds" id="worlds"></div>
 
+    <script src="../shared-rider.js"></script>
     <script>
       fetch("badges.json")
         .then((r) => r.json())

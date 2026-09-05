@@ -3,6 +3,7 @@ import csv
 import json
 import os
 import re
+import shutil
 import unicodedata
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
@@ -201,3 +202,8 @@ for rider in RIDERS:
         json.dump(badges, f, indent=2, ensure_ascii=False)
 
     print(f'Wrote {out_dir}/badges.json ({len(badges)} worlds)')
+
+    # --- per-rider pages (identical copies rendered from templates) ---
+    shutil.copy('templates/upcoming.html', os.path.join(out_dir, 'index.html'))
+    shutil.copy('templates/badges.html', os.path.join(out_dir, 'badges.html'))
+    print(f'Rendered {out_dir}/index.html + {out_dir}/badges.html from templates/')
