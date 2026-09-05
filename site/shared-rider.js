@@ -15,13 +15,31 @@ document.title += " – " + RIDER_NAMES[currentRider]
 
 const riderNav = document.querySelector("nav.rider-nav")
 if (riderNav) {
-  // Preserve filter/sort settings (?needed=1&date=today, ...) when switching riders.
-  const riderQuery = location.search + location.hash
   for (const rider of RIDERS) {
     const a = document.createElement("a")
-    a.href = (onBadgesPage ? `../${rider}/badges.html` : `../${rider}/`) + riderQuery
+    // Base target; the query string is (re-)applied by syncRiderLinks() so
+    // filter/sort settings (?needed=1&date=today, ...) survive rider switches.
+    a.dataset.base = onBadgesPage ? `../${rider}/badges.html` : `../${rider}/`
     a.textContent = RIDER_NAMES[rider]
     if (rider === currentRider) a.classList.add("active")
     riderNav.appendChild(a)
   }
 }
+
+function syncRiderLinks() {
+  const query = location.search + location.hash
+  document.querySelectorAll("nav.rider-nav a").forEach((a) => {
+    if (a.dataset.base) a.href = a.dataset.base + query
+  })
+}
+
+syncRiderLinks()
+
+// Filter changes update the URL via history.replaceState after load, so keep
+// the rider links in sync with the current query string at all times.
+const origReplaceState = history.replaceState.bind(history)
+history.replaceState = (...args) => {
+  origReplaceState(...args)
+  syncRiderLinks()
+}
+window.addEventListener("popstate", syncRiderLinks)
