@@ -7,7 +7,7 @@ PORT=8080
 SCRIPT_DIR=$(dirname $0)
 cd $SCRIPT_DIR/site
 
-test -f upcoming-banded.csv || echo "error: missing site/upcoming-banded.csv file, please run 2-build-csv.py"
+test -f martin/upcoming-banded.csv || echo "error: missing site/martin/upcoming-banded.csv file, please run 3-build-csv.py"
 
 echo "http://127.0.0.1:$PORT/"
 

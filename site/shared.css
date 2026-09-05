@@ -11,7 +11,8 @@ body {
   color: #1a1a1a;
 }
 
-nav { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; }
+nav { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; align-items: center; }
 nav a { text-decoration: none; color: #555; padding: 0.3rem 0.7rem; border-radius: 4px; }
 nav a.active { background: #e0e0e0; color: #000; font-weight: bold; }
 nav a:hover:not(.active) { background: #f0f0f0; }
+nav .rider-links { margin-left: auto; display: flex; gap: 0.5rem; }

@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Zwift Events – Martin</title>
+    <link rel="stylesheet" href="../shared.css" />
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 1rem;
+      }
+      .table-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 0.4rem 0.8rem;
+        text-align: left;
+      }
+      th {
+        background: #f0f0f0;
+        cursor: pointer;
+        user-select: none;
+        white-space: nowrap;
+      }
+      tbody tr:hover {
+        background: rgb(239, 245, 248);
+      }
+      td a {
+        color: inherit;
+      }
+      th.sort-asc::after {
+        content: " ▲";
+      }
+      th.sort-desc::after {
+        content: " ▼";
+      }
+      td:nth-child(1) {
+        white-space: nowrap;
+      }
+      td:nth-child(4),
+      td:nth-child(5),
+      td:nth-child(9),
+      td:nth-child(10),
+      td:nth-child(11),
+      td:nth-child(12),
+      td:nth-child(15) {
+        text-align: right;
+      }
+      .filters {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        margin-bottom: 1rem;
+      }
+      .filter-row {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+      @media (max-width: 700px) {
+        body {
+          padding: 0.5rem;
+          font-size: 0.85rem;
+        }
+        h1 {
+          font-size: 1.3rem;
+          margin: 0.5rem 0;
+        }
+        th,
+        td {
+          padding: 0.3rem 0.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="active">Upcoming</a>
+      <a href="badges.html">Badges</a>
+      <span class="rider-links">
+        <a href="../martin/" class="active">Martin</a>
+        <a href="../nils/">Nils</a>
+        <a href="../magnus/">Magnus</a>
+      </span>
+    </nav>
+    <h1>Upcoming Banded Events</h1>
+    <div class="filters">
+      <div class="filter-row">
+        <span>Date filter:</span>
+        <label><input type="radio" name="date" value="all" /> All</label>
+        <label><input type="radio" name="date" value="today" /> Today</label>
+        <label><input type="radio" name="date" value="tomorrow" /> Tomorrow</label>
+      </div>
+      <div class="filter-row">
+        <label><input type="checkbox" id="neededOnly" /> Needed route badges only</label>
+      </div>
+      <div class="filter-row">
+        <label><input type="checkbox" id="convenientOnly" /> Include convenient start times only</label>
+      </div>
+      <div class="filter-row">
+        <label><input type="checkbox" id="excludeWorkouts" /> Exclude WORKOUTs</label>
+      </div>
+    </div>
+    <div class="table-scroll">
+      <table id="events">
+        <thead>
+          <tr>
+            <th data-sort="start">start</th>
+            <th data-sort="name">eventName</th>
+            <th data-sort="route-name">routeName</th>
+            <th data-sort="route-length">rtLen</th>
+            <th data-sort="elevation">rtElev</th>
+            <th data-sort="route-badge">badge</th>
+            <th data-sort="event-type">type</th>
+            <th data-sort="route-map">world</th>
+            <th data-sort="duration">duration</th>
+            <th data-sort="length">length</th>
+            <th data-sort="elev-per-km">elevPerKm</th>
+            <th data-sort="recent-events">eventsLast3M</th>
+            <th data-sort="laps">laps</th>
+            <th data-sort="event-only">eventOnly</th>
+            <th data-sort="xp">xp</th>
+            <th data-sort="has-route-badge">hasRouteBadge</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p id="row-count" style="color: #999; font-size: 0.85rem; margin-top: 0.5rem"></p>
+
+    <script>
+      // Fetches a CSV stream and calls onRows(rows)
+      // for each batch of complete records as they arrive.
+      async function streamCSV(url, onRows) {
+        const response = await fetch(url)
+        const reader = response.body.getReader()
+        const decoder = new TextDecoder()
+        let leftover = ""
+
+        const parseCSVLine = (line) => {
+          const fields = []
+          let i = 0
+          while (i < line.length) {
+            if (line[i] === '"') {
+              let field = ""
+              i++ // skip opening quote
+              while (i < line.length) {
+                if (line[i] === '"' && line[i + 1] === '"') {
+                  field += '"'
+                  i += 2 // unescape ""
+                } else if (line[i] === '"') {
+                  i++ // skip closing quote
+                  break
+                } else {
+                  field += line[i++]
+                }
+              }
+              fields.push(field)
+              if (line[i] === ",") i++ // skip field separator
+            } else {
+              const end = line.indexOf(",", i)
+              if (end === -1) {
+                fields.push(line.slice(i))
+                break
+              }
+              fields.push(line.slice(i, end))
+              i = end + 1
+            }
+          }
+          if (line.endsWith(",")) fields.push("")
+          return fields
+        }
+
+        const parseLines = (lines) => {
+          const rows = []
+          for (const line of lines) {
+            const trimmed = line.trim()
+            if (!trimmed) continue
+            rows.push(parseCSVLine(trimmed))
+          }
+          return rows
+        }
+
+        while (true) {
+          const { value, done } = await reader.read()
+          if (done) break
+
+          const chunk = leftover + decoder.decode(value, { stream: true })
+          const lines = chunk.split("\n")
+          leftover = lines.pop()
+
+          const rows = parseLines(lines)
+          if (rows.length) onRows(rows)
+        }
+
+        if (leftover.trim()) {
+          const rows = parseLines([leftover])
+          if (rows.length) onRows(rows)
+        }
+      }
+
+      function formatStart(s) {
+        const [date, time] = s.split(" ")
+        const weekday = new Date(date + "T12:00:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" })
+        return `${weekday} ${time}`
+      }
+
+      const todayCET = new Date().toLocaleDateString("sv", { timeZone: "Europe/Paris" })
+      const tomorrowCET = new Date(Date.now() + 86400000).toLocaleDateString("sv", { timeZone: "Europe/Paris" })
+
+      const dateParam = new URLSearchParams(location.search).get("date") ?? "all"
+      // dateParam may be 'today', 'tomorrow', 'all', or an ISO date like '2026-03-30'
+      const dateRadioValue = ["today", "tomorrow", "all"].includes(dateParam) ? dateParam : "today"
+      document.querySelector(`input[name="date"][value="${dateRadioValue}"]`).checked = true
+
+      const neededOnlyCheckbox = document.getElementById("neededOnly")
+      neededOnlyCheckbox.checked = new URLSearchParams(location.search).get("needed") === "1"
+      neededOnlyCheckbox.addEventListener("change", () => {
+        const params = new URLSearchParams(location.search)
+        params.set("needed", neededOnlyCheckbox.checked ? "1" : "0")
+        history.replaceState(null, "", "?" + params)
+        rerender()
+      })
+
+      const convenientOnlyCheckbox = document.getElementById("convenientOnly")
+      convenientOnlyCheckbox.checked = new URLSearchParams(location.search).get("convenient") === "1"
+      convenientOnlyCheckbox.addEventListener("change", () => {
+        const params = new URLSearchParams(location.search)
+        params.set("convenient", convenientOnlyCheckbox.checked ? "1" : "0")
+        history.replaceState(null, "", "?" + params)
+        rerender()
+      })
+
+      const excludeWorkoutsCheckbox = document.getElementById("excludeWorkouts")
+      excludeWorkoutsCheckbox.checked = new URLSearchParams(location.search).get("noworkouts") === "1"
+      excludeWorkoutsCheckbox.addEventListener("change", () => {
+        const params = new URLSearchParams(location.search)
+        params.set("noworkouts", excludeWorkoutsCheckbox.checked ? "1" : "0")
+        history.replaceState(null, "", "?" + params)
+        rerender()
+      })
+
+      function getFilterDate() {
+        const param = new URLSearchParams(location.search).get("date") ?? "all"
+        if (param === "today") return todayCET
+        if (param === "tomorrow") return tomorrowCET
+        if (param === "all") return null
+        return param // raw ISO date from URL
+      }
+
+      // sort key → [column index, numeric?]
+      const SORT_COLS = {
+        start: [0, false],
+        name: [1, false],
+        "route-name": [2, false],
+        "route-length": [3, true],
+        elevation: [4, true],
+        "route-badge": [5, false],
+        "event-type": [6, false],
+        "route-map": [7, false],
+        duration: [8, true],
+        length: [9, true],
+        "elev-per-km": [10, true],
+        "recent-events": [11, true],
+        laps: [12, true],
+        "event-only": [15, false],
+        xp: [16, true],
+        "has-route-badge": [17, false],
+      }
+
+      function getSort() {
+        const raw = new URLSearchParams(location.search).get("sort") ?? "start:asc"
+        const [key, dir] = raw.split(":")
+        return { key: SORT_COLS[key] ? key : "start", dir: dir === "desc" ? "desc" : "asc" }
+      }
+
+      function updateSortHeaders() {
+        const { key, dir } = getSort()
+        document.querySelectorAll("#events th[data-sort]").forEach((th) => {
+          th.classList.remove("sort-asc", "sort-desc")
+          if (th.dataset.sort === key) th.classList.add(dir === "desc" ? "sort-desc" : "sort-asc")
+        })
+      }
+
+      let allRows = []
+
+      function rerender() {
+        const filterDate = getFilterDate()
+        const { key, dir } = getSort()
+        const [colIdx, numeric] = SORT_COLS[key]
+
+        const neededOnly = neededOnlyCheckbox.checked
+        const convenientOnly = convenientOnlyCheckbox.checked
+        const excludeWorkouts = excludeWorkoutsCheckbox.checked
+        let rows = allRows.filter((fields) => !filterDate || fields[0].startsWith(filterDate))
+        if (neededOnly) rows = rows.filter((fields) => fields[5] === "NEED")
+        if (convenientOnly)
+          rows = rows.filter((fields) => {
+            const hour = parseInt(new Date(fields[0].replace(" ", "T") + ":00").toLocaleString("sv", { timeZone: "Europe/Stockholm", hour: "2-digit", hour12: false }))
+            return hour >= 7 && hour < 22
+          })
+        if (excludeWorkouts) rows = rows.filter((fields) => fields[6] !== "WRKO")
+
+        rows = rows.slice().sort((a, b) => {
+          const av = numeric ? parseFloat(a[colIdx]) : a[colIdx]
+          const bv = numeric ? parseFloat(b[colIdx]) : b[colIdx]
+          const cmp = av < bv ? -1 : av > bv ? 1 : 0
+          return dir === "desc" ? -cmp : cmp
+        })
+
+        const nowSE = new Date().toLocaleString("sv", { timeZone: "Europe/Stockholm", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" }).replace(",", "")
+        const fragment = document.createDocumentFragment()
+        rows.forEach((fields) => {
+          const tr = document.createElement("tr")
+          if (fields[0] < nowSE) tr.style.color = "#AAA"
+          const routeUrl = fields[14]
+          fields.forEach((f, i) => {
+            if (i === 13) return // ruleSet — hidden
+            if (i === 14) return // routeUrl — hidden, used as link only
+            const td = document.createElement("td")
+            if (i === 0) {
+              td.textContent = formatStart(f)
+            } else if (i === 2 && routeUrl) {
+              const a = document.createElement("a")
+              a.href = routeUrl
+              a.textContent = f
+              a.target = "_blank"
+              a.rel = "noopener"
+              td.appendChild(a)
+            } else {
+              td.textContent = f
+            }
+            tr.appendChild(td)
+          })
+          fragment.appendChild(tr)
+        })
+        const tbody = document.querySelector("#events tbody")
+        tbody.innerHTML = ""
+        tbody.appendChild(fragment)
+        updateSortHeaders()
+        const n = tbody.rows.length
+        document.getElementById("row-count").textContent = `Showing ${n} event${n === 1 ? "" : "s"}`
+      }
+
+      document.querySelectorAll('input[name="date"]').forEach((radio) => {
+        radio.addEventListener("change", () => {
+          const params = new URLSearchParams(location.search)
+          params.set("date", radio.value)
+          history.replaceState(null, "", "?" + params)
+          allRows = []
+          streamCSV("upcoming-banded.csv", collectAndRender)
+        })
+      })
+
+      document.querySelectorAll("#events th[data-sort]").forEach((th) => {
+        th.addEventListener("click", () => {
+          const { key, dir } = getSort()
+          const newKey = th.dataset.sort
+          const newDir = newKey === key && dir === "asc" ? "desc" : "asc"
+          const params = new URLSearchParams(location.search)
+          params.set("sort", `${newKey}:${newDir}`)
+          history.replaceState(null, "", "?" + params)
+          rerender()
+        })
+      })
+
+      function collectAndRender(rows) {
+        allRows.push(...rows)
+        rerender()
+      }
+
+      updateSortHeaders()
+      streamCSV("upcoming-banded.csv", collectAndRender)
+    </script>
+  </body>
+</html>

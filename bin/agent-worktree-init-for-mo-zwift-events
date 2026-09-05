@@ -24,8 +24,12 @@ WORKTREE_ROOT="${1:?usage: $(basename "$0") <worktree-root>}"
 # Generated (gitignored) files to copy over, relative to the repo root.
 # These are the outputs of 3-build-csv.py.
 GENERATED_FILES=(
-    site/badges.json
-    site/upcoming-banded.csv
+    site/martin/badges.json
+    site/martin/upcoming-banded.csv
+    site/nils/badges.json
+    site/nils/upcoming-banded.csv
+    site/magnus/badges.json
+    site/magnus/upcoming-banded.csv
 )
 
 COMMON_GIT_DIR=$(git -C "$WORKTREE_ROOT" rev-parse --path-format=absolute --git-common-dir)
