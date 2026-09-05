@@ -15,9 +15,11 @@ document.title += " – " + RIDER_NAMES[currentRider]
 
 const riderNav = document.querySelector("nav.rider-nav")
 if (riderNav) {
+  // Preserve filter/sort settings (?needed=1&date=today, ...) when switching riders.
+  const riderQuery = location.search + location.hash
   for (const rider of RIDERS) {
     const a = document.createElement("a")
-    a.href = onBadgesPage ? `../${rider}/badges.html` : `../${rider}/`
+    a.href = (onBadgesPage ? `../${rider}/badges.html` : `../${rider}/`) + riderQuery
     a.textContent = RIDER_NAMES[rider]
     if (rider === currentRider) a.classList.add("active")
     riderNav.appendChild(a)
