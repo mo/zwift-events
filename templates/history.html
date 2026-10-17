@@ -180,7 +180,7 @@
               while (current <= endDate) {
                 const dateStr = current.toISOString().split('T')[0]
                 allDates.push(dateStr)
-                current.setDate(current.getDate() + 1)
+                current.setUTCDate(current.getUTCDate() + 1)
               }
 
               // Create empty rides for rest days
@@ -207,8 +207,8 @@
             const sorted = ridesToRender.slice().sort((a, b) => {
               let av, bv
               if (field === "notableMoments") {
-                av = (a[field] || []).join(", ")
-                bv = (b[field] || []).join(", ")
+                av = (a[field] || []).map(moment => moment.text || "").join(", ")
+                bv = (b[field] || []).map(moment => moment.text || "").join(", ")
               } else {
                 av = a[field] || (numeric ? 0 : "")
                 bv = b[field] || (numeric ? 0 : "")
@@ -227,34 +227,54 @@
             tbody.innerHTML = ""
             sorted.forEach(({ date, eventName, routeName, routeUrl, routeLengthKm, routeElevationM, timeBiked, notableMoments }) => {
               const tr = document.createElement("tr")
-              let momentsHtml = ""
-              if (notableMoments && notableMoments.length) {
-                momentsHtml = notableMoments.map(m => {
-                  if (m.type === "route") {
-                    return `<strong>${m.text}</strong>`
-                  }
-                  return m.text
-                }).join(", ")
-              } else {
-                momentsHtml = "<span class='no-data'>-</span>"
+              function addCell(value, placeholder = "-") {
+                const td = document.createElement("td")
+                if (value === null || value === undefined || value === "") {
+                  const empty = document.createElement("span")
+                  empty.className = "no-data"
+                  empty.textContent = placeholder
+                  td.appendChild(empty)
+                } else {
+                  td.textContent = value
+                }
+                tr.appendChild(td)
+                return td
               }
-              tr.innerHTML = `
-                <td>${formatDateWithWeekday(date)}</td>
-                <td>${eventName || "<span class='no-data'>-</span>"}</td>
-                <td>${routeName || "<span class='no-data'>-</span>"}</td>
-                <td>${routeLengthKm !== null ? routeLengthKm : "<span class='no-data'>-</span>"}</td>
-                <td>${routeElevationM !== null ? routeElevationM : "<span class='no-data'>-</span>"}</td>
-                <td>${timeBiked || "<span class='no-data'>-</span>"}</td>
-                <td>${momentsHtml}</td>
-              `
+
+              addCell(formatDateWithWeekday(date))
+              addCell(eventName)
+              const routeCell = addCell(routeName)
               if (routeName && routeUrl) {
                 const link = document.createElement("a")
                 link.href = routeUrl
                 link.textContent = routeName
                 link.target = "_blank"
                 link.rel = "noopener"
-                tr.cells[2].replaceChildren(link)
+                routeCell.replaceChildren(link)
               }
+
+              addCell(routeLengthKm)
+              addCell(routeElevationM)
+              addCell(timeBiked)
+              const momentsCell = document.createElement("td")
+              if (notableMoments && notableMoments.length) {
+                notableMoments.forEach((moment, index) => {
+                  if (index) momentsCell.appendChild(document.createTextNode(", "))
+                  if (moment.type === "route") {
+                    const content = document.createElement("strong")
+                    content.textContent = moment.text
+                    momentsCell.appendChild(content)
+                  } else {
+                    momentsCell.appendChild(document.createTextNode(moment.text))
+                  }
+                })
+              } else {
+                const empty = document.createElement("span")
+                empty.className = "no-data"
+                empty.textContent = "-"
+                momentsCell.appendChild(empty)
+              }
+              tr.appendChild(momentsCell)
               tbody.appendChild(tr)
             })
           }

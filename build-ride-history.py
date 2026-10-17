@@ -190,11 +190,10 @@ def build_ride_history(activities):
         # Get route details - either from route name or fall back to activity data
         route_length_km = None
         route_elevation_m = None
-        if route_name:
-            lookup_name = re.sub(r'^Climb Portal:\s*', '', route_name)
+        if route_name and not route_name.startswith('Climb Portal: '):
             # Find route in game.json
             for route in game['ROUTES']['ROUTE']:
-                if route.get('name') == lookup_name:
+                if route.get('name') == route_name:
                     route_length_km = round(float(route.get('distanceInMeters', 0)) / 1000, 1)
                     route_elevation_m = round(float(route.get('ascentInMeters', 0)))
                     break
