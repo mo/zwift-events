@@ -5,6 +5,7 @@ import re
 import unicodedata
 from datetime import datetime, timezone
 from collections import defaultdict
+from zoneinfo import ZoneInfo
 
 # Rider name -> Zwift user id (activity dump in ~/dv/zwift-data/<id>.json).
 RIDERS = {
@@ -14,6 +15,7 @@ RIDERS = {
 }
 
 ZWIFT_DATA_DIR = os.path.expanduser('~/dv/zwift-data')
+HISTORY_TIMEZONE = ZoneInfo('Europe/Stockholm')
 
 URL_SLUG_OVERRIDES = {
     'London PRL Full': 'the-prl-full',
@@ -176,7 +178,9 @@ def build_ride_history(activities):
         # Parse date and extract date part (YYYY-MM-DD)
         try:
             dt = datetime.fromisoformat(start_date.replace('Z', '+00:00'))
-            date_key = dt.strftime('%Y-%m-%d')
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            date_key = dt.astimezone(HISTORY_TIMEZONE).strftime('%Y-%m-%d')
         except (ValueError, AttributeError):
             continue
 
