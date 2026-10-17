@@ -10,6 +10,7 @@ const currentRider = (() => {
 })()
 
 const onBadgesPage = location.pathname.endsWith("badges.html")
+const onHistoryPage = location.pathname.endsWith("history.html")
 
 document.title += " – " + RIDER_NAMES[currentRider]
 
@@ -19,7 +20,13 @@ if (riderNav) {
     const a = document.createElement("a")
     // Base target; the query string is (re-)applied by syncRiderLinks() so
     // filter/sort settings (?needed=1&date=today, ...) survive rider switches.
-    a.dataset.base = onBadgesPage ? `../${rider}/badges.html` : `../${rider}/`
+    if (onBadgesPage) {
+      a.dataset.base = `../${rider}/badges.html`
+    } else if (onHistoryPage) {
+      a.dataset.base = `../${rider}/history.html`
+    } else {
+      a.dataset.base = `../${rider}/`
+    }
     a.textContent = RIDER_NAMES[rider]
     if (rider === currentRider) a.classList.add("active")
     riderNav.appendChild(a)
