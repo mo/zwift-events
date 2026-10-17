@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Zwift Ride History</title>
+    <link rel="stylesheet" href="../shared.css" />
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 1rem;
+      }
+      h1 {
+        margin-bottom: 1.5rem;
+      }
+      .table-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 0.4rem 0.8rem;
+        text-align: left;
+      }
+      th {
+        background: #f0f0f0;
+        font-size: 0.85rem;
+        cursor: pointer;
+        user-select: none;
+      }
+      th.sort-asc::after {
+        content: " ▲";
+      }
+      th.sort-desc::after {
+        content: " ▼";
+      }
+      td {
+        font-size: 0.85rem;
+      }
+      tbody tr:hover {
+        background: rgb(239, 245, 248);
+      }
+      td:nth-child(4),
+      td:nth-child(5),
+      td:nth-child(6) {
+        text-align: right;
+      }
+      td:nth-child(1) {
+        white-space: nowrap;
+      }
+      td a {
+        color: inherit;
+        text-decoration: none;
+      }
+      td a:hover {
+        text-decoration: underline;
+      }
+      .no-data {
+        color: #999;
+        font-style: italic;
+      }
+      @media (max-width: 700px) {
+        body {
+          padding: 0.5rem;
+          font-size: 0.85rem;
+        }
+        h1 {
+          font-size: 1.3rem;
+          margin: 0.5rem 0;
+        }
+        th,
+        td {
+          padding: 0.3rem 0.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="rider-nav"></nav>
+    <nav>
+      <a href="index.html">Upcoming</a>
+      <a href="badges.html">Badges</a>
+      <a href="history.html" class="active">History</a>
+    </nav>
+    <h1>Ride History</h1>
+    <p id="total-count" style="color: #999; font-size: 0.9rem; margin-top: -0.75rem; margin-bottom: 1rem"></p>
+    <div style="margin-bottom: 1rem">
+      <label><input type="checkbox" id="includeRestDays" /> Include rest days</label>
+    </div>
+    <div class="table-scroll">
+      <table id="history">
+        <thead>
+          <tr>
+            <th data-sort="date">date</th>
+            <th data-sort="eventName">event name</th>
+            <th data-sort="routeName">route name</th>
+            <th data-sort="routeLength">length (km)</th>
+            <th data-sort="routeElevation">elevation (m)</th>
+            <th data-sort="timeBiked">time</th>
+            <th data-sort="notableMoments">notable moments</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <!-- bump ?v= when shared-rider.js changes, to bust browser caches -->
+    <script src="../shared-rider.js?v=3"></script>
+    <script>
+      function formatDateWithWeekday(dateStr) {
+        const date = new Date(dateStr + "T12:00:00Z")
+        const weekday = date.toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" })
+        return `${dateStr} ${weekday}`
+      }
+
+      fetch("history.json")
+        .then((r) => r.json())
+        .then((history) => {
+          const totalDays = history.length
+          const totalRides = history.reduce((sum, day) => sum + day.rides.length, 0)
+
+          // Calculate date range for rest days
+          const dates = history.map(d => d.date).sort()
+          const firstDate = dates[0]
+          const lastDate = dates[dates.length - 1]
+
+          // Calculate total calendar days
+          const first = new Date(firstDate)
+          const last = new Date(lastDate)
+          const calendarDays = Math.floor((last - first) / (1000 * 60 * 60 * 24)) + 1
+          const restDays = calendarDays - totalDays
+
+          document.getElementById("total-count").textContent = `${totalDays} days with ${totalRides} rides, ${restDays} rest days`
+
+          // Flatten all rides into a single list with date
+          const allRides = []
+          history.forEach(({ date, rides }) => {
+            rides.forEach(ride => {
+              allRides.push({ ...ride, date })
+            })
+          })
+
+          // sort key → [field, numeric]
+          const SORT_COLS = {
+            date: ["date", false],
+            eventName: ["eventName", false],
+            routeName: ["routeName", false],
+            routeLength: ["routeLengthKm", true],
+            routeElevation: ["routeElevationM", true],
+            timeBiked: ["timeBikedSeconds", true],
+            notableMoments: ["notableMoments", false],
+          }
+          let sortKey = "date",
+            sortDir = "desc"
+
+          function renderHistory() {
+            const includeRestDays = includeRestDaysCheckbox.checked
+            let ridesToRender = allRides
+
+            if (includeRestDays) {
+              // Create a map of date -> rides
+              const ridesByDate = {}
+              allRides.forEach(ride => {
+                if (!ridesByDate[ride.date]) {
+                  ridesByDate[ride.date] = []
+                }
+                ridesByDate[ride.date].push(ride)
+              })
+
+              // Generate all dates in range
+              const allDates = []
+              const current = new Date(firstDate)
+              const endDate = new Date(lastDate)
+              while (current <= endDate) {
+                const dateStr = current.toISOString().split('T')[0]
+                allDates.push(dateStr)
+                current.setUTCDate(current.getUTCDate() + 1)
+              }
+
+              // Create empty rides for rest days
+              ridesToRender = []
+              allDates.forEach(date => {
+                if (ridesByDate[date]) {
+                  ridesToRender.push(...ridesByDate[date])
+                } else {
+                  ridesToRender.push({
+                    date: date,
+                    eventName: null,
+                    routeName: null,
+                    routeLengthKm: null,
+                    routeElevationM: null,
+                    timeBiked: null,
+                    timeBikedSeconds: 0,
+                    notableMoments: []
+                  })
+                }
+              })
+            }
+
+            const [field, numeric] = SORT_COLS[sortKey]
+            const sorted = ridesToRender.slice().sort((a, b) => {
+              let av, bv
+              if (field === "notableMoments") {
+                av = (a[field] || []).map(moment => moment.text || "").join(", ")
+                bv = (b[field] || []).map(moment => moment.text || "").join(", ")
+              } else {
+                av = a[field] || (numeric ? 0 : "")
+                bv = b[field] || (numeric ? 0 : "")
+              }
+              const cmp = numeric ? av - bv : av < bv ? -1 : av > bv ? 1 : 0
+              return sortDir === "desc" ? -cmp : cmp
+            })
+
+            // mark active header
+            document.querySelectorAll("#history th[data-sort]").forEach((th) => {
+              th.classList.remove("sort-asc", "sort-desc")
+              if (th.dataset.sort === sortKey) th.classList.add(sortDir === "desc" ? "sort-desc" : "sort-asc")
+            })
+
+            const tbody = document.querySelector("#history tbody")
+            tbody.innerHTML = ""
+            sorted.forEach(({ date, eventName, routeName, routeUrl, routeLengthKm, routeElevationM, timeBiked, notableMoments }) => {
+              const tr = document.createElement("tr")
+              function addCell(value, placeholder = "-") {
+                const td = document.createElement("td")
+                if (value === null || value === undefined || value === "") {
+                  const empty = document.createElement("span")
+                  empty.className = "no-data"
+                  empty.textContent = placeholder
+                  td.appendChild(empty)
+                } else {
+                  td.textContent = value
+                }
+                tr.appendChild(td)
+                return td
+              }
+
+              addCell(formatDateWithWeekday(date))
+              addCell(eventName)
+              const routeCell = addCell(routeName)
+              if (routeName && routeUrl) {
+                const link = document.createElement("a")
+                link.href = routeUrl
+                link.textContent = routeName
+                link.target = "_blank"
+                link.rel = "noopener"
+                routeCell.replaceChildren(link)
+              }
+
+              addCell(routeLengthKm)
+              addCell(routeElevationM)
+              addCell(timeBiked)
+              const momentsCell = document.createElement("td")
+              if (notableMoments && notableMoments.length) {
+                notableMoments.forEach((moment, index) => {
+                  if (index) momentsCell.appendChild(document.createTextNode(", "))
+                  if (moment.type === "route") {
+                    const content = document.createElement("strong")
+                    content.textContent = moment.text
+                    momentsCell.appendChild(content)
+                  } else {
+                    momentsCell.appendChild(document.createTextNode(moment.text))
+                  }
+                })
+              } else {
+                const empty = document.createElement("span")
+                empty.className = "no-data"
+                empty.textContent = "-"
+                momentsCell.appendChild(empty)
+              }
+              tr.appendChild(momentsCell)
+              tbody.appendChild(tr)
+            })
+          }
+
+          document.querySelectorAll("#history th[data-sort]").forEach((th) => {
+            th.addEventListener("click", () => {
+              sortDir = th.dataset.sort === sortKey && sortDir === "asc" ? "desc" : "asc"
+              sortKey = th.dataset.sort
+              renderHistory()
+            })
+          })
+
+          const includeRestDaysCheckbox = document.getElementById("includeRestDays")
+          const params = new URLSearchParams(window.location.search)
+          includeRestDaysCheckbox.checked = params.get("includeRestDays") === "1"
+          includeRestDaysCheckbox.addEventListener("change", () => {
+            const updatedParams = new URLSearchParams(window.location.search)
+            if (includeRestDaysCheckbox.checked) {
+              updatedParams.set("includeRestDays", "1")
+            } else {
+              updatedParams.delete("includeRestDays")
+            }
+            const query = updatedParams.toString()
+            const newUrl = window.location.pathname + (query ? `?${query}` : "") + window.location.hash
+            window.history.replaceState(null, "", newUrl)
+            renderHistory()
+          })
+
+          renderHistory()
+        })
+        .catch((err) => {
+          console.error("Failed to load history:", err)
+          document.querySelector("#history tbody").innerHTML = "<tr><td colspan='7' class='no-data'>Failed to load ride history. Make sure ride-history-{rider}.json exists and run 3-build-csv.py.</td></tr>"
+        })
+    </script>
+  </body>
+</html>

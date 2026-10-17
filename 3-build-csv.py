@@ -206,4 +206,12 @@ for rider in RIDERS:
     # --- per-rider pages (identical copies rendered from templates) ---
     shutil.copy('templates/upcoming.html', os.path.join(out_dir, 'index.html'))
     shutil.copy('templates/badges.html', os.path.join(out_dir, 'badges.html'))
-    print(f'Rendered {out_dir}/index.html + {out_dir}/badges.html from templates/')
+    shutil.copy('templates/history.html', os.path.join(out_dir, 'history.html'))
+
+    # Copy ride history JSON
+    history_file = f'ride-history-{rider}.json'
+    if os.path.exists(history_file):
+        shutil.copy(history_file, os.path.join(out_dir, 'history.json'))
+        print(f'Copied {history_file} to {out_dir}/history.json')
+
+    print(f'Rendered {out_dir}/index.html + {out_dir}/badges.html + {out_dir}/history.html from templates/')
