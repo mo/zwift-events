@@ -44,6 +44,9 @@
       td {
         font-size: 0.85rem;
       }
+      tbody tr.rest-day {
+        background: #f0f8ff;
+      }
       tbody tr:hover {
         background: rgb(239, 245, 248);
       }
@@ -191,6 +194,7 @@
                   ridesToRender.push(...ridesByDate[date])
                 } else {
                   ridesToRender.push({
+                    isRestDay: true,
                     date: date,
                     eventName: null,
                     routeName: null,
@@ -226,8 +230,9 @@
 
             const tbody = document.querySelector("#history tbody")
             tbody.innerHTML = ""
-            sorted.forEach(({ date, eventName, routeName, routeUrl, routeLengthKm, routeElevationM, timeBiked, notableMoments }) => {
+            sorted.forEach(({ date, eventName, routeName, routeUrl, routeLengthKm, routeElevationM, timeBiked, notableMoments, isRestDay }) => {
               const tr = document.createElement("tr")
+              if (isRestDay) tr.classList.add("rest-day")
               function addCell(value, placeholder = "-") {
                 const td = document.createElement("td")
                 if (value === null || value === undefined || value === "") {
