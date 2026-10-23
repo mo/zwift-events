@@ -3,6 +3,8 @@
 git pull --rebase
 ./1-fetch-zwift-data.py
 ./2-get-completed-routes.py
+./3-build-csv.py
+./4-build-ride-history.py
 git add .
 git commit -m "update events & completed routes"
 git push origin HEAD
