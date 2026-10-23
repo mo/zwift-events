@@ -1,5 +1,110 @@
 [
   {
+    "date": "2026-10-23",
+    "rides": [
+      {
+        "eventName": "WORKOUT FITNESS RIDE",
+        "routeName": "Hilly Route",
+        "routeUrl": "https://zwiftinsider.com/route/hilly-route/",
+        "routeLengthKm": 6.1,
+        "routeElevationM": 45,
+        "timeBiked": "00:10:26",
+        "timeBikedSeconds": 626,
+        "notableMoments": []
+      }
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "rides": [
+      {
+        "eventName": "Hercules - Thirsty Thursday ",
+        "routeName": "Coastal Crown Loop",
+        "routeUrl": "https://zwiftinsider.com/route/coastal-crown-loop/",
+        "routeLengthKm": 15.1,
+        "routeElevationM": 185,
+        "timeBiked": "00:36:55",
+        "timeBikedSeconds": 2215,
+        "notableMoments": []
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "rides": [
+      {
+        "eventName": "Hercules - Wild West Wednesday",
+        "routeName": "Climber's Gambit",
+        "routeUrl": "https://zwiftinsider.com/route/climbers-gambit/",
+        "routeLengthKm": 27.8,
+        "routeElevationM": 670,
+        "timeBiked": "01:14:31",
+        "timeBikedSeconds": 4471,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Climber's Gambit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "rides": [
+      {
+        "eventName": "CRYO-GEN Power Tuesday Group Ride",
+        "routeName": "Jarvis Seaside Sprint",
+        "routeUrl": "https://zwiftinsider.com/route/jarvis-seaside-sprint/",
+        "routeLengthKm": 12.5,
+        "routeElevationM": 95,
+        "timeBiked": "00:10:49",
+        "timeBikedSeconds": 649,
+        "notableMoments": [
+          {
+            "type": "unlock",
+            "text": "Unlock: 2026 TOUR OF WATOPIA CAP"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "rides": [
+      {
+        "eventName": "SROZ's No Watt Left Behind",
+        "routeName": "Jarvis Seaside Sprint",
+        "routeUrl": "https://zwiftinsider.com/route/jarvis-seaside-sprint/",
+        "routeLengthKm": 12.5,
+        "routeElevationM": 95,
+        "timeBiked": "00:13:21",
+        "timeBikedSeconds": 801,
+        "notableMoments": [
+          {
+            "type": "unlock",
+            "text": "Unlock: SROZ KIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "rides": [
+      {
+        "eventName": null,
+        "routeName": "Climb Portal: Côte des Forche",
+        "routeUrl": "https://zwiftinsider.com/route/cote-des-forche/",
+        "routeLengthKm": 8.2,
+        "routeElevationM": 83,
+        "timeBiked": "00:22:03",
+        "timeBikedSeconds": 1323,
+        "notableMoments": []
+      }
+    ]
+  },
+  {
     "date": "2026-10-17",
     "rides": [
       {
