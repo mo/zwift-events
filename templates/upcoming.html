@@ -330,6 +330,10 @@
             const td = document.createElement("td")
             if (i === 0) {
               td.textContent = formatStart(f)
+            } else if (i === 2 && !f.trim()) {
+              const strong = document.createElement("strong")
+              strong.textContent = "Unreleased route"
+              td.appendChild(strong)
             } else if (i === 2 && routeUrl) {
               const a = document.createElement("a")
               a.href = routeUrl
