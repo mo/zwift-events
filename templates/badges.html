@@ -165,6 +165,23 @@
             return document.querySelector('input[name="filter"]:checked').value
           }
 
+          function restoreControls() {
+            const params = new URLSearchParams(location.search)
+            for (const [name, fallback] of [["view", "table"], ["filter", "all"]]) {
+              const radios = [...document.querySelectorAll(`input[name="${name}"]`)]
+              const selected = radios.find((radio) => radio.value === params.get(name))
+                || radios.find((radio) => radio.value === fallback)
+              selected.checked = true
+            }
+          }
+
+          function updateUrl() {
+            const url = new URL(location.href)
+            url.searchParams.set("view", getView())
+            url.searchParams.set("filter", getFilter())
+            history.replaceState(null, "", url)
+          }
+
           // sort key → [field, numeric]
           const SORT_COLS = {
             completed: ["completed", false],
@@ -320,9 +337,17 @@
             })
           }
 
+          restoreControls()
           renderWorlds()
           document.querySelectorAll('input[name="view"], input[name="filter"]').forEach((radio) => {
-            radio.addEventListener("change", renderWorlds)
+            radio.addEventListener("change", () => {
+              updateUrl()
+              renderWorlds()
+            })
+          })
+          window.addEventListener("popstate", () => {
+            restoreControls()
+            renderWorlds()
           })
         })
     </script>
