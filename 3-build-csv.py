@@ -59,13 +59,14 @@ try:
 except FileNotFoundError:
     route_events = {}
 
-three_months_ago = datetime.now(timezone.utc) - timedelta(days=90)
+count_time = datetime.now(timezone.utc)
 
-def recent_event_count(route_name):
+def recent_event_count(route_name, days=90):
+    cutoff = count_time - timedelta(days=days)
     entries = route_events.get(route_name, [])
     return sum(
         1 for e in entries
-        if datetime.fromisoformat(e['eventStart'].replace('Z', '+00:00')) >= three_months_ago
+        if datetime.fromisoformat(e['eventStart'].replace('Z', '+00:00')) >= cutoff
     )
 
 all_completed_by_rider = {rider: set(routes) for rider, routes in completed_by_rider.items()}
@@ -88,7 +89,7 @@ EVENT_TYPE_LABELS = {
 }
 
 FIELDS = ['start', 'eventName', 'routeName', 'routeLength', 'routeElevation', 'routeBadge', 'eventType',
-          'routeMap', 'duration', 'length', 'elevPerKm', 'recentEvents', 'laps', 'ruleSet', 'routeUrl',
+          'routeMap', 'duration', 'length', 'elevPerKm', 'events3M', 'events6M', 'laps', 'ruleSet', 'routeUrl',
           'eventOnly', 'xp', 'hasRouteBadge']
 
 # note that "Repack Rush" is a very special route that you can get an achievement for even though it doesn't really
@@ -155,6 +156,7 @@ for rider in RIDERS:
                 round(event.get('distanceInMeters', 0) / 1000, 1),
                 elev_per_km,
                 recent_event_count(route_name),
+                recent_event_count(route_name, 180),
                 event.get('laps', ''),
                 rules,
                 route_url(route_name),
@@ -182,7 +184,8 @@ for rider in RIDERS:
             'completed': route_name in all_completed,
             'distanceKm': round(float(r.get('distanceInMeters', 0)) / 1000, 1),
             'elevationM': round(float(r.get('ascentInMeters', 0))),
-            'eventsLast3M': recent_event_count(route_name),
+            'events3M': recent_event_count(route_name),
+            'events6M': recent_event_count(route_name, 180),
             'url': route_url(route_name),
         })
 

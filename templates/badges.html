@@ -188,7 +188,8 @@
             routeName: ["name", false],
             routeLength: ["distanceKm", true],
             routeElevation: ["elevationM", true],
-            eventsLast3M: ["eventsLast3M", true],
+            events3M: ["events3M", true],
+            events6M: ["events6M", true],
           }
           let sortKey = "completed",
             sortDir = "desc"
@@ -214,7 +215,8 @@
                   <th data-sort="routeName">routeName</th>
                   <th data-sort="routeLength">routeLength</th>
                   <th data-sort="routeElevation">routeElevation</th>
-                  <th data-sort="eventsLast3M">eventsLast3M</th>
+                  <th data-sort="events3M">events3M</th>
+                  <th data-sort="events6M">events6M</th>
                 </tr></thead>
                 <tbody></tbody>
               </table>`
@@ -225,7 +227,8 @@
                 routeName: ["name", false],
                 routeLength: ["distanceKm", true],
                 routeElevation: ["elevationM", true],
-                eventsLast3M: ["eventsLast3M", true],
+                events3M: ["events3M", true],
+                events6M: ["events6M", true],
               }
               const [field, numeric] = SORT_COLS_SINGLE[sortKey] || SORT_COLS_SINGLE["completed"]
               const sorted = allRoutes.slice().sort((a, b) => {
@@ -246,7 +249,7 @@
               })
 
               const tbody = div.querySelector("tbody")
-              sorted.forEach(({ name, completed, distanceKm, elevationM, eventsLast3M, url, world }) => {
+              sorted.forEach(({ name, completed, distanceKm, elevationM, events3M, events6M, url, world }) => {
                 const tr = document.createElement("tr")
                 tr.className = completed ? "completed" : "needed"
                 tr.innerHTML = `
@@ -255,7 +258,8 @@
                   <td><a href="${url}" target="_blank" rel="noopener">${name}</a></td>
                   <td>${distanceKm} km</td>
                   <td>${elevationM} m</td>
-                  <td>${eventsLast3M}</td>
+                  <td>${events3M}</td>
+                  <td>${events6M}</td>
                 `
                 tbody.appendChild(tr)
               })
@@ -287,7 +291,8 @@
                     <th data-sort="routeName">routeName</th>
                     <th data-sort="routeLength">routeLength</th>
                     <th data-sort="routeElevation">routeElevation</th>
-                    <th data-sort="eventsLast3M">eventsLast3M</th>
+                    <th data-sort="events3M">events3M</th>
+                    <th data-sort="events6M">events6M</th>
                   </tr></thead>
                   <tbody></tbody>
                 </table>`
@@ -313,7 +318,7 @@
                 })
 
                 const tbody = div.querySelector("tbody")
-                sorted.forEach(({ name, completed, distanceKm, elevationM, eventsLast3M, url }) => {
+                sorted.forEach(({ name, completed, distanceKm, elevationM, events3M, events6M, url }) => {
                   const tr = document.createElement("tr")
                   tr.className = completed ? "completed" : "needed"
                   tr.innerHTML = `
@@ -321,7 +326,8 @@
                     <td><a href="${url}" target="_blank" rel="noopener">${name}</a></td>
                     <td>${distanceKm} km</td>
                     <td>${elevationM} m</td>
-                    <td>${eventsLast3M}</td>
+                    <td>${events3M}</td>
+                    <td>${events6M}</td>
                   `
                   tbody.appendChild(tr)
                 })
