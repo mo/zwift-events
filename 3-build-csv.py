@@ -182,6 +182,7 @@ for rider in RIDERS:
             'completed': route_name in all_completed,
             'distanceKm': round(float(r.get('distanceInMeters', 0)) / 1000, 1),
             'elevationM': round(float(r.get('ascentInMeters', 0))),
+            'eventsLast3M': recent_event_count(route_name),
             'url': route_url(route_name),
         })
 
