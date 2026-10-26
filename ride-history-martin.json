@@ -6,11 +6,16 @@
         "eventName": "Bikealicious Zone 2 Fat Burner Ride",
         "routeName": "California Dreamin'",
         "routeUrl": "https://zwiftinsider.com/route/california-dreamin/",
-        "routeLengthKm": 23.4,
-        "routeElevationM": 109,
+        "routeLengthKm": 19.1,
+        "routeElevationM": 102,
         "timeBiked": "00:45:46",
         "timeBikedSeconds": 2746,
-        "notableMoments": []
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "California Dreamin'"
+          }
+        ]
       }
     ]
   },

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import urllib.request
+import xml.etree.ElementTree as ET
 from shared import is_interesting
 
 BASE_URL = 'https://us-or-rly101.zwift.com/api/public/events/upcoming'
@@ -26,10 +27,19 @@ with open('events.json', 'w') as f:
 
 print(f'Saved {len(all_events)} events to events.json')
 
-GAME_DICT_URL = 'https://www.zwift.com/zwift-web-pages/gamedictionaryextended'
+# The website's JSON dictionary can lag behind the game (including routes
+# already used by events). Fetch the game assets and retain our JSON shape.
+GAME_DICT_URL = 'https://cdn.zwift.com/gameassets/GameDictionary.xml'
 print(f'Fetching {GAME_DICT_URL}')
 with urllib.request.urlopen(GAME_DICT_URL) as response:
-    game_data = json.loads(response.read())
+    dictionary = ET.fromstring(response.read())
+
+game_data = dict(dictionary.attrib)
+for section in dictionary:
+    entries = {}
+    for item in section:
+        entries.setdefault(item.tag, []).append(dict(item.attrib))
+    game_data[section.tag] = entries
 
 with open('game.json', 'w') as f:
     json.dump(game_data, f, indent=2)
