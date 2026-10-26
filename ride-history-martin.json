@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-25",
+    "rides": [
+      {
+        "eventName": null,
+        "routeName": "Lady Liberty",
+        "routeUrl": "https://zwiftinsider.com/route/lady-liberty/",
+        "routeLengthKm": 12.4,
+        "routeElevationM": 206,
+        "timeBiked": "01:00:43",
+        "timeBikedSeconds": 3643,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Lady Liberty"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-24",
     "rides": [
       {
