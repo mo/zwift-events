@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-10-27",
+    "rides": [
+      {
+        "eventName": "🌮  Tobz Taco Tuesday with the Fudging Slackers 🌮",
+        "routeName": "California Roll",
+        "routeUrl": "https://zwiftinsider.com/route/california-roll/",
+        "routeLengthKm": 33.2,
+        "routeElevationM": 123,
+        "timeBiked": "00:50:22",
+        "timeBikedSeconds": 3022,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "California Roll"
+          },
+          {
+            "type": "unlock",
+            "text": "Unlock: LEVEL 60 KIT"
+          },
+          {
+            "type": "level",
+            "text": "Level 60"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-26",
     "rides": [
       {
