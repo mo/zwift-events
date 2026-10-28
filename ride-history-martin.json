@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-10-28",
+    "rides": [
+      {
+        "eventName": "Bikes France Wednesday WorkOut",
+        "routeName": "Laps, Camera, Traction",
+        "routeUrl": "https://zwiftinsider.com/route/laps-camera-traction/",
+        "routeLengthKm": 25.8,
+        "routeElevationM": 201,
+        "timeBiked": "00:33:33",
+        "timeBikedSeconds": 2013,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Laps, Camera, Traction"
+          }
+        ]
+      },
+      {
+        "eventName": "BMTR Banded Warmup",
+        "routeName": "Caldera Coaster",
+        "routeUrl": "https://zwiftinsider.com/route/caldera-coaster/",
+        "routeLengthKm": 4.0,
+        "routeElevationM": 12,
+        "timeBiked": "00:12:57",
+        "timeBikedSeconds": 777,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Caldera Coaster"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-27",
     "rides": [
       {
