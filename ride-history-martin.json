@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-30",
+    "rides": [
+      {
+        "eventName": "BMTR Banded Warmup",
+        "routeName": "Seafoam Circuit",
+        "routeUrl": "https://zwiftinsider.com/route/seafoam-circuit/",
+        "routeLengthKm": 3.5,
+        "routeElevationM": 18,
+        "timeBiked": "00:12:21",
+        "timeBikedSeconds": 741,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Seafoam Circuit"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "rides": [
       {
