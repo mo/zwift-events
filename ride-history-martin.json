@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-31",
+    "rides": [
+      {
+        "eventName": "Bikealicious Joy Ride",
+        "routeName": "Four Foalsmen",
+        "routeUrl": "https://zwiftinsider.com/route/four-foalsmen/",
+        "routeLengthKm": 67.9,
+        "routeElevationM": 618,
+        "timeBiked": "02:14:57",
+        "timeBikedSeconds": 8097,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Four Foalsmen"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "rides": [
       {
