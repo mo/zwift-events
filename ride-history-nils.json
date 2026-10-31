@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-10-31",
+    "rides": [
+      {
+        "eventName": null,
+        "routeName": null,
+        "routeUrl": null,
+        "routeLengthKm": 16.0,
+        "routeElevationM": 166,
+        "timeBiked": "00:49:53",
+        "timeBikedSeconds": 2993,
+        "notableMoments": [
+          {
+            "type": "unlock",
+            "text": "Unlock: CYCLING CAP"
+          },
+          {
+            "type": "unlock",
+            "text": "Unlock: LEVEL 25 KIT"
+          },
+          {
+            "type": "level",
+            "text": "Level 25"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-24",
     "rides": [
       {
