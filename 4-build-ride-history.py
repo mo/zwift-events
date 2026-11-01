@@ -31,15 +31,17 @@ URL_SLUG_OVERRIDES = {
 def route_url(name):
     if not name:
         return None
+    is_video = name.startswith('Video: ')
     # Climb Portal is a label, not part of the ZwiftInsider route slug.
-    slug_name = re.sub(r'^Climb Portal:\s*', '', name)
+    slug_name = re.sub(r'^(?:Climb Portal|Video):\s*', '', name)
     if slug_name in URL_SLUG_OVERRIDES:
         slug = URL_SLUG_OVERRIDES[slug_name]
     else:
         slug = unicodedata.normalize('NFKD', slug_name).encode('ascii', 'ignore').decode().lower()
         slug = re.sub(r'[^a-z0-9 -]', '', slug)
         slug = re.sub(r' +', '-', slug.strip())
-    return f'https://zwiftinsider.com/route/{slug}/'
+    route_type = 'video-route' if is_video else 'route'
+    return f'https://zwiftinsider.com/{route_type}/{slug}/'
 
 with open('game.json') as f:
     game = json.load(f)
@@ -73,6 +75,11 @@ def get_route_from_activity_name(activity_name):
     # The name field is a title, not a canonical route field. Search only
     # route-sized tokens; case-insensitive matching handles title variants.
     title = re.sub(r'^\s*Zwift\s*[-:]\s*', '', str(activity_name), flags=re.IGNORECASE)
+    # Video routes are absent from GameDictionary.xml. Their activity titles
+    # supply the route name and identify the route type explicitly.
+    video_route = re.fullmatch(r'(.+?)\s+in\s+Video\s*', title, flags=re.IGNORECASE)
+    if video_route:
+        return f'Video: {video_route.group(1).strip()}'
     climb_portal_prefix = re.search(r'(?i)\bClimb Portal\s*[:-]\s*', title)
     for route in sorted(game['ROUTES']['ROUTE'], key=lambda r: len(r.get('name', '')), reverse=True):
         name = route.get('name', '')
