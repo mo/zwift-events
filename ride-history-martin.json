@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-11-04",
+    "rides": [
+      {
+        "eventName": "Hercules - Hump Day, Midweek Recovery Shake Out",
+        "routeName": "Crit Cross",
+        "routeUrl": "https://zwiftinsider.com/route/crit-cross/",
+        "routeLengthKm": 13.5,
+        "routeElevationM": 35,
+        "timeBiked": "00:10:10",
+        "timeBikedSeconds": 610,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Crit Cross"
+          },
+          {
+            "type": "unlock",
+            "text": "Unlock: 2026 TOUR OF WATOPIA UC KIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "rides": [
       {
