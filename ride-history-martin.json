@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-11-03",
+    "rides": [
+      {
+        "eventName": "🌮  Tobz Taco Tuesday with the Fudging Slackers 🌮",
+        "routeName": "One Ride to Rule Them All",
+        "routeUrl": "https://zwiftinsider.com/route/one-ride-to-rule-them-all/",
+        "routeLengthKm": 38.6,
+        "routeElevationM": 461,
+        "timeBiked": "01:12:23",
+        "timeBikedSeconds": 4343,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "One Ride to Rule Them All"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-02",
+    "rides": [
+      {
+        "eventName": "DraftingDinos Monday FunDay",
+        "routeName": "Molten Momentum",
+        "routeUrl": "https://zwiftinsider.com/route/molten-momentum/",
+        "routeLengthKm": 20.7,
+        "routeElevationM": 209,
+        "timeBiked": "00:54:11",
+        "timeBikedSeconds": 3251,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Molten Momentum"
+          },
+          {
+            "type": "unlock",
+            "text": "Unlock: COOL TONE GLOVES"
+          },
+          {
+            "type": "level",
+            "text": "Level 61"
+          },
+          {
+            "type": "unlock",
+            "text": "Unlock: 2026 TOUR OF WATOPIA KIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-01",
     "rides": [
       {
