@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-04",
+    "rides": [
+      {
+        "eventName": null,
+        "routeName": "Video: Chapman's Peak",
+        "routeUrl": "https://zwiftinsider.com/video-route/chapmans-peak/",
+        "routeLengthKm": 11.5,
+        "routeElevationM": 188,
+        "timeBiked": "00:36:08",
+        "timeBikedSeconds": 2168,
+        "notableMoments": []
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "rides": [
       {
@@ -32,7 +47,7 @@
     "rides": [
       {
         "eventName": null,
-        "routeName": "Watopia Hilly Route",
+        "routeName": "Hilly Route",
         "routeUrl": "https://zwiftinsider.com/route/hilly-route/",
         "routeLengthKm": 9.2,
         "routeElevationM": 109,
@@ -302,7 +317,7 @@
     "rides": [
       {
         "eventName": null,
-        "routeName": "Watopia Hilly Route",
+        "routeName": "Hilly Route",
         "routeUrl": "https://zwiftinsider.com/route/hilly-route/",
         "routeLengthKm": 9.2,
         "routeElevationM": 109,
@@ -444,7 +459,7 @@
     "rides": [
       {
         "eventName": null,
-        "routeName": "Watopia Flat Route",
+        "routeName": "Flat Route",
         "routeUrl": "https://zwiftinsider.com/route/flat-route/",
         "routeLengthKm": 10.3,
         "routeElevationM": 61,
@@ -1231,7 +1246,7 @@
     "rides": [
       {
         "eventName": null,
-        "routeName": "Watopia Flat Route",
+        "routeName": "Flat Route",
         "routeUrl": "https://zwiftinsider.com/route/flat-route/",
         "routeLengthKm": 10.3,
         "routeElevationM": 61,
@@ -1240,7 +1255,7 @@
         "notableMoments": [
           {
             "type": "route",
-            "text": "Watopia Flat Route"
+            "text": "Flat Route"
           }
         ]
       },
@@ -1337,7 +1352,7 @@
     "rides": [
       {
         "eventName": null,
-        "routeName": "Watopia Hilly Route",
+        "routeName": "Hilly Route",
         "routeUrl": "https://zwiftinsider.com/route/hilly-route/",
         "routeLengthKm": 9.2,
         "routeElevationM": 109,
@@ -1405,7 +1420,7 @@
     "rides": [
       {
         "eventName": null,
-        "routeName": "Watopia Hilly Route",
+        "routeName": "Hilly Route",
         "routeUrl": "https://zwiftinsider.com/route/hilly-route/",
         "routeLengthKm": 9.2,
         "routeElevationM": 109,
@@ -1414,7 +1429,7 @@
         "notableMoments": [
           {
             "type": "route",
-            "text": "Watopia Hilly Route"
+            "text": "Hilly Route"
           }
         ]
       },

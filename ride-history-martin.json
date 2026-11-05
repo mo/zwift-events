@@ -275,8 +275,8 @@
         "eventName": "WORKOUT FITNESS RIDE",
         "routeName": "Hilly Route",
         "routeUrl": "https://zwiftinsider.com/route/hilly-route/",
-        "routeLengthKm": 6.1,
-        "routeElevationM": 45,
+        "routeLengthKm": 9.2,
+        "routeElevationM": 109,
         "timeBiked": "00:10:26",
         "timeBikedSeconds": 626,
         "notableMoments": []
@@ -947,8 +947,8 @@
         "eventName": null,
         "routeName": "Figure 8",
         "routeUrl": "https://zwiftinsider.com/route/figure-8/",
-        "routeLengthKm": 3.1,
-        "routeElevationM": 28,
+        "routeLengthKm": 29.7,
+        "routeElevationM": 254,
         "timeBiked": "00:08:44",
         "timeBikedSeconds": 524,
         "notableMoments": []
@@ -1265,8 +1265,8 @@
         "eventName": "Hercules - Recovery Monday",
         "routeName": "Flat Route",
         "routeUrl": "https://zwiftinsider.com/route/flat-route/",
-        "routeLengthKm": 22.4,
-        "routeElevationM": 126,
+        "routeLengthKm": 10.3,
+        "routeElevationM": 61,
         "timeBiked": "00:46:08",
         "timeBikedSeconds": 2768,
         "notableMoments": []
@@ -1708,14 +1708,14 @@
         "eventName": "Cycle Nation Banded Badass Badge Bonanza",
         "routeName": "The PRL Half",
         "routeUrl": "https://zwiftinsider.com/route/the-prl-half/",
-        "routeLengthKm": 61.2,
-        "routeElevationM": 835,
+        "routeLengthKm": 69.2,
+        "routeElevationM": 1009,
         "timeBiked": "02:34:32",
         "timeBikedSeconds": 9272,
         "notableMoments": [
           {
             "type": "route",
-            "text": "London PRL Half"
+            "text": "The PRL Half"
           }
         ]
       }
@@ -1921,8 +1921,8 @@
         "eventName": "Cycle Nation Banded Route of the Week Knees Up",
         "routeName": "Figure 8",
         "routeUrl": "https://zwiftinsider.com/route/figure-8/",
-        "routeLengthKm": 30.1,
-        "routeElevationM": 255,
+        "routeLengthKm": 29.7,
+        "routeElevationM": 254,
         "timeBiked": "01:05:07",
         "timeBikedSeconds": 3907,
         "notableMoments": []
@@ -3005,14 +3005,14 @@
         "eventName": "TRON CHASERS GUIDE TO THE GALAXY [1.8-2.4 WKG] CAT D",
         "routeName": "Mountain 8",
         "routeUrl": "https://zwiftinsider.com/route/mountain-8/",
-        "routeLengthKm": 33.1,
-        "routeElevationM": 690,
+        "routeLengthKm": 32.3,
+        "routeElevationM": 691,
         "timeBiked": "01:24:20",
         "timeBikedSeconds": 5060,
         "notableMoments": [
           {
             "type": "route",
-            "text": "Watopia Mountain 8"
+            "text": "Mountain 8"
           },
           {
             "type": "unlock",
@@ -3488,14 +3488,14 @@
         "eventName": "Zwift Beginners Ride with Project Sloth\t\t\t\t",
         "routeName": "2015 Worlds Course",
         "routeUrl": "https://zwiftinsider.com/route/2015-worlds-course/",
-        "routeLengthKm": 27.1,
-        "routeElevationM": 193,
+        "routeLengthKm": 16.2,
+        "routeElevationM": 158,
         "timeBiked": "01:03:39",
         "timeBikedSeconds": 3819,
         "notableMoments": [
           {
             "type": "route",
-            "text": "Richmond UCI Worlds"
+            "text": "2015 Worlds Course"
           }
         ]
       }
@@ -3616,14 +3616,14 @@
         "eventName": "(Rubberbanded) POLLITO Ride by HISP",
         "routeName": "Figure 8 Reverse",
         "routeUrl": "https://zwiftinsider.com/route/figure-8-reverse/",
-        "routeLengthKm": 31.4,
-        "routeElevationM": 273,
+        "routeLengthKm": 29.7,
+        "routeElevationM": 254,
         "timeBiked": "01:04:25",
         "timeBikedSeconds": 3865,
         "notableMoments": [
           {
             "type": "route",
-            "text": "Watopia Figure 8 Reverse"
+            "text": "Figure 8 Reverse"
           }
         ]
       }
@@ -3734,14 +3734,14 @@
         "eventName": "The Banded Rhino Roll",
         "routeName": "Figure 8",
         "routeUrl": "https://zwiftinsider.com/route/figure-8/",
-        "routeLengthKm": 30.1,
+        "routeLengthKm": 29.7,
         "routeElevationM": 254,
         "timeBiked": "01:02:52",
         "timeBikedSeconds": 3772,
         "notableMoments": [
           {
             "type": "route",
-            "text": "Watopia Figure 8"
+            "text": "Figure 8"
           }
         ]
       }
@@ -6208,7 +6208,7 @@
     "rides": [
       {
         "eventName": null,
-        "routeName": "Watopia Hilly Route",
+        "routeName": "Hilly Route",
         "routeUrl": "https://zwiftinsider.com/route/hilly-route/",
         "routeLengthKm": 9.2,
         "routeElevationM": 109,
@@ -6217,7 +6217,7 @@
         "notableMoments": [
           {
             "type": "route",
-            "text": "Watopia Hilly Route"
+            "text": "Hilly Route"
           },
           {
             "type": "unlock",
@@ -6304,7 +6304,7 @@
     "rides": [
       {
         "eventName": null,
-        "routeName": "Watopia Flat Route",
+        "routeName": "Flat Route",
         "routeUrl": "https://zwiftinsider.com/route/flat-route/",
         "routeLengthKm": 10.3,
         "routeElevationM": 61,
@@ -6313,7 +6313,7 @@
         "notableMoments": [
           {
             "type": "route",
-            "text": "Watopia Flat Route"
+            "text": "Flat Route"
           }
         ]
       }
@@ -6472,7 +6472,7 @@
       },
       {
         "eventName": null,
-        "routeName": "Watopia Flat Route",
+        "routeName": "Flat Route",
         "routeUrl": "https://zwiftinsider.com/route/flat-route/",
         "routeLengthKm": 10.3,
         "routeElevationM": 61,
