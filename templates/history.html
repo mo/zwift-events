@@ -130,9 +130,11 @@
           const totalRides = history.reduce((sum, day) => sum + day.rides.length, 0)
 
           // Calculate date range for rest days
+          const now = new Date()
+          const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`
           const dates = history.map(d => d.date).sort()
-          const firstDate = dates[0]
-          const lastDate = dates[dates.length - 1]
+          const firstDate = dates[0] || today
+          const lastDate = today
 
           // Calculate total calendar days
           const first = new Date(firstDate)
