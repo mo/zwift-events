@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-11-14",
+    "rides": [
+      {
+        "eventName": null,
+        "routeName": "Climb Portal: Old La Honda",
+        "routeUrl": "https://zwiftinsider.com/route/old-la-honda/",
+        "routeLengthKm": 13.3,
+        "routeElevationM": 404,
+        "timeBiked": "00:46:50",
+        "timeBikedSeconds": 2810,
+        "notableMoments": []
+      }
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "rides": [
+      {
+        "eventName": null,
+        "routeName": "Beach Island Loop",
+        "routeUrl": "https://zwiftinsider.com/route/beach-island-loop/",
+        "routeLengthKm": 12.8,
+        "routeElevationM": 49,
+        "timeBiked": "00:24:12",
+        "timeBikedSeconds": 1452,
+        "notableMoments": [
+          {
+            "type": "unlock",
+            "text": "Unlock: 2026 TOUR OF WATOPIA SOCKS"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-08-29",
     "rides": [
       {

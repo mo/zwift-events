@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-11-11",
+    "rides": [
+      {
+        "eventName": null,
+        "routeName": "Video: Glen Etive",
+        "routeUrl": "https://zwiftinsider.com/video-route/glen-etive/",
+        "routeLengthKm": 6.5,
+        "routeElevationM": 41,
+        "timeBiked": "00:12:19",
+        "timeBikedSeconds": 739,
+        "notableMoments": []
+      }
+    ]
+  },
+  {
+    "date": "2026-11-07",
+    "rides": [
+      {
+        "eventName": null,
+        "routeName": "Two Village Loop",
+        "routeUrl": "https://zwiftinsider.com/route/two-village-loop/",
+        "routeLengthKm": 12.8,
+        "routeElevationM": 88,
+        "timeBiked": "00:31:50",
+        "timeBikedSeconds": 1910,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Two Village Loop"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-04",
     "rides": [
       {
