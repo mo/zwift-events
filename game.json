@@ -1507,7 +1507,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "3.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "71180.1718750000",
+        "distanceInMeters": "71197.0156250000",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "9,10,11,12",
@@ -1691,7 +1691,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "5.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "149751.4687500000",
+        "distanceInMeters": "150001.7968750000",
         "duration": "5",
         "eventOnly": "0",
         "eventPaddocks": "29,30,31",
@@ -2647,14 +2647,14 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "499.6502990723",
+        "ascentInMeters": "493.9282836914",
         "bikeRec": "1",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "3.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "74494.5234375000",
+        "distanceInMeters": "74477.9140625000",
         "duration": "0",
         "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
@@ -2817,13 +2817,13 @@
         "duration": "2",
         "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
-        "imageName": "YORKSHIRE_Harrogate_Circuit_Reverse",
+        "imageName": "YORKSHIRE_Yorkshire_Circuit_Reverse",
         "leadinAscentInMeters": "0.0",
         "leadinDistanceInMeters": "22.3",
         "levelLocked": "0",
         "locKey": "LOC_ROUTE_YORKSHIRE_HARROGATE_CIRCUIT",
         "map": "YORKSHIRE",
-        "name": "Harrogate Circuit Reverse",
+        "name": "Yorkshire Circuit Reverse",
         "sports": "3",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
@@ -3895,7 +3895,7 @@
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0",
         "freeRideLeadinDistanceInMeters": "9.1",
-        "imageName": "RICHMOND_Richmond_2015_Worlds_Reverse",
+        "imageName": "RICHMOND_Richmond_Circuit_Reverse",
         "leadinAscentInMeters": "0.0",
         "leadinDistanceInMeters": "99.7",
         "levelLocked": "0",
@@ -3903,13 +3903,44 @@
         "map": "RICHMOND",
         "meetupLeadinAscentInMeters": "0",
         "meetupLeadinDistanceInMeters": "31.9",
-        "name": "Richmond 2015 Worlds Reverse",
+        "name": "Richmond Circuit Reverse",
         "sports": "3",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "325",
         "zwiftEventOnly": "0",
         "signature": "1039983620"
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "381.0040588379",
+        "bikeRec": "1",
+        "blockedForClubs": "1",
+        "blockedForMeetups": "1",
+        "blockedForTimeTrial": "0",
+        "difficulty": "5.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "31512.0234375000",
+        "duration": "4",
+        "eventOnly": "1",
+        "eventPaddocks": "6,7,8,9",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "57.6195793152",
+        "imageName": "SCOTLAND_Its_really_Sgurry",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "148.8573455811",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_SCOTLAND_ITS_REALLY_SGURRY",
+        "map": "SCOTLAND",
+        "meetupLeadinAscentInMeters": "0",
+        "meetupLeadinDistanceInMeters": "81.4444046021",
+        "name": "It's really Sgurry",
+        "sports": "1",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "xp": "630",
+        "zwiftEventOnly": "1",
+        "signature": "1048389272"
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0.0",
@@ -4534,7 +4565,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "67938.6093750000",
+        "distanceInMeters": "67923.1015625000",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "11,12,13,14",
@@ -4810,7 +4841,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "53960.6679687500",
+        "distanceInMeters": "53939.8515625000",
         "duration": "3",
         "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
@@ -6317,7 +6348,7 @@
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0.4",
         "freeRideLeadinDistanceInMeters": "34.8",
-        "imageName": "YORKSHIRE_2019_Worlds_Harrogate_Circuit",
+        "imageName": "YORKSHIRE_Yorkshire_Circuit",
         "leadinAscentInMeters": "1.2",
         "leadinDistanceInMeters": "110.8",
         "levelLocked": "0",
@@ -6325,7 +6356,7 @@
         "map": "YORKSHIRE",
         "meetupLeadinAscentInMeters": "0.4",
         "meetupLeadinDistanceInMeters": "34.8",
-        "name": "2019 Worlds Harrogate Circuit",
+        "name": "Yorkshire Circuit",
         "sports": "3",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
@@ -6429,14 +6460,14 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "122.7669296265",
+        "ascentInMeters": "123.1509857178",
         "bikeRec": "1",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "33246.7460937500",
+        "distanceInMeters": "33238.0625000000",
         "duration": "2",
         "eventOnly": "0",
         "eventPaddocks": "29,30,31",
@@ -6461,14 +6492,14 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "329.7257385254",
+        "ascentInMeters": "336.6123352051",
         "bikeRec": "1",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
         "difficulty": "3.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "42170.5937500000",
+        "distanceInMeters": "42156.8632812500",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "11,12,13,14",
@@ -6500,7 +6531,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "1.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "20003.0390625000",
+        "distanceInMeters": "20000.5488281250",
         "duration": "4",
         "eventOnly": "1",
         "eventPaddocks": "29,30,31",
@@ -6745,7 +6776,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "49231.0820312500",
+        "distanceInMeters": "49228.4218750000",
         "duration": "3",
         "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
@@ -6842,7 +6873,7 @@
         "duration": "2",
         "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
-        "imageName": "RICHMOND_2015_Worlds_Course",
+        "imageName": "RICHMOND_Richmond_Circuit",
         "leadinAscentInMeters": "2.5",
         "leadinDistanceInMeters": "284.4",
         "levelLocked": "0",
@@ -6850,7 +6881,7 @@
         "map": "RICHMOND",
         "meetupLeadinAscentInMeters": "8.3",
         "meetupLeadinDistanceInMeters": "527.0",
-        "name": "2015 Worlds Course",
+        "name": "Richmond Circuit",
         "sports": "7",
         "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
@@ -7527,8 +7558,8 @@
         "signature": "2573468147"
       },
       {
-        "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "9.0",
+        "ascentBetweenFirstLastLrCPsInMeters": "1.5798797607",
+        "ascentInMeters": "8.9918766022",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
@@ -7537,6 +7568,8 @@
         "distanceInMeters": "2534.8",
         "eventOnly": "0",
         "eventPaddocks": "101,102,103,104",
+        "freeRideLeadinAscentInMeters": "1.5799293518",
+        "freeRideLeadinDistanceInMeters": "190.4120635986",
         "imageName": "NEWYORK_Shuman_Trail_Loop",
         "leadinAscentInMeters": "1.6",
         "leadinDistanceInMeters": "312.2",
@@ -8124,7 +8157,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "2.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "69128.1953125000",
+        "distanceInMeters": "69124.3125000000",
         "duration": "0",
         "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
@@ -8141,7 +8174,7 @@
         "name": "Paris Toujours",
         "publishedOn": "2026-07-06",
         "sports": "1",
-        "supportedLaps": "0",
+        "supportedLaps": "1",
         "supportsTimeTrialMode": "0",
         "xp": "1385",
         "zwiftEventOnly": "0",
@@ -8703,7 +8736,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "5.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "77577.4834375000",
+        "distanceInMeters": "77592.3671875000",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "16,17,18,19",
@@ -8756,8 +8789,8 @@
         "signature": "2945813240"
       },
       {
-        "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "661.7",
+        "ascentBetweenFirstLastLrCPsInMeters": "1.1986083984",
+        "ascentInMeters": "658.0475463867",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
@@ -8765,7 +8798,7 @@
         "defaultLeadinDistanceInMeters": "655.62",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "446.6",
-        "distanceInMeters": "42603.8",
+        "distanceInMeters": "42595.1835937500",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
@@ -9313,7 +9346,7 @@
         "eventPaddocks": "1,2,3,4",
         "freeRideLeadinAscentInMeters": "0.8",
         "freeRideLeadinDistanceInMeters": "300.7",
-        "imageName": "INNSBRUCK_2018_Worlds_Short_Lap",
+        "imageName": "INNSBRUCK_Innsbruck_Short_Lap",
         "leadinAscentInMeters": "0.8",
         "leadinDistanceInMeters": "221.5",
         "levelLocked": "0",
@@ -9321,7 +9354,7 @@
         "map": "INNSBRUCK",
         "meetupLeadinAscentInMeters": "0.9",
         "meetupLeadinDistanceInMeters": "386.6",
-        "name": "2018 Worlds Short Lap",
+        "name": "Innsbruck Short Lap",
         "runRec": "1",
         "sports": "3",
         "supportedLaps": "1",
@@ -9424,8 +9457,8 @@
         "signature": "3188374033"
       },
       {
-        "ascentBetweenFirstLastLrCPsInMeters": "0",
-        "ascentInMeters": "691.4",
+        "ascentBetweenFirstLastLrCPsInMeters": "0.881835",
+        "ascentInMeters": "686.5",
         "blockedForClubs": "0",
         "blockedForMeetups": "0",
         "blockedForTimeTrial": "0",
@@ -9433,7 +9466,7 @@
         "defaultLeadinDistanceInMeters": "626.51",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "417.0",
-        "distanceInMeters": "32255.9",
+        "distanceInMeters": "32248.054",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "1,2,3,4",
@@ -10228,6 +10261,37 @@
       },
       {
         "ascentBetweenFirstLastLrCPsInMeters": "0",
+        "ascentInMeters": "218.0405578613",
+        "bikeRec": "1",
+        "blockedForClubs": "1",
+        "blockedForMeetups": "1",
+        "blockedForTimeTrial": "0",
+        "difficulty": "3.0",
+        "distanceBetweenFirstLastLrCPsInMeters": "0",
+        "distanceInMeters": "18967.4257812500",
+        "duration": "3",
+        "eventOnly": "1",
+        "eventPaddocks": "6,7,8,9",
+        "freeRideLeadinAscentInMeters": "0",
+        "freeRideLeadinDistanceInMeters": "39.7483406067",
+        "imageName": "SCOTLAND_Its_a_bit_Sgurry",
+        "leadinAscentInMeters": "0",
+        "leadinDistanceInMeters": "151.5554962158",
+        "levelLocked": "0",
+        "locKey": "LOC_ROUTE_SCOTLAND_ITS_A_BIT_SGURRY",
+        "map": "SCOTLAND",
+        "meetupLeadinAscentInMeters": "0",
+        "meetupLeadinDistanceInMeters": "65.9310836792",
+        "name": "It's a bit Sgurry",
+        "sports": "1",
+        "supportedLaps": "0",
+        "supportsTimeTrialMode": "0",
+        "xp": "380",
+        "zwiftEventOnly": "1",
+        "signature": "3381391519"
+      },
+      {
+        "ascentBetweenFirstLastLrCPsInMeters": "0",
         "ascentInMeters": "254.0",
         "bikeRec": "1",
         "blockedForClubs": "0",
@@ -10312,7 +10376,7 @@
         "locKey": "LOC_ROUTE_WATOPIA_1_X_3_MIN_LIGHTNING_LAP",
         "map": "WATOPIA",
         "meetupLeadinAscentInMeters": "11.1518573761",
-        "meetupLeadinDistanceInMeters": "5029.1992187500",
+        "meetupLeadinDistanceInMeters": "5045.7392578125",
         "name": "1 x 3 Min Lightning Lap",
         "publishedOn": "2026-12-07",
         "sports": "1",
@@ -11932,7 +11996,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "4.0",
         "distanceBetweenFirstLastLrCPsInMeters": "0",
-        "distanceInMeters": "51188.9843750000",
+        "distanceInMeters": "51209",
         "duration": "4",
         "eventOnly": "0",
         "eventPaddocks": "9,10,11,12",
@@ -12787,7 +12851,7 @@
         "blockedForTimeTrial": "0",
         "difficulty": "4.5",
         "distanceBetweenFirstLastLrCPsInMeters": "7.2",
-        "distanceInMeters": "45692.6679687500",
+        "distanceInMeters": "45679.7968750000",
         "duration": "4",
         "eventOnly": "1",
         "eventPaddocks": "1,2,3,4",
@@ -12839,13 +12903,13 @@
   "SEGMENTS": {
     "SEGMENT": [
       {
-        "archFriendlyFemaleNameR": "UCI Worlds Reverse",
-        "archFriendlyNameR": "UCI Worlds Reverse",
+        "archFriendlyFemaleNameR": "Yorkshire Lap Reverse",
+        "archFriendlyNameR": "Yorkshire Lap Reverse",
         "archId": "0",
         "archSegmentDistanceInKilometers": "13.8000001907",
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
-        "name": "none",
+        "name": "Yorkshire Lap",
         "onRoutes": "1086718516",
         "roadId": "0",
         "roadTime": "0.0001000000",
@@ -12926,13 +12990,13 @@
         "signature": "-9223372035813841099"
       },
       {
-        "archFriendlyFemaleNameR": "UCI LAP",
-        "archFriendlyNameR": "UCI LAP",
+        "archFriendlyFemaleNameR": "Innsbruck Lap",
+        "archFriendlyNameR": "Innsbruck Lap",
         "archId": "0",
         "archSegmentDistanceInKilometers": "23.6499996185",
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
-        "name": "none",
+        "name": "Innsbruck Lap",
         "roadId": "7",
         "roadTime": "0.1525340000",
         "world": "5",
@@ -13211,16 +13275,6 @@
         "signature": "-9223372035791775504"
       },
       {
-        "archId": "0",
-        "direction": "reverse",
-        "name": "HarborArch01",
-        "onRoutes": "2866480562,910684583",
-        "roadId": "4",
-        "roadTime": "0.8681440626",
-        "world": "9",
-        "signature": "-9223372035791634768"
-      },
-      {
         "archFriendlyFemaleNameR": "Flatland Loop",
         "archFriendlyNameR": "Flatland Loop",
         "archId": "0",
@@ -13315,13 +13369,13 @@
         "signature": "-9223372035789679493"
       },
       {
-        "archFriendlyFemaleNameR": "SPRINT",
-        "archFriendlyNameR": "SPRINT",
+        "archFriendlyFemaleNameR": "Innsbruck Sprint",
+        "archFriendlyNameR": "Innsbruck Sprint",
         "archId": "1",
         "archSegmentDistanceInKilometers": "0.2000000030",
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
-        "name": "none",
+        "name": "Innsbruck Sprint",
         "onRoutes": "4009235104,3101693166",
         "roadId": "7",
         "roadTime": "0.0632000000",
@@ -13489,13 +13543,13 @@
         "signature": "-9223372027207049731"
       },
       {
-        "archFriendlyFemaleNameR": "QOM",
-        "archFriendlyNameR": "KOM",
+        "archFriendlyFemaleNameR": "Innsbruck QOM",
+        "archFriendlyNameR": "Innsbruck KOM",
         "archId": "2",
         "archSegmentDistanceInKilometers": "5.7923998833",
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
-        "name": "none",
+        "name": "Innsbruck KOM",
         "onRoutes": "4009235104,3801241714,3101693166",
         "roadId": "7",
         "roadTime": "0.5686890000",
@@ -13794,13 +13848,13 @@
         "signature": "-9223371428747509952"
       },
       {
-        "archFriendlyFemaleNameR": "23RD ST.",
-        "archFriendlyNameR": "23RD ST.",
+        "archFriendlyFemaleNameR": "23RD ST. QOM",
+        "archFriendlyNameR": "23RD ST. KOM",
         "archId": "4",
         "archSegmentDistanceInKilometers": "1.1000000238",
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
-        "name": "23RD_KOM",
+        "name": "23RD ST. KOM",
         "onRoutes": "948831673,1039983620,4194352271,3912793970,2244765560",
         "roadId": "0",
         "roadTime": "0.8424409079",
@@ -13814,7 +13868,8 @@
         "archSegmentDistanceInKilometers": "0.0640000030",
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
-        "name": "BroadSt_Sprint",
+        "jerseyName": "BROAD ST.",
+        "name": "BROAD ST. Sprint",
         "onRoutes": "948831673,1039983620",
         "roadId": "0",
         "roadTime": "0.3995607588",
@@ -13850,13 +13905,14 @@
         "signature": "-5338791988"
       },
       {
-        "archFriendlyFemaleNameR": "UCI COURSE",
-        "archFriendlyNameR": "UCI COURSE",
+        "archFriendlyFemaleNameR": "Richmond Lap",
+        "archFriendlyNameR": "Richmond Lap",
         "archId": "0",
         "archSegmentDistanceInKilometers": "16.2000007629",
         "direction": "reverse",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
-        "name": "UCI_COURSE_Lap",
+        "jerseyName": "Richmond Lap",
+        "name": "Richmond Lap",
         "onRoutes": "4194352271",
         "roadId": "0",
         "roadTime": "0.9920043688",
@@ -14190,13 +14246,13 @@
         "signature": "1040934709"
       },
       {
-        "archFriendlyFemaleName": "UCI LAP",
-        "archFriendlyName": "UCI LAP",
+        "archFriendlyFemaleName": "Innsbruck Lap",
+        "archFriendlyName": "Innsbruck Lap",
         "archId": "0",
         "archSegmentDistanceInKilometers": "23.6499996185",
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
-        "name": "none",
+        "name": "Innsbruck Lap",
         "onRoutes": "3114603308,4009235104",
         "roadId": "7",
         "roadTime": "0.1525340000",
@@ -14753,16 +14809,6 @@
         "signature": "1063000304"
       },
       {
-        "archId": "0",
-        "direction": "forward",
-        "name": "HarborArch01",
-        "onRoutes": "1453570384,3302953739,2927651296",
-        "roadId": "4",
-        "roadTime": "0.8681440626",
-        "world": "9",
-        "signature": "1063141040"
-      },
-      {
         "archFriendlyFemaleName": "Flatland Loop",
         "archFriendlyName": "Flatland Loop",
         "archId": "0",
@@ -14944,13 +14990,14 @@
         "signature": "1065205462"
       },
       {
-        "archFriendlyFemaleName": "UCI COURSE",
-        "archFriendlyName": "UCI COURSE",
+        "archFriendlyFemaleName": "Richmond Lap",
+        "archFriendlyName": "Richmond Lap",
         "archId": "0",
         "archSegmentDistanceInKilometers": "16.2000007629",
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
-        "name": "UCI_COURSE_Lap",
+        "jerseyName": "Richmond Lap",
+        "name": "Richmond Lap",
         "onRoutes": "2196019512,3166535632",
         "roadId": "0",
         "roadTime": "0.9920043688",
@@ -14973,13 +15020,13 @@
         "signature": "1065225773"
       },
       {
-        "archFriendlyFemaleName": "UCI Worlds",
-        "archFriendlyName": "UCI Worlds",
+        "archFriendlyFemaleName": "Yorkshire Lap",
+        "archFriendlyName": "Yorkshire Lap",
         "archId": "0",
         "archSegmentDistanceInKilometers": "13.8000001907",
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/OrangeJersey_Icon.tga",
-        "name": "none",
+        "name": "Yorkshire Lap",
         "onRoutes": "2007026433",
         "roadId": "0",
         "roadTime": "0.0001000000",
@@ -15303,13 +15350,13 @@
         "signature": "361827608521"
       },
       {
-        "archFriendlyFemaleName": "SPRINT",
-        "archFriendlyName": "SPRINT",
+        "archFriendlyFemaleName": "Innsbruck Sprint",
+        "archFriendlyName": "Innsbruck Sprint",
         "archId": "1",
         "archSegmentDistanceInKilometers": "0.3000000119",
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
-        "name": "none",
+        "name": "Innsbruck Sprint",
         "onRoutes": "2592027600,3114603308,4009235104,3649347250",
         "roadId": "7",
         "roadTime": "0.0632000000",
@@ -15520,13 +15567,13 @@
         "signature": "9647726077"
       },
       {
-        "archFriendlyFemaleName": "QOM",
-        "archFriendlyName": "KOM",
+        "archFriendlyFemaleName": "Innsbruck QOM",
+        "archFriendlyName": "Innsbruck KOM",
         "archId": "2",
         "archSegmentDistanceInKilometers": "7.4014000893",
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
-        "name": "none",
+        "name": "Innsbruck KOM",
         "onRoutes": "3114603308,4009235104,156457316,3649347250",
         "roadId": "7",
         "roadTime": "0.5686890000",
@@ -15622,7 +15669,8 @@
         "archSegmentDistanceInKilometers": "0.2829999924",
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/GreenJersey_Icon.tga",
-        "name": "BroadSt_Sprint",
+        "jerseyName": "BROAD ST.",
+        "name": "BROAD ST. Sprint",
         "onRoutes": "2196019512,54700404,3912793970,2244765560",
         "roadId": "0",
         "roadTime": "0.3995607588",
@@ -15719,13 +15767,13 @@
         "signature": "18241635062"
       },
       {
-        "archFriendlyFemaleName": "23RD ST.",
-        "archFriendlyName": "23RD ST.",
+        "archFriendlyFemaleName": "23RD ST. QOM",
+        "archFriendlyName": "23RD ST. KOM",
         "archId": "4",
         "archSegmentDistanceInKilometers": "0.2750000060",
         "direction": "forward",
         "jerseyIconPath": "UI/WhiteOrangeTheme/HUD/PolkaJersey_Icon.tga",
-        "name": "23RD_KOM",
+        "name": "23RD ST. KOM",
         "onRoutes": "1545087483,2196019512,3166535632,3912793970,2244765560",
         "roadId": "0",
         "roadTime": "0.8424409079",
@@ -16386,6 +16434,11 @@
         "imageName": "AsiinaCycling2026_thumb",
         "name": "Asiina Cycling",
         "signature": "269139365"
+      },
+      {
+        "imageName": "ZTPL2026_thumb",
+        "name": "ZTPL",
+        "signature": "270482375"
       },
       {
         "imageName": "Continental2018_thumb",
@@ -18348,6 +18401,11 @@
         "signature": "1521966760"
       },
       {
+        "imageName": "TeamVTO2026_thumb",
+        "name": "Team VTO",
+        "signature": "1526153375"
+      },
+      {
         "imageName": "OliversRacing2019_thumb",
         "name": "Olivers Racing",
         "signature": "1530790011"
@@ -20199,7 +20257,7 @@
       },
       {
         "imageName": "GGCC2026_thumb",
-        "name": "GGCC 2026",
+        "name": "GGCC 15 Year",
         "signature": "2795274277"
       },
       {
@@ -20349,7 +20407,7 @@
       },
       {
         "imageName": "TourDeZwiftUltimateChallenge2027_thumb",
-        "name": "LOC_CYCLING_JERSEY_TOURDEZWIFTULTIMATECHALLENGE2027",
+        "name": "Tour de Zwift Ultimate Challenge 2027",
         "signature": "2905774394"
       },
       {
@@ -21248,6 +21306,11 @@
         "signature": "3451819302"
       },
       {
+        "imageName": "TriTeam2027_thumb",
+        "name": "LOC_CYCLING_JERSEY_TRITEAM2027",
+        "signature": "3452912640"
+      },
+      {
         "imageName": "PlushGlobal2021_thumb",
         "name": "Plush Global Kit",
         "signature": "3455961079"
@@ -21338,6 +21401,11 @@
         "signature": "3503400331"
       },
       {
+        "imageName": "RadRacePainCave2027_thumb",
+        "name": "RAD RACE PAINCAVE 27",
+        "signature": "3506113312"
+      },
+      {
         "imageName": "SpringTraining2024_thumb",
         "name": "Spring Training 2024",
         "signature": "3516730865"
@@ -21376,6 +21444,11 @@
         "imageName": "Wahoo_2014_thumb",
         "name": "Wahoo",
         "signature": "3553917933"
+      },
+      {
+        "imageName": "ECRO2026_thumb",
+        "name": "ECRO",
+        "signature": "3559290106"
       },
       {
         "imageName": "EndureIQ2021_thumb",
@@ -21836,6 +21909,11 @@
         "imageName": "RideLikeAKing2021_thumb",
         "name": "Ride Like King 13",
         "signature": "3824368360"
+      },
+      {
+        "imageName": "TourDeZwift2027_thumb",
+        "name": "Tour de Zwift 2027",
+        "signature": "3827484880"
       },
       {
         "imageName": "QueenBee2023_thumb",
@@ -23422,6 +23500,11 @@
         "signature": "3541219510"
       },
       {
+        "imageName": "TourDeZwift2027_thumb",
+        "name": "Tour de Zwift 2027",
+        "signature": "3550994716"
+      },
+      {
         "imageName": "TeamZootRun2022_thumb",
         "name": "Team Zoot 2022",
         "signature": "3630589926"
@@ -23440,6 +23523,11 @@
         "imageName": "Shirt05",
         "name": "Zwift Running Shirt 5",
         "signature": "3666164253"
+      },
+      {
+        "imageName": "ZLDRPinkRunning2026_thumb",
+        "name": "LOC_ENTITLEMENT_RUNNING_KIT_ZLDR_PINK_NAME",
+        "signature": "3670878676"
       },
       {
         "imageName": "Adidas2019_thumb",
@@ -23894,6 +23982,11 @@
         "imageName": "PRRC2019",
         "name": "PRRC",
         "signature": "2527667682"
+      },
+      {
+        "imageName": "TourDeZwift2027_thumb",
+        "name": "Tour de Zwift 2027",
+        "signature": "2529051246"
       },
       {
         "imageName": "ZARunInSeason2022_thumb",
@@ -24460,7 +24553,7 @@
       },
       {
         "imageName": "CyclingShoes_TourDeZwift2026_thumb",
-        "name": "LOC_ACCESSORY_TourDeZwift2026",
+        "name": "Tour de Zwift 2027",
         "signature": "3240700465"
       },
       {
@@ -24796,6 +24889,11 @@
         "imageName": "Wheel_SpecializedRovalCLX64",
         "name": "Roval CLX64",
         "signature": "2612651137"
+      },
+      {
+        "imageName": "Wheel_CerveloBaracchi",
+        "name": "Zipp Baracchi",
+        "signature": "2616023348"
       },
       {
         "imageName": "Wheel_Cadex65",
@@ -25140,6 +25238,11 @@
         "imageName": "Wheel_ZwiftClassic",
         "name": "Zwift Classic",
         "signature": "1437212052"
+      },
+      {
+        "imageName": "Wheel_CerveloBaracchi",
+        "name": "Zipp Baracchi",
+        "signature": "1462759504"
       },
       {
         "imageName": "",
@@ -26153,6 +26256,20 @@
         "price3": "200000",
         "price4": "250000",
         "signature": "1254205148"
+      },
+      {
+        "bikeClass": "CONCEPT",
+        "brand": "Cervelo",
+        "isTT": "1",
+        "lvId": "3750357616",
+        "modelYear": "2026",
+        "name": "Cervelo Baracchi",
+        "price0": "400000",
+        "price1": "800000",
+        "price2": "1200000",
+        "price3": "2600000",
+        "price4": "5000000",
+        "signature": "1298256174"
       },
       {
         "bikeClass": "MID_RANGE",
@@ -28089,6 +28206,10 @@
       {
         "name": "Pinarello Dogma F10-Dogma F10",
         "signature": "857609205"
+      },
+      {
+        "name": "Cervelo CerveloBaracchi-Default",
+        "signature": "865497970"
       },
       {
         "name": "Pinarello Dogma F-Ineos",
@@ -30406,7 +30527,7 @@
       },
       {
         "imageName": "BeanieTourDeZwift2026_thumb",
-        "name": "LOC_CYCLING_HEADGEAR_BEANIETourDeZwift2026_NAME",
+        "name": "Tour de Zwift 2027",
         "signature": "3162614294"
       },
       {
@@ -31007,7 +31128,7 @@
       },
       {
         "imageName": "RouteComplete",
-        "name": "2018 UCI WORLDS SHORT LAP",
+        "name": "INNSBRUCK SHORT LAP",
         "routeSignature": "3114603308",
         "sport": "0",
         "signature": "59"
@@ -31098,7 +31219,7 @@
       },
       {
         "imageName": "RouteComplete",
-        "name": "2015 UCI WORLDS COURSE",
+        "name": "RICHMOND CIRCUIT",
         "routeSignature": "2196019512",
         "sport": "0",
         "signature": "72"
@@ -31154,7 +31275,7 @@
       },
       {
         "imageName": "RouteComplete",
-        "name": "2019 UCI WORLDS HARROGATE CIRCUIT",
+        "name": "YORKSHIRE CIRCUIT",
         "routeSignature": "2007026433",
         "sport": "0",
         "signature": "80"
@@ -31980,7 +32101,7 @@
       },
       {
         "imageName": "RouteComplete",
-        "name": "RICHMOND UCI REVERSE",
+        "name": "RICHMOND CIRCUIT REVERSE",
         "routeSignature": "1039983620",
         "sport": "0",
         "signature": "205"
