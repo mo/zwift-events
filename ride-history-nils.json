@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-21",
+    "rides": [
+      {
+        "eventName": null,
+        "routeName": "Railways and Rooftops",
+        "routeUrl": "https://zwiftinsider.com/route/railways-and-rooftops/",
+        "routeLengthKm": 6.2,
+        "routeElevationM": 70,
+        "timeBiked": "00:19:06",
+        "timeBikedSeconds": 1146,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Railways and Rooftops"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "rides": [
+      {
+        "eventName": null,
+        "routeName": "Valley to Mountaintop",
+        "routeUrl": "https://zwiftinsider.com/route/valley-to-mountaintop/",
+        "routeLengthKm": 5.0,
+        "routeElevationM": 130,
+        "timeBiked": "00:22:51",
+        "timeBikedSeconds": 1371,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Valley to Mountaintop"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-14",
     "rides": [
       {

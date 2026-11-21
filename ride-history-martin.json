@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-11-21",
+    "rides": [
+      {
+        "eventName": "HCT Host: Banded Z2 / Base Ride",
+        "routeName": "Watt Goes Up Must Come Down",
+        "routeUrl": "https://zwiftinsider.com/route/watt-goes-up-must-come-down/",
+        "routeLengthKm": 60.6,
+        "routeElevationM": 775,
+        "timeBiked": "02:00:59",
+        "timeBikedSeconds": 7259,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Watt Goes Up Must Come Down"
+          },
+          {
+            "type": "unlock",
+            "text": "Unlock: HERTS COUNTY TRIATHLETES KIT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "rides": [
+      {
+        "eventName": "(Rubber-Banded) Ride with James' Friends!",
+        "routeName": "Loopipelago",
+        "routeUrl": "https://zwiftinsider.com/route/loopipelago/",
+        "routeLengthKm": 18.5,
+        "routeElevationM": 35,
+        "timeBiked": "00:13:33",
+        "timeBikedSeconds": 813,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Loopipelago"
+          },
+          {
+            "type": "unlock",
+            "text": "Unlock: BIKE PACKER SOCKS"
+          },
+          {
+            "type": "level",
+            "text": "Level 62"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-14",
     "rides": [
       {
@@ -152,7 +204,7 @@
         "eventName": "Hercules - Thirsty Thursday ",
         "routeName": "Pacific Pursuit",
         "routeUrl": "https://zwiftinsider.com/route/pacific-pursuit/",
-        "routeLengthKm": 54.0,
+        "routeLengthKm": 53.9,
         "routeElevationM": 381,
         "timeBiked": "01:30:24",
         "timeBikedSeconds": 5424,
@@ -563,7 +615,7 @@
         "routeName": "Heart of Montmartre",
         "routeUrl": "https://zwiftinsider.com/route/heart-of-montmartre/",
         "routeLengthKm": 74.5,
-        "routeElevationM": 500,
+        "routeElevationM": 494,
         "timeBiked": "02:17:44",
         "timeBikedSeconds": 8264,
         "notableMoments": [
@@ -820,14 +872,14 @@
         "eventName": "ZHCC RUBBERBAND CLUB",
         "routeName": "Richmond 2015 Worlds Reverse",
         "routeUrl": "https://zwiftinsider.com/route/richmond-2015-worlds-reverse/",
-        "routeLengthKm": 16.2,
-        "routeElevationM": 158,
+        "routeLengthKm": 6.1,
+        "routeElevationM": 12,
         "timeBiked": "00:11:04",
         "timeBikedSeconds": 664,
         "notableMoments": [
           {
             "type": "route",
-            "text": "Richmond 2015 Worlds Reverse"
+            "text": "Richmond Circuit Reverse"
           },
           {
             "type": "unlock",
@@ -1310,14 +1362,14 @@
         "eventName": "(Rubber-Banded) Ride with James' Friends!",
         "routeName": "2018 Worlds Short Lap",
         "routeUrl": "https://zwiftinsider.com/route/2018-worlds-short-lap/",
-        "routeLengthKm": 23.7,
-        "routeElevationM": 495,
+        "routeLengthKm": 20.2,
+        "routeElevationM": 334,
         "timeBiked": "00:51:10",
         "timeBikedSeconds": 3070,
         "notableMoments": [
           {
             "type": "route",
-            "text": "2018 Worlds Short Lap"
+            "text": "Innsbruck Short Lap"
           }
         ]
       }
@@ -2598,7 +2650,7 @@
         "routeName": "Double Parked",
         "routeUrl": "https://zwiftinsider.com/route/double-parked/",
         "routeLengthKm": 42.2,
-        "routeElevationM": 330,
+        "routeElevationM": 337,
         "timeBiked": "01:27:59",
         "timeBikedSeconds": 5279,
         "notableMoments": [
@@ -3020,8 +3072,8 @@
         "eventName": "TRON CHASERS GUIDE TO THE GALAXY [1.8-2.4 WKG] CAT D",
         "routeName": "Mountain 8",
         "routeUrl": "https://zwiftinsider.com/route/mountain-8/",
-        "routeLengthKm": 32.3,
-        "routeElevationM": 691,
+        "routeLengthKm": 32.2,
+        "routeElevationM": 686,
         "timeBiked": "01:24:20",
         "timeBikedSeconds": 5060,
         "notableMoments": [
@@ -3503,14 +3555,14 @@
         "eventName": "Zwift Beginners Ride with Project Sloth\t\t\t\t",
         "routeName": "2015 Worlds Course",
         "routeUrl": "https://zwiftinsider.com/route/2015-worlds-course/",
-        "routeLengthKm": 16.2,
-        "routeElevationM": 158,
+        "routeLengthKm": 27.1,
+        "routeElevationM": 193,
         "timeBiked": "01:03:39",
         "timeBikedSeconds": 3819,
         "notableMoments": [
           {
             "type": "route",
-            "text": "2015 Worlds Course"
+            "text": "Richmond Circuit"
           }
         ]
       }
