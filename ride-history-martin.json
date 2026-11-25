@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-11-24",
+    "rides": [
+      {
+        "eventName": "Hercules - Taco Tuesday",
+        "routeName": "Loopin Lava",
+        "routeUrl": "https://zwiftinsider.com/route/loopin-lava/",
+        "routeLengthKm": 14.2,
+        "routeElevationM": 196,
+        "timeBiked": "00:25:56",
+        "timeBikedSeconds": 1556,
+        "notableMoments": []
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "rides": [
+      {
+        "eventName": "HAPPY WATTS by Zabi",
+        "routeName": "Sacré Trois!",
+        "routeUrl": "https://zwiftinsider.com/route/sacre-trois/",
+        "routeLengthKm": 24.2,
+        "routeElevationM": 217,
+        "timeBiked": "00:35:52",
+        "timeBikedSeconds": 2152,
+        "notableMoments": [
+          {
+            "type": "route",
+            "text": "Sacré Trois!"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-22",
     "rides": [
       {
